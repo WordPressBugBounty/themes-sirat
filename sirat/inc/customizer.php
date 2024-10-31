@@ -472,7 +472,7 @@ function sirat_customize_register( $wp_customize ) {
 	//Slider 
 	$wp_customize->add_section( 'sirat_slidersettings' , array(
     	'title'      => __( 'Slider Settings', 'sirat' ),
-    	'description' => __('Free theme has 3 slides options, For unlimited slides and more options <a class="go-pro-btn" target="blank" href="https://www.vwthemes.com/products/multipurpose-wordpress-theme/">GET PRO</a>','sirat'),
+    	'description' => __('Free theme has 3 slides options, For unlimited slides and more options <a class="go-pro-btn" target="blank" href="https://www.vwthemes.com/products/multipurpose-wordpress-theme">GET PRO</a>','sirat'),
 		'panel' => 'sirat_homepage_panel'
 	) );
 
@@ -882,7 +882,7 @@ function sirat_customize_register( $wp_customize ) {
 	//Our Services section
 	$wp_customize->add_section( 'sirat_services_section' , array(
     	'title'      => __( 'Our Services Settings', 'sirat' ),
-    	'description' => __('For more options of services section <a class="go-pro-btn" target="blank" href="https://www.vwthemes.com/products/multipurpose-wordpress-theme/">GET PRO</a>','sirat'),
+    	'description' => __('For more options of services section <a class="go-pro-btn" target="blank" href="https://www.vwthemes.com/products/multipurpose-wordpress-theme">GET PRO</a>','sirat'),
 		'priority'   => null,
 		'panel' => 'sirat_homepage_panel'
 	) );
@@ -1239,7 +1239,7 @@ function sirat_customize_register( $wp_customize ) {
 	//Footer Text
 	$wp_customize->add_section('sirat_footer',array(
 		'title'	=> __('Footer Settings','sirat'),
-		'description' => __('For more options of footer section <a class="go-pro-btn" target="blank" href="https://www.vwthemes.com/products/multipurpose-wordpress-theme/">GET PRO</a>','sirat'),
+		'description' => __('For more options of footer section <a class="go-pro-btn" target="blank" href="https://www.vwthemes.com/products/multipurpose-wordpress-theme">GET PRO</a>','sirat'),
 		'panel' => 'sirat_homepage_panel',
 	));
 
@@ -2538,6 +2538,16 @@ function sirat_customize_register( $wp_customize ) {
 		'label' => esc_html__( 'Show / Hide Comments','sirat' ),
 		'section' => 'sirat_grid_layout_settings'
     )));
+
+    $wp_customize->add_setting( 'sirat_grid_image_hide_show',array(
+		'default' => 1,
+		'transport' => 'refresh',
+		'sanitize_callback' => 'sirat_switch_sanitization'
+	));
+  	$wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_grid_image_hide_show', array(
+		'label' => esc_html__( 'Show / Hide Featured Image','sirat' ),
+		'section' => 'sirat_grid_layout_settings'
+  	)));
 
  	$wp_customize->add_setting('sirat_grid_post_meta_field_separator',array(
 		'default'=> '|',

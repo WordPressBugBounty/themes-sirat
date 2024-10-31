@@ -15,7 +15,7 @@
 <div class="col-lg-4 col-md-6">
 	<article id="post-<?php the_ID(); ?>" <?php post_class('inner-service'); ?>>
 	    <div class="grid-post-main-box wow zoomInDown delay-1000" data-wow-duration="2s">
-	    	<?php if( get_theme_mod( 'sirat_featured_image_hide_show',true) == 1) { ?>
+	    	<?php if( get_theme_mod( 'sirat_grid_image_hide_show',true) == 1) { ?>
 		      	<div class="box-image">
 		          	<?php 
 			            if(has_post_thumbnail()) { 

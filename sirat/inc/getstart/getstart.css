@@ -413,6 +413,9 @@ button.tablinks{
     color: #fff;
 }
 /*tab css*/
+#lite_theme{
+    padding: 0 20px 0 0;
+}
 .tab-sec{
     display: flex;
     gap: 2em;

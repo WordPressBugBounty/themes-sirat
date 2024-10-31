@@ -1010,7 +1010,7 @@ msgstr "Impostazioni del Footer"
 #: inc/customizer.php:1242
 msgid ""
 "For more options of footer section <a class=\"go-pro-btn\" target=\"blank\" "
-"href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme/\">GET "
+"href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme\">GET "
 "PRO</a>"
 msgstr ""
 "Per ulteriori opzioni della sezione footer <a class=\"go-pro-btn\" "

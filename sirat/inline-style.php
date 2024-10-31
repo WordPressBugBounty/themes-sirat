@@ -676,7 +676,7 @@
 
 	$sirat_resp_menu_toggle_btn_bg_color = get_theme_mod('sirat_resp_menu_toggle_btn_bg_color');
 	if($sirat_resp_menu_toggle_btn_bg_color != false){
-		$sirat_custom_css .='.toggle-nav button{';
+		$sirat_custom_css .='.toggle-nav button,.sidenav .closebtn{';
 			$sirat_custom_css .='background: '.esc_attr($sirat_resp_menu_toggle_btn_bg_color).';';
 		$sirat_custom_css .='}';
 	}

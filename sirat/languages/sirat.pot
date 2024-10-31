@@ -708,7 +708,7 @@ msgid "Slider Settings"
 msgstr ""
 
 #: inc/customizer.php:475
-msgid "Free theme has 3 slides options, For unlimited slides and more options <a class=\"go-pro-btn\" target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme/\">GET PRO</a>"
+msgid "Free theme has 3 slides options, For unlimited slides and more options <a class=\"go-pro-btn\" target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme\">GET PRO</a>"
 msgstr ""
 
 #: inc/customizer.php:485
@@ -917,7 +917,7 @@ msgid "Our Services Settings"
 msgstr ""
 
 #: inc/customizer.php:885
-msgid "For more options of services section <a class=\"go-pro-btn\" target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme/\">GET PRO</a>"
+msgid "For more options of services section <a class=\"go-pro-btn\" target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme\">GET PRO</a>"
 msgstr ""
 
 #: inc/customizer.php:900
@@ -1049,7 +1049,7 @@ msgid "Footer Settings"
 msgstr ""
 
 #: inc/customizer.php:1242
-msgid "For more options of footer section <a class=\"go-pro-btn\" target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme/\">GET PRO</a>"
+msgid "For more options of footer section <a class=\"go-pro-btn\" target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-wordpress-theme\">GET PRO</a>"
 msgstr ""
 
 #: inc/customizer.php:1252
