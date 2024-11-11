@@ -49,9 +49,7 @@ function sirat_mostrar_guide() {
 		<div class="tab">
 			<button class="tablinks" onclick="sirat_open_tab(event, 'theme_offer')"><?php esc_html_e( 'Demo Importer', 'sirat' ); ?></button>
 			<button class="tablinks" onclick="sirat_open_tab(event, 'lite_theme')"><?php esc_html_e( 'Setup With Customizer', 'sirat' ); ?></button>
-			<button class="tablinks" onclick="sirat_open_tab(event, 'block_pattern')"><?php esc_html_e( 'Setup With Block Pattern', 'sirat' ); ?></button>
-		  	<button class="tablinks" onclick="sirat_open_tab(event, 'gutenberg_editor')"><?php esc_html_e( 'Setup With Gutunberg Block', 'sirat' ); ?></button>
-			<button class="tablinks" onclick="sirat_open_tab(event, 'product_addons_editor')"><?php esc_html_e( 'Woocommerce Product Addons', 'sirat' ); ?></button>
+			
 		  	<button class="tablinks" onclick="sirat_open_tab(event, 'theme_pro')"><?php esc_html_e( 'Get Premium', 'sirat' ); ?></button>
 		  	<button class="tablinks" onclick="sirat_open_tab(event, 'free_pro')"><?php esc_html_e( 'Free Vs Premium', 'sirat' ); ?></button>
 		  	<button class="tablinks" onclick="sirat_open_tab(event, 'get_bundle')"><?php esc_html_e( 'Get 250+ Themes Bundle at $99', 'sirat' ); ?></button>
@@ -83,7 +81,7 @@ function sirat_mostrar_guide() {
 				    <div class="sirat-action-list">
 				        <?php if ($sirat_actions): foreach ($sirat_actions as $key => $sirat_actionValue): ?>
 				                <div class="sirat-action" id="<?php echo esc_attr($sirat_actionValue['id']);?>">
-			                        <div class="action-inner plugin-activation-redirect">
+			                        <div class="action-inner">
 			                            <h3 class="action-title"><?php echo esc_html($sirat_actionValue['title']); ?></h3>
 			                            <div class="action-desc"><?php echo esc_html($sirat_actionValue['desc']); ?></div>
 			                            <?php echo wp_kses_post($sirat_actionValue['link']); ?>
@@ -195,192 +193,6 @@ function sirat_mostrar_guide() {
 			</div>
 		</div>	
 
-		<div id="block_pattern" class="tabcontent">
-			<?php  if(!class_exists('Ibtana_Visual_Editor_Menu_Class')){ 
-			$plugin_ins = Sirat_Plugin_Activation_Settings::get_instance();
-			$sirat_actions = $plugin_ins->recommended_actions;
-			?>
-				<div class="sirat-recommended-plugins">
-				    <div class="sirat-action-list">
-				        <?php if ($sirat_actions): foreach ($sirat_actions as $key => $sirat_actionValue): ?>
-				                <div class="sirat-action" id="<?php echo esc_attr($sirat_actionValue['id']);?>">
-			                        <div class="action-inner plugin-activation-redirect">
-			                            <h3 class="action-title"><?php echo esc_html($sirat_actionValue['title']); ?></h3>
-			                            <div class="action-desc"><?php echo esc_html($sirat_actionValue['desc']); ?></div>
-			                            <?php echo wp_kses_post($sirat_actionValue['link']); ?>
-			                            <a class="ibtana-skip-btn" href="javascript:void(0);" get-start-tab-id="gutenberg-editor-tab"><?php esc_html_e('Skip','sirat'); ?></a>
-			                        </div>
-				                </div>
-				            <?php endforeach;
-				        endif; ?>
-				    </div>
-				</div>
-			<?php } ?>
-			<div class="gutenberg-editor-tab" style="<?php echo esc_attr($sirat_plugin_custom_css); ?>">
-				<div class="block-pattern-img">
-				  	<h3><?php esc_html_e( 'Block Patterns', 'sirat' ); ?></h3>
-					<hr class="h3hr">
-					<p><?php esc_html_e('Follow the below instructions to setup Home page with Block Patterns.','sirat'); ?></p>
-	              	<p><b><?php esc_html_e('Click on Below Add new page button >> Click on "+" Icon.','sirat'); ?></span></b></p>
-	              	<div class="sirat-pattern-page">
-				    	<a href="javascript:void(0)" class="vw-pattern-page-btn button-primary button"><?php esc_html_e('Add New Page','sirat'); ?></a>
-				    </div>
-				    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/getstart/images/block-pattern1.png" alt="" />
-				    	<p><b><?php esc_html_e('Click on Patterns Tab >> Click on Theme Name >> Click on Sections >> Publish.','sirat'); ?></span></b></p>
-	              	<img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/getstart/images/block-pattern.png" alt="" />
-	            </div>
-
-              	<div class="block-pattern-link-customizer">
-						<h3><?php esc_html_e( 'Link to customizer', 'sirat' ); ?></h3>
-						<hr class="h3hr">
-						<div class="first-row">
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-buddicons-buddypress-logo"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[control]=custom_logo') ); ?>" target="_blank"><?php esc_html_e('Upload your logo','sirat'); ?></a>
-								</div>
-								<div class="row-box2">
-									<span class="dashicons dashicons-networking"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_social_icon_settings') ); ?>" target="_blank"><?php esc_html_e('Social Icons','sirat'); ?></a>
-								</div>
-							</div>
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-menu"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[panel]=nav_menus') ); ?>" target="_blank"><?php esc_html_e('Menus','sirat'); ?></a>
-								</div>
-								
-								<div class="row-box2">
-									<span class="dashicons dashicons-text-page"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_footer') ); ?>" target="_blank"><?php esc_html_e('Footer Text','sirat'); ?></a>
-								</div>
-							</div>
-
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-format-gallery"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_post_settings') ); ?>" target="_blank"><?php esc_html_e('Post settings','sirat'); ?></a>
-								</div>
-								 <div class="row-box2">
-									<span class="dashicons dashicons-align-center"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_woocommerce_section') ); ?>" target="_blank"><?php esc_html_e('WooCommerce Layout','sirat'); ?></a>
-								</div> 
-							</div>
-							
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-admin-generic"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_left_right') ); ?>" target="_blank"><?php esc_html_e('General Settings','sirat'); ?></a>
-								</div>
-								 <div class="row-box2">
-									<span class="dashicons dashicons-screenoptions"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[panel]=widgets') ); ?>" target="_blank"><?php esc_html_e('Footer Widget','sirat'); ?></a>
-								</div> 
-							</div>
-						</div>
-				</div>					
-	        </div>
-		</div>
-
-		<div id="gutenberg_editor" class="tabcontent">
-			<?php if(!class_exists('Ibtana_Visual_Editor_Menu_Class')){ 
-			$plugin_ins = Sirat_Plugin_Activation_Settings::get_instance();
-			$sirat_actions = $plugin_ins->recommended_actions;
-			?>
-				<div class="sirat-recommended-plugins">
-				    <div class="sirat-action-list">
-				        <?php if ($sirat_actions): foreach ($sirat_actions as $key => $sirat_actionValue): ?>
-				                <div class="sirat-action" id="<?php echo esc_attr($sirat_actionValue['id']);?>">
-			                        <div class="action-inner plugin-activation-redirect">
-			                            <h3 class="action-title"><?php echo esc_html($sirat_actionValue['title']); ?></h3>
-			                            <div class="action-desc"><?php echo esc_html($sirat_actionValue['desc']); ?></div>
-			                            <?php echo wp_kses_post($sirat_actionValue['link']); ?>
-			                        </div>
-				                </div>
-				            <?php endforeach;
-				        endif; ?>
-				    </div>
-				</div>
-			<?php }else{ ?>
-				<h3><?php esc_html_e( 'Gutunberg Blocks', 'sirat' ); ?></h3>
-				<hr class="h3hr">
-				<div class="sirat-pattern-page">
-			    	<a href="<?php echo esc_url( admin_url( 'admin.php?page=ibtana-visual-editor-templates' ) ); ?>" class="vw-pattern-page-btn ibtana-dashboard-page-btn button-primary button"><?php esc_html_e('Ibtana Settings','sirat'); ?></a>
-			    </div>
-
-			    <div class="link-customizer-with-guternberg-ibtana">
-						<h3><?php esc_html_e( 'Link to customizer', 'sirat' ); ?></h3>
-						<hr class="h3hr">
-						<div class="first-row">
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-buddicons-buddypress-logo"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[control]=custom_logo') ); ?>" target="_blank"><?php esc_html_e('Upload your logo','sirat'); ?></a>
-								</div>
-								<div class="row-box2">
-									<span class="dashicons dashicons-networking"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_social_icon_settings') ); ?>" target="_blank"><?php esc_html_e('Social Icons','sirat'); ?></a>
-								</div>
-							</div>
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-menu"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[panel]=nav_menus') ); ?>" target="_blank"><?php esc_html_e('Menus','sirat'); ?></a>
-								</div>
-								
-								<div class="row-box2">
-									<span class="dashicons dashicons-text-page"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_footer') ); ?>" target="_blank"><?php esc_html_e('Footer Text','sirat'); ?></a>
-								</div>
-							</div>
-
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-format-gallery"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_post_settings') ); ?>" target="_blank"><?php esc_html_e('Post settings','sirat'); ?></a>
-								</div>
-								 <div class="row-box2">
-									<span class="dashicons dashicons-align-center"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_woocommerce_section') ); ?>" target="_blank"><?php esc_html_e('WooCommerce Layout','sirat'); ?></a>
-								</div> 
-							</div>
-							
-							<div class="row-box">
-								<div class="row-box1">
-									<span class="dashicons dashicons-admin-generic"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[section]=sirat_left_right') ); ?>" target="_blank"><?php esc_html_e('General Settings','sirat'); ?></a>
-								</div>
-								 <div class="row-box2">
-									<span class="dashicons dashicons-screenoptions"></span><a href="<?php echo esc_url( admin_url('customize.php?autofocus[panel]=widgets') ); ?>" target="_blank"><?php esc_html_e('Footer Widget','sirat'); ?></a>
-								</div> 
-							</div>
-						</div>
-				</div>
-			<?php } ?>
-		</div>
-
-		<div id="product_addons_editor" class="tabcontent">
-			<?php if(!class_exists('IEPA_Loader')){
-				$plugin_ins = sirat_Plugin_Activation_Woo_Products::get_instance();
-				$sirat_actions = $plugin_ins->recommended_actions;
-				?>
-				<div class="sirat-recommended-plugins">
-					    <div class="sirat-action-list">
-					        <?php if ($sirat_actions): foreach ($sirat_actions as $key => $sirat_actionValue): ?>
-					                <div class="sirat-action" id="<?php echo esc_attr($sirat_actionValue['id']);?>">
-				                        <div class="action-inner plugin-activation-redirect">
-				                            <h3 class="action-title"><?php echo esc_html($sirat_actionValue['title']); ?></h3>
-				                            <div class="action-desc"><?php echo esc_html($sirat_actionValue['desc']); ?></div>
-				                            <?php echo wp_kses_post($sirat_actionValue['link']); ?>
-				                        </div>
-					                </div>
-					            <?php endforeach;
-					        endif; ?>
-					    </div>
-				</div>
-			<?php }else{ ?>
-				<h3><?php esc_html_e( 'Woocommerce Products Blocks', 'sirat' ); ?></h3>
-				<hr class="h3hr">
-				<div class="sirat-pattern-page">
-					<p><?php esc_html_e('Follow the below instructions to setup Products Templates.','sirat'); ?></p>
-					<p><b><?php esc_html_e('1. First you need to activate these plugins','sirat'); ?></b></p>
-						<p><?php esc_html_e('1. Ibtana - WordPress Website Builder ','sirat'); ?></p>
-						<p><?php esc_html_e('2. Ibtana - Ecommerce Product Addons.','sirat'); ?></p>
-						<p><?php esc_html_e('3. Woocommerce','sirat'); ?></p>
-
-					<p><b><?php esc_html_e('2. Go To Dashboard >> Ibtana Settings >> Woocommerce Templates','sirat'); ?></span></b></p>
-	              	<div class="sirat-pattern-page">
-			    		<a href="<?php echo esc_url( admin_url( 'admin.php?page=ibtana-visual-editor-woocommerce-templates&ive_wizard_view=parent' ) ); ?>" class="vw-pattern-page-btn ibtana-dashboard-page-btn button-primary button"><?php esc_html_e('Woocommerce Templates','sirat'); ?></a>
-			    	</div>
-	              	<p><?php esc_html_e('You can create a template as you like.','sirat'); ?></span></p>
-			    </div>
-			<?php } ?>
-		</div>
 
 		<div id="theme_pro" class="tabcontent">
 		  	<h3><?php esc_html_e( 'Premium Theme Information', 'sirat' ); ?></h3>

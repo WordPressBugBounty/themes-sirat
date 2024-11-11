@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.6
 Requires PHP: 7.2
-Stable tag: 1.4.5
+Stable tag: 1.4.6
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -692,6 +692,10 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Added show /hide featured image option in grid post.
     -- Added close toggle button bg color option.
     -- Updated pot file.
+
+= 1.4.6 =
+    -- Remove ibtana redirection in setup with customizer tab in getstarted.
+    -- Remove block pattern tab,setup with gutunberg tab,woocommerce product addons tab in getstarted.
 
 == Resources ==
 

@@ -2,11 +2,6 @@ jQuery(document).ready(function($) {
     'use strict';
     var this_obj = sirat_plugin_activate_plugin;
 
-    $('#block_pattern .plugin-activation-redirect a.button').addClass('ive-redirect-to-dashboard');
-    $('#lite_theme .plugin-activation-redirect a.button').addClass('ive-redirect-to-dashboard');
-    $('#gutenberg_editor .plugin-activation-redirect a').addClass('ive-redirect-to-dashboard');
-    $('#product_addons_editor .plugin-activation-redirect a').addClass('ive-redirect-to-dashboard');
-
     $(document).on('click', '.sirat-plugin-install', function(event) {
 
         event.preventDefault();
