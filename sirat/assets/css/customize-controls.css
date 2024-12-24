@@ -1,3 +1,12 @@
+#accordion-section-sirat_upgrade_pro_link .accordion-section-title:after,#accordion-section-sirat_get_started_link .accordion-section-title:after{
+  display: none;
+}
+.customize-pane-parent{
+  overflow-x: hidden !important;
+}
+.accordion-section-title button.accordion-trigger{
+  height: auto !important;
+}
 #customize-controls .control-section-sirat .accordion-section-title:hover,
 #customize-controls .control-section-sirat .accordion-section-title:focus {
 	background-color: #fff;

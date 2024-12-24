@@ -412,6 +412,33 @@ button.tablinks{
     border-color: #135e96;
     color: #fff;
 }
+#theme_offer .notice{
+    display: none;
+}
+/* Spinner styling */
+.theme-offer{
+    position: relative;
+}
+#spinner {
+    position: absolute;
+    top: 83%;
+    left: 40%;
+    transform: translate(-50%, -50%); 
+    z-index: 1000;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#spinner img {
+    width: 20px;
+    height: 20px; 
+    animation: rotate 1s linear infinite;
+}
 /*tab css*/
 #lite_theme{
     padding: 0 20px 0 0;
@@ -442,7 +469,7 @@ button.tablinks {
 }
 .coupen-section{
     display: flex;
-    width: 35% !important;
+    width: 37% !important;
     background: #fff;
     border: 1px solid #c3c4c7;
 }
@@ -461,7 +488,7 @@ button.tablinks {
     flex-basis: 20%;
 }
 .sshot-section{
-    width: 60%;
+    width: 57%;
 }
 .update-now .info-link {
     text-align: left !important;

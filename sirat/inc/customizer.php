@@ -844,7 +844,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_partners_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_partners',
 		'type'=> 'hidden'
 	));
@@ -874,7 +874,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_about_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_about',
 		'type'=> 'hidden'
 	));
@@ -1021,7 +1021,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_classes_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_classes',
 		'type'=> 'hidden'
 	));
@@ -1051,7 +1051,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_quote_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_quote',
 		'type'=> 'hidden'
 	));
@@ -1081,7 +1081,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_team_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_team',
 		'type'=> 'hidden'
 	));
@@ -1111,7 +1111,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_skills_and_video_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_skills_and_video',
 		'type'=> 'hidden'
 	));
@@ -1141,7 +1141,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_pricing_plans_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_pricing_plans',
 		'type'=> 'hidden'
 	));
@@ -1171,7 +1171,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_testimonials_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_testimonials',
 		'type'=> 'hidden'
 	));
@@ -1201,7 +1201,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_our_blogs_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_our_blogs',
 		'type'=> 'hidden'
 	));
@@ -1231,7 +1231,7 @@ function sirat_customize_register( $wp_customize ) {
 		'sanitize_callback'	=> 'sanitize_text_field'
 	));
 	$wp_customize->add_control('sirat_newsletter_btn',array(
-		'description' => "<a class='go-pro' target='_blank' href='". admin_url('themes.php?page=sirat_guide') ." '>More Info</a>",
+		'description' => "<a class='go-pro' target='_blank' href=".esc_url(SIRAT_BUY_NOW).">More Info</a>",
 		'section'=> 'sirat_newsletter',
 		'type'=> 'hidden'
 	));
@@ -2615,6 +2615,38 @@ function sirat_customize_register( $wp_customize ) {
             'Excerpt' => esc_html__('Excerpt','sirat'),
             'No Content' => esc_html__('No Content','sirat')
         ),
+	) );
+
+	$wp_customize->add_setting( 'sirat_grid_featured_image_border_radius', array(
+		'default'              => '0',
+		'transport' 		   => 'refresh',
+		'sanitize_callback'    => 'sirat_sanitize_number_range'
+	) );
+	$wp_customize->add_control( 'sirat_grid_featured_image_border_radius', array(
+		'label'       => esc_html__( 'Grid Featured Image Border Radius','sirat' ),
+		'section'     => 'sirat_grid_layout_settings',
+		'type'        => 'range',
+		'input_attrs' => array(
+			'step'             => 1,
+			'min'              => 1,
+			'max'              => 50,
+		),
+	) );
+
+	$wp_customize->add_setting( 'sirat_grid_featured_image_box_shadow', array(
+		'default'              => '0',
+		'transport' 		   => 'refresh',
+		'sanitize_callback'    => 'sirat_sanitize_number_range'
+	) );
+	$wp_customize->add_control( 'sirat_grid_featured_image_box_shadow', array(
+		'label'       => esc_html__( 'Grid Featured Image Box Shadow','sirat' ),
+		'section'     => 'sirat_grid_layout_settings',
+		'type'        => 'range',
+		'input_attrs' => array(
+			'step'             => 1,
+			'min'              => 1,
+			'max'              => 50,
+		),
 	) );
 
 

@@ -1148,6 +1148,20 @@
 		$sirat_custom_css .='}';
 	}
 
+	$sirat_grid_featured_image_border_radius = get_theme_mod('sirat_grid_featured_image_border_radius', 0);
+	if($sirat_grid_featured_image_border_radius != false){
+		$sirat_custom_css .='.grid-post-main-box .box-image img, .grid-post-main-box .feature-box img{';
+			$sirat_custom_css .='border-radius: '.esc_attr($sirat_grid_featured_image_border_radius).'px;';
+		$sirat_custom_css .='}';
+	}
+
+	$sirat_grid_featured_image_box_shadow = get_theme_mod('sirat_grid_featured_image_box_shadow',0);
+	if($sirat_grid_featured_image_box_shadow != false){
+		$sirat_custom_css .='.grid-post-main-box .box-image img, .grid-post-main-box .feature-box img, #content-vw img{';
+			$sirat_custom_css .='box-shadow: '.esc_attr($sirat_grid_featured_image_box_shadow).'px '.esc_attr($sirat_grid_featured_image_box_shadow).'px '.esc_attr($sirat_grid_featured_image_box_shadow).'px #cccccc;';
+		$sirat_custom_css .='}';
+	}
+
 	/*---------------- Footer Settings ------------------*/
 
 	$sirat_button_footer_heading_letter_spacing = get_theme_mod('sirat_button_footer_heading_letter_spacing',1);

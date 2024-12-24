@@ -272,23 +272,27 @@
         }
     ?>
   
-	<p><?php esc_html_e('Please back up your website if it’s already live with data. This importer will overwrite your existing settings with the new customizer values for Sirat','sirat'); ?></p>
+	<p><?php esc_html_e('Please back up your website if it’s already live with data. This importer will overwrite your existing settings with the new customizer values for Sirat', 'sirat'); ?></p>
     <form action="<?php echo esc_url(home_url()); ?>/wp-admin/themes.php?page=sirat_guide" method="POST" onsubmit="return validate(this);">
-    <?php if (!get_option('sirat_demo_import_completed')) : ?>
-        <form method="post">
-            <input class= "run-import" type="submit" name="submit" value="<?php esc_attr_e('Run Importer','sirat'); ?>" class="button button-primary button-large">
-        </form>
-    <?php endif; ?>
+        <?php if (!get_option('sirat_demo_import_completed')) : ?>
+            <input class="run-import" type="submit" name="submit" value="<?php esc_attr_e('Run Importer', 'sirat'); ?>" class="button button-primary button-large">
+        <?php endif; ?>
+        <div id="spinner" style="display:none;">         
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/spinner.png" alt="" />
+        </div>
     </form>
-	<script type="text/javascript">
-		function validate(valid) {
-			 if(confirm("Do you really want to import the theme demo content?")){
-			    document.forms[0].submit();
-			}
-		    else {
-			    return false;
-		    }
-		}
-	</script>
+    <script type="text/javascript">
+        function validate(form) {
+            if (confirm("Do you really want to import the theme demo content?")) {
+                // Show the spinner
+                document.getElementById('spinner').style.display = 'block';
+                // Allow the form to be submitted
+                return true;
+            } 
+            else {
+                return false;
+            }
+        }
+    </script>
 </div>
 

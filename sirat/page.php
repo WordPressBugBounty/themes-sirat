@@ -75,6 +75,7 @@ get_header(); ?>
                 </div>
             </div>
         <?php } ?>
+        <?php echo esc_html (sirat_edit_link()); ?>
     </div>
 </main>
 
