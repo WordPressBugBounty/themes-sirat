@@ -433,7 +433,7 @@ function sirat_mostrar_guide() {
 		    		<p><?php esc_html_e('Regular Updates.', 'sirat'); ?></p>
 		    		<p><?php esc_html_e('Dedicated Support.', 'sirat'); ?></p>
 		    	</div>
-		    	<p>Upgrade now and give your website the professional edge it deserves, all at an unbeatable price of $99!</p>
+		    	<p><?php esc_html_e('Upgrade now and give your website the professional edge it deserves, all at an unbeatable price of $99!', 'sirat'); ?></p>
 		    	<div class="pro-links">
 					<a href="<?php echo esc_url( SIRAT_THEME_BUNDLE_BUY_NOW ); ?>" target="_blank"><?php esc_html_e('Buy Now', 'sirat'); ?></a>
 					<a href="<?php echo esc_url( SIRAT_THEME_BUNDLE_DOC ); ?>" target="_blank"><?php esc_html_e('Documentation', 'sirat'); ?></a>

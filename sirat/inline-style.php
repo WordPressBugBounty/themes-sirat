@@ -235,6 +235,14 @@
 		$sirat_custom_css .='}';
 	}
 
+	$sirat_related_image_box_shadow = get_theme_mod('sirat_related_image_box_shadow',0);
+	if($sirat_related_image_box_shadow != false){
+		$sirat_custom_css .='.related-post .box-image img{';
+			$sirat_custom_css .='box-shadow: '.esc_attr($sirat_related_image_box_shadow).'px '.esc_attr($sirat_related_image_box_shadow).'px '.esc_attr($sirat_related_image_box_shadow).'px #cccccc;';
+		$sirat_custom_css .='}';
+	}
+
+
 	/*-------------------- Top Bar Settings ------------------*/
 
 	$sirat_topbar_padding_top_bottom = get_theme_mod('sirat_topbar_padding_top_bottom');

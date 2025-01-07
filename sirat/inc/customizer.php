@@ -2190,6 +2190,45 @@ function sirat_customize_register( $wp_customize ) {
 		),
 	) );
 
+	$wp_customize->add_setting( 'sirat_related_image_hide_show',array(
+		'default' => 1,
+		'transport' => 'refresh',
+		'sanitize_callback' => 'sirat_switch_sanitization'
+	));
+  	$wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_related_image_hide_show', array(
+		'label' => esc_html__( 'Show / Hide Featured Image','sirat' ),
+		'section' => 'sirat_related_posts_settings'
+  )));
+
+  	$wp_customize->add_setting( 'sirat_related_image_box_shadow', array(
+		'default'              => '0',
+		'transport' 		   => 'refresh',
+		'sanitize_callback'    => 'sirat_sanitize_number_range'
+	) );
+	$wp_customize->add_control( 'sirat_related_image_box_shadow', array(
+		'label'       => esc_html__( 'Related post Image Box Shadow','sirat' ),
+		'section'     => 'sirat_related_posts_settings',
+		'type'        => 'range',
+		'input_attrs' => array(
+			'step'             => 1,
+			'min'              => 1,
+			'max'              => 50,
+		),
+	) );
+
+  	$wp_customize->add_setting('sirat_related_button_text',array(
+		'default'=> esc_html__('Read More','sirat'),
+		'sanitize_callback'	=> 'sanitize_text_field'
+	));
+	$wp_customize->add_control('sirat_related_button_text',array(
+		'label'	=> esc_html__('Add Button Text','sirat'),
+		'input_attrs' => array(
+      'placeholder' => esc_html__( 'Read More', 'sirat' ),
+        ),
+		'section'=> 'sirat_related_posts_settings',
+		'type'=> 'text'
+	));
+
 	// Single Posts Settings
 	$wp_customize->add_section( 'sirat_single_blog_settings', array(
 		'title' => __( 'Single Post Settings', 'sirat' ),

@@ -7,7 +7,7 @@ Description: Sirat is a multipurpose theme known primarily for its simplicity ap
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.2
-Version: 1.4.7
+Version: 1.4.8 
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: sirat
@@ -2256,7 +2256,7 @@ header.woocommerce-Address-title.title{
   margin-bottom: 20px;
 }
 /*cart and checkout css*/
-.wp-block-woocommerce-cart .wc-block-cart__submit-button, .wc-block-components-checkout-place-order-button, .wc-block-components-totals-coupon__button{
+.wp-block-woocommerce-cart .wc-block-cart__submit-button, .wc-block-components-checkout-place-order-button, .wc-block-components-totals-coupon__button,.wc-block-components-checkout-return-to-cart-button{
   background: #febe00;
   color: #fff !important;
   text-decoration: none !important;
@@ -2264,9 +2264,15 @@ header.woocommerce-Address-title.title{
   border: none !important;
   padding: 10px;
 }
-.wp-block-woocommerce-cart .wc-block-cart__submit-button:hover, .wc-block-components-checkout-place-order-button:hover{
+.wp-block-woocommerce-cart .wc-block-cart__submit-button:hover, .wc-block-components-checkout-place-order-button:hover,.wc-block-components-checkout-return-to-cart-button:hover{
   background: #febe00;
   color: #fff !important;
+}
+.wc-block-components-checkout-return-to-cart-button svg{
+  left: 3% !important;
+}
+a.wc-block-components-checkout-return-to-cart-button{
+  padding: 15px 12px 15px 30px !important;
 }
 .wp-block-woocommerce-cart .wc-block-cart-items,.wp-block-woocommerce-cart-order-summary-block, .wp-block-woocommerce-checkout-order-summary-block{
   border: 1px solid #dee2e6!important;

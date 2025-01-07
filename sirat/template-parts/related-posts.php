@@ -32,7 +32,7 @@ if ( $sirat_related_posts->have_posts() ) : ?>
                 <div class="col-lg-4 col-md-6">
                     <article id="post-<?php the_ID(); ?>" <?php post_class('inner-service'); ?>>
                         <div class="post-main-box">
-                            <?php if( get_theme_mod( 'sirat_featured_image_hide_show',true) == 1) { ?>
+                            <?php if( get_theme_mod( 'sirat_related_image_hide_show',true) == 1) { ?>
                                 <div class="box-image">
                                     <?php 
                                         if(has_post_thumbnail()) { 
@@ -55,9 +55,9 @@ if ( $sirat_related_posts->have_posts() ) : ?>
                                         <?php }?>
                                 </div>
                             </div>
-                            <?php if( get_theme_mod('sirat_button_text','Read More') != ''){ ?>
+                            <?php if( get_theme_mod('sirat_related_button_text','Read More') != ''){ ?>
                                 <div class="more-btn">
-                                    <a href="<?php echo esc_url(get_permalink()); ?>"><?php echo esc_html(get_theme_mod('sirat_button_text',__('Read More','sirat')));?><span class="screen-reader-text"><?php echo esc_html(get_theme_mod('sirat_button_text',__('Read More','sirat')));?></span></a>
+                                    <a href="<?php echo esc_url(get_permalink()); ?>"><?php echo esc_html(get_theme_mod('sirat_related_button_text',__('Read More','sirat')));?><span class="screen-reader-text"><?php echo esc_html(get_theme_mod('sirat_related_button_text',__('Read More','sirat')));?></span></a>
                                 </div>
                             <?php } ?>
                         </div>
