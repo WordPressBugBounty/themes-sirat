@@ -1,15 +1,15 @@
-# Copyright (C) 2024 VW Themes
+# Copyright (C) 2025 VW Themes
 # This file is distributed under the GPLv3.0 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Sirat 1.3.9\n"
+"Project-Id-Version: Sirat 1.4.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sirat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-07-29T10:01:35+05:30\n"
+"POT-Creation-Date: 2025-02-20T15:22:03+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: sirat\n"
@@ -22,13 +22,13 @@ msgstr ""
 
 #. Theme URI of the theme
 #: style.css
-#: functions.php:455
+#: functions.php:458
 msgid "https://www.vwthemes.com/products/free-multipurpose-wordpress-theme"
 msgstr ""
 
 #. Description of the theme
 #: style.css
-msgid "Sirat is a multipurpose theme known primarily for its simplicity apart from being clean, user-friendly as well as finely organised making it a very good choice when it comes to WordPress themes relevant for various business purposes like a Apps landing, Architects, startup, Social Media Management, Virtual Assistant Service, Webinar sign-up, ebook download, Service offering, One page website, landing pages, quotes blog Organizations, Consultant, Manufacture plant, Services, IT Firm, Cloth business, responsive landing page, course websites, wedding planners, sport/medical shops) political and WooCommerce storefront with a beautiful & professional design, shortcodes fashion store, Retailer, Wholesaler, Online business, Sign a petition, B2B, app landing page, builder, catering, course, fitness, landing, launch, Marketing, SEO Agency, Advertising agency, Insurance, generating form, University Landing page, corporate, portfolio, agency, startup, creative business, Event, Digital Health, Sell Your Art Online, Ideology-Based business, Print-On-Demand, Finance, Stock Market, IT infrastructure, business agency. The theme comes with a new header layout and there are more options of sidebar layout available for post and pages. Apart from that, there are more width options as well as preload options available. Another important thing with this particular WordPress theme is that it is lightweight and can be extended to the limit one likes. It also has the availability of the enable and disable button. With some of its exemplary features like WooCommerce, retina ready, clean code, flexible header, CTA, Right Sidebar, bootstrap framework, Schema friendly, customization options, mobile friendliness etc, This WP theme has content limit option and is also accompanied with blog post settings. Another important characteristic with it is the beauty it has and also the design that is immensely professional. Sirat is a fast theme and is accompanied with some of the best SEO practices in the online world. You have the option of customization a mentioned earlier making it extremely beneficial for personal portfolio. Apart from all this, Sirat is modern, luxurious, stunning as well as animated making it a fine option for the businesses where creativity is involved and it also has scroll top layout. Siart is translation ready and supports AR_ARABIC, DE_GERMAN, ES_SPANISH, FR_FRENCH, IT_ITALIAN, RU_RUSSIAN, ZH_CHINESE, TR_TURKISH languages. It fits creative business, small businesses restaurants, medical shops, startups, corporate businesses, online agencies and firms, portfolios, ecommerce. Sirat has banner opacity and colour changing feature included."
+msgid "Sirat is a multipurpose theme known primarily for its simplicity apart from being clean, user-friendly as well as finely organised making it a very good choice when it comes to WordPress themes relevant for various business purposes like a Apps landing, Architects, startup, Social Media Management, Virtual Assistant Service, Webinar sign-up, ebook download, Service offering, One page website, landing pages, quotes blog Organizations, Consultant, Manufacture plant, Services, IT Firm, Cloth business, responsive landing page, course websites, wedding planners, sport/medical shops) political and WooCommerce storefront with a beautiful & professional design, shortcodes fashion store, Retailer, Wholesaler, Online business, Sign a petition, B2B, app landing page, builder, catering, course, fitness, landing, launch, Marketing, SEO Agency, Advertising agency, Insurance, generating form, University Landing page, corporate, portfolio, agency, startup, creative business, Event, Digital Health, Sell Your Art Online, Ideology-Based business, Print-On-Demand, Finance, Stock Market, IT infrastructure, business agency. The theme comes with a new header layout and there are more options of sidebar layout available for post and pages. Apart from that, there are more width options as well as preload options available. Another important thing with this particular WordPress theme is that it is lightweight and can be extended to the limit one likes. It also has the availability of the enable and disable button. With some of its exemplary features like WooCommerce, retina ready, clean code, flexible header, CTA, Right Sidebar, bootstrap framework, Schema friendly, customization options, mobile friendliness etc, This WP theme has content limit option and is also accompanied with blog post settings. Another important characteristic with it is the beauty it has and also the design that is immensely professional. Sirat is a fast theme and is accompanied with some of the best SEO practices in the online world. You have the option of customization a mentioned earlier making it extremely beneficial for personal portfolio. Apart from all this, Sirat is modern, luxurious, stunning as well as animated making it a fine option for the businesses where creativity is involved and it also has scroll top layout. Siart is translation ready and supports AR_ARABIC, DE_GERMAN, ES_SPANISH, FR_FRENCH, IT_ITALIAN, RU_RUSSIAN, ZH_CHINESE, TR_TURKISH languages. It fits creative business, small businesses restaurants, medical shops, startups, corporate businesses, online agencies and firms, portfolios, ecommerce. Sirat has banner opacity and colour changing feature included. Demo: https://preview.vwthemesdemo.com/vw-sirat/"
 msgstr ""
 
 #. Author of the theme
@@ -42,17 +42,17 @@ msgid "https://www.vwthemes.com/"
 msgstr ""
 
 #: 404.php:12
-#: inc/customizer.php:2740
+#: inc/customizer.php:2946
 msgid "404 Not Found"
 msgstr ""
 
 #: 404.php:13
-#: inc/customizer.php:2754
+#: inc/customizer.php:2960
 msgid "Looks like you have taken a wrong turn, Dont worry, it happens to the best of us."
 msgstr ""
 
 #: 404.php:16
-#: inc/customizer.php:2767
+#: inc/customizer.php:2973
 msgid "Go Back"
 msgstr ""
 
@@ -74,22 +74,44 @@ msgid "Comments are closed."
 msgstr ""
 
 #: comments.php:77
-#: inc/customizer.php:2364
+#: inc/customizer.php:2527
 msgid "Leave a Reply"
 msgstr ""
 
 #: comments.php:78
-#: inc/customizer.php:2378
+#: inc/customizer.php:2541
 msgid "Post Comment"
 msgstr ""
 
-#: footer.php:60
+#: footer.php:46
+#: inc/customizer.php:212
+#: searchform.php:12
+#: sidebar.php:12
+msgid "Search"
+msgstr ""
+
+#: footer.php:56
+#: sidebar.php:16
+msgid "Archives"
+msgstr ""
+
+#: footer.php:68
+#: sidebar.php:22
+msgid "Meta"
+msgstr ""
+
+#: footer.php:82
+#: sidebar.php:30
+msgid "Categories"
+msgstr ""
+
+#: footer.php:96
 msgid "By VWThemes"
 msgstr ""
 
-#: footer.php:67
-#: footer.php:69
-#: footer.php:71
+#: footer.php:103
+#: footer.php:105
+#: footer.php:107
 msgid "Scroll Up"
 msgstr ""
 
@@ -102,7 +124,7 @@ msgid "Thank you for choosing Sirat Theme. Would like to have you on our Welcome
 msgstr ""
 
 #: functions.php:100
-msgid "GET STARTED"
+msgid "DEMO IMPORT"
 msgstr ""
 
 #: functions.php:101
@@ -110,137 +132,149 @@ msgid "VIEW DEMO"
 msgstr ""
 
 #: functions.php:102
-#: inc/customizer.php:3499
+#: inc/customizer.php:3705
 msgid "UPGRADE PRO"
 msgstr ""
 
-#: functions.php:109
-msgid "Blog Sidebar"
+#: functions.php:103
+msgid "THEME BUNDLE"
 msgstr ""
 
 #: functions.php:110
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:111
 msgid "Appears on blog page sidebar"
 msgstr ""
 
-#: functions.php:119
+#: functions.php:120
 msgid "Page Sidebar"
 msgstr ""
 
-#: functions.php:120
-#: functions.php:130
+#: functions.php:121
+#: functions.php:131
 msgid "Appears on page sidebar"
 msgstr ""
 
-#: functions.php:129
+#: functions.php:130
 msgid "Sidebar 3"
 msgstr ""
 
-#: functions.php:139
+#: functions.php:140
 msgid "Footer Navigation 1"
 msgstr ""
 
-#: functions.php:140
+#: functions.php:141
 msgid "Appears on footer 1"
 msgstr ""
 
-#: functions.php:149
+#: functions.php:150
 msgid "Footer Navigation 2"
 msgstr ""
 
-#: functions.php:150
+#: functions.php:151
 msgid "Appears on footer 2"
 msgstr ""
 
-#: functions.php:159
+#: functions.php:160
 msgid "Footer Navigation 3"
 msgstr ""
 
-#: functions.php:160
+#: functions.php:161
 msgid "Appears on footer 3"
 msgstr ""
 
-#: functions.php:169
+#: functions.php:170
 msgid "Footer Navigation 4"
 msgstr ""
 
-#: functions.php:170
+#: functions.php:171
 msgid "Appears on footer 4"
 msgstr ""
 
-#: functions.php:179
+#: functions.php:180
 msgid "Top Bar Social Media"
 msgstr ""
 
-#: functions.php:180
+#: functions.php:181
 msgid "Appears on top bar"
 msgstr ""
 
-#: functions.php:189
+#: functions.php:190
 msgid "Shop Page Sidebar"
 msgstr ""
 
-#: functions.php:190
+#: functions.php:191
 msgid "Appears on shop page"
 msgstr ""
 
-#: functions.php:199
+#: functions.php:200
 msgid "Single Product Sidebar"
 msgstr ""
 
-#: functions.php:200
+#: functions.php:201
 msgid "Appears on single product page"
 msgstr ""
 
-#: functions.php:209
+#: functions.php:210
 msgid "Footer Social Icon"
 msgstr ""
 
-#: functions.php:210
+#: functions.php:211
 msgid "Appears on right side footer"
 msgstr ""
 
-#: functions.php:445
+#: functions.php:446
 msgid "https://preview.vwthemesdemo.com/docs/free-sirat/"
 msgstr ""
 
-#: functions.php:446
+#: functions.php:447
 msgid "https://wordpress.org/support/theme/sirat/"
 msgstr ""
 
-#: functions.php:447
+#: functions.php:448
 msgid "https://wordpress.org/support/theme/sirat/reviews"
 msgstr ""
 
-#: functions.php:448
+#: functions.php:449
 msgid "https://www.vwthemes.com/products/multipurpose-wordpress-theme"
 msgstr ""
 
-#: functions.php:449
+#: functions.php:450
 msgid "https://preview.vwthemesdemo.com/vw-sirat/"
 msgstr ""
 
-#: functions.php:450
+#: functions.php:451
 msgid "https://preview.vwthemesdemo.com/docs/vw-sirat-pro/"
 msgstr ""
 
-#: functions.php:451
+#: functions.php:452
 msgid "https://www.vwthemes.com/faqs/"
 msgstr ""
 
-#: functions.php:452
+#: functions.php:453
 msgid "https://www.vwthemes.com/contact/"
 msgstr ""
 
-#: functions.php:453
+#: functions.php:454
 msgid "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 msgstr ""
 
-#: functions.php:458
+#: functions.php:455
+msgid "https://www.vwthemes.com/products/wp-theme-bundle"
+msgstr ""
+
+#: functions.php:456
+msgid "https://preview.vwthemesdemo.com/docs/theme-bundle/"
+msgstr ""
+
+#: functions.php:461
 msgid "Sirat WordPress Theme"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: functions.php:647
+#: functions.php:633
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
@@ -366,7 +400,7 @@ msgstr ""
 
 #: inc/customizer.php:82
 #: inc/customizer.php:1387
-#: inc/customizer.php:1982
+#: inc/customizer.php:1998
 msgid "Top"
 msgstr ""
 
@@ -379,7 +413,8 @@ msgstr ""
 #: inc/customizer.php:1389
 #: inc/customizer.php:1423
 #: inc/customizer.php:1439
-#: inc/customizer.php:3300
+#: inc/customizer.php:2847
+#: inc/customizer.php:3506
 msgid "Left"
 msgstr ""
 
@@ -387,6 +422,7 @@ msgstr ""
 #: inc/customizer.php:1390
 #: inc/customizer.php:1424
 #: inc/customizer.php:1440
+#: inc/customizer.php:2849
 msgid "Center"
 msgstr ""
 
@@ -394,7 +430,8 @@ msgstr ""
 #: inc/customizer.php:1391
 #: inc/customizer.php:1425
 #: inc/customizer.php:1441
-#: inc/customizer.php:3301
+#: inc/customizer.php:2848
+#: inc/customizer.php:3507
 msgid "Right"
 msgstr ""
 
@@ -405,7 +442,7 @@ msgstr ""
 
 #: inc/customizer.php:88
 #: inc/customizer.php:1393
-#: inc/customizer.php:1983
+#: inc/customizer.php:1999
 msgid "Bottom"
 msgstr ""
 
@@ -415,7 +452,7 @@ msgid "Bottom Right"
 msgstr ""
 
 #: inc/customizer.php:99
-#: inc/customizer.php:2897
+#: inc/customizer.php:3103
 msgid "Show / Hide Topbar"
 msgstr ""
 
@@ -436,23 +473,23 @@ msgstr ""
 #: inc/customizer.php:1584
 #: inc/customizer.php:1598
 #: inc/customizer.php:1612
-#: inc/customizer.php:1853
-#: inc/customizer.php:1868
-#: inc/customizer.php:2000
-#: inc/customizer.php:2014
-#: inc/customizer.php:2045
-#: inc/customizer.php:2064
-#: inc/customizer.php:2819
-#: inc/customizer.php:2833
-#: inc/customizer.php:2847
-#: inc/customizer.php:2861
-#: inc/customizer.php:3192
-#: inc/customizer.php:3206
-#: inc/customizer.php:3252
-#: inc/customizer.php:3266
-#: inc/customizer.php:3311
-#: inc/customizer.php:3325
-#: inc/customizer.php:3339
+#: inc/customizer.php:1869
+#: inc/customizer.php:1884
+#: inc/customizer.php:2016
+#: inc/customizer.php:2030
+#: inc/customizer.php:2061
+#: inc/customizer.php:2080
+#: inc/customizer.php:3025
+#: inc/customizer.php:3039
+#: inc/customizer.php:3053
+#: inc/customizer.php:3067
+#: inc/customizer.php:3398
+#: inc/customizer.php:3412
+#: inc/customizer.php:3458
+#: inc/customizer.php:3472
+#: inc/customizer.php:3517
+#: inc/customizer.php:3531
+#: inc/customizer.php:3545
 #: inc/logo/logo-resizer.php:39
 #: inc/logo/logo-resizer.php:53
 #: inc/logo/logo-resizer.php:77
@@ -473,23 +510,23 @@ msgstr ""
 #: inc/customizer.php:1586
 #: inc/customizer.php:1600
 #: inc/customizer.php:1614
-#: inc/customizer.php:1855
-#: inc/customizer.php:1870
-#: inc/customizer.php:2002
-#: inc/customizer.php:2016
-#: inc/customizer.php:2047
-#: inc/customizer.php:2066
-#: inc/customizer.php:2821
-#: inc/customizer.php:2835
-#: inc/customizer.php:2849
-#: inc/customizer.php:2863
-#: inc/customizer.php:3194
-#: inc/customizer.php:3208
-#: inc/customizer.php:3254
-#: inc/customizer.php:3268
-#: inc/customizer.php:3313
-#: inc/customizer.php:3327
-#: inc/customizer.php:3341
+#: inc/customizer.php:1871
+#: inc/customizer.php:1886
+#: inc/customizer.php:2018
+#: inc/customizer.php:2032
+#: inc/customizer.php:2063
+#: inc/customizer.php:2082
+#: inc/customizer.php:3027
+#: inc/customizer.php:3041
+#: inc/customizer.php:3055
+#: inc/customizer.php:3069
+#: inc/customizer.php:3400
+#: inc/customizer.php:3414
+#: inc/customizer.php:3460
+#: inc/customizer.php:3474
+#: inc/customizer.php:3519
+#: inc/customizer.php:3533
+#: inc/customizer.php:3547
 #: inc/logo/logo-resizer.php:41
 #: inc/logo/logo-resizer.php:55
 #: inc/logo/logo-resizer.php:79
@@ -498,7 +535,7 @@ msgid "10px"
 msgstr ""
 
 #: inc/customizer.php:123
-#: inc/customizer.php:2907
+#: inc/customizer.php:3113
 msgid "Show / Hide Search"
 msgstr ""
 
@@ -524,12 +561,6 @@ msgstr ""
 
 #: inc/customizer.php:201
 msgid "Search Border Radius"
-msgstr ""
-
-#: inc/customizer.php:212
-#: searchform.php:12
-#: sidebar.php:12
-msgid "Search"
 msgstr ""
 
 #: inc/customizer.php:217
@@ -637,24 +668,24 @@ msgstr ""
 #: inc/customizer.php:368
 #: inc/customizer.php:386
 #: inc/customizer.php:1296
-#: inc/customizer.php:2086
+#: inc/customizer.php:2102
 msgid "Uppercase"
 msgstr ""
 
 #: inc/customizer.php:369
 #: inc/customizer.php:1297
-#: inc/customizer.php:2087
+#: inc/customizer.php:2103
 msgid "Capitalize"
 msgstr ""
 
 #: inc/customizer.php:370
 #: inc/customizer.php:1298
-#: inc/customizer.php:2088
+#: inc/customizer.php:2104
 msgid "Lowercase"
 msgstr ""
 
 #: inc/customizer.php:385
-#: inc/customizer.php:1842
+#: inc/customizer.php:1858
 msgid "Default"
 msgstr ""
 
@@ -663,7 +694,7 @@ msgid "Menu Item Hover Style"
 msgstr ""
 
 #: inc/customizer.php:400
-#: inc/customizer.php:1816
+#: inc/customizer.php:1832
 msgid "None"
 msgstr ""
 
@@ -703,7 +734,7 @@ msgid ""
 msgstr ""
 
 #: inc/customizer.php:474
-#: inc/getstart/getstart.php:413
+#: inc/getstart/getstart.php:249
 msgid "Slider Settings"
 msgstr ""
 
@@ -712,7 +743,7 @@ msgid "Free theme has 3 slides options, For unlimited slides and more options <a
 msgstr ""
 
 #: inc/customizer.php:485
-#: inc/customizer.php:2927
+#: inc/customizer.php:3133
 msgid "Show / Hide Slider"
 msgstr ""
 
@@ -790,7 +821,7 @@ msgid "Show / Hide Slider Content"
 msgstr ""
 
 #: inc/customizer.php:650
-#: inc/customizer.php:2937
+#: inc/customizer.php:3143
 msgid "Show / Hide Slider Button"
 msgstr ""
 
@@ -800,9 +831,11 @@ msgstr ""
 
 #: inc/customizer.php:663
 #: inc/customizer.php:993
-#: inc/customizer.php:2106
-#: inc/customizer.php:2537
-#: inc/customizer.php:2543
+#: inc/customizer.php:2122
+#: inc/customizer.php:2312
+#: inc/customizer.php:2318
+#: inc/customizer.php:2710
+#: inc/customizer.php:2716
 #: page-template/custom-home-page.php:60
 #: page-template/custom-home-page.php:123
 #: page-template/custom-home-page.php:164
@@ -817,7 +850,7 @@ msgstr ""
 #: template-parts/content.php:118
 #: template-parts/content.php:169
 #: template-parts/grid-layout.php:59
-#: template-parts/related-posts.php:60
+#: template-parts/related-posts.php:83
 msgid "Read More"
 msgstr ""
 
@@ -897,7 +930,8 @@ msgid "<p class=\"premium-opt\">Premium Theme Features</p>"
 msgstr ""
 
 #: inc/customizer.php:835
-msgid "<p>1. More options for Partners section.</p>\n"
+msgid ""
+"<p>1. More options for Partners section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Partners section.</p>"
 msgstr ""
@@ -907,7 +941,8 @@ msgid "About Us Section"
 msgstr ""
 
 #: inc/customizer.php:865
-msgid "<p>1. More options for about section.</p>\n"
+msgid ""
+"<p>1. More options for about section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for about section.</p>"
 msgstr ""
@@ -969,7 +1004,8 @@ msgid "Our Classes Section"
 msgstr ""
 
 #: inc/customizer.php:1012
-msgid "<p>1. More options for Our Classes section.</p>\n"
+msgid ""
+"<p>1. More options for Our Classes section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Our Classes section.</p>"
 msgstr ""
@@ -979,7 +1015,8 @@ msgid "Quote Section"
 msgstr ""
 
 #: inc/customizer.php:1042
-msgid "<p>1. More options for Quote section.</p>\n"
+msgid ""
+"<p>1. More options for Quote section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Quote section.</p>"
 msgstr ""
@@ -989,7 +1026,8 @@ msgid "Team Section"
 msgstr ""
 
 #: inc/customizer.php:1072
-msgid "<p>1. More options for Team section.</p>\n"
+msgid ""
+"<p>1. More options for Team section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Team section.</p>"
 msgstr ""
@@ -999,7 +1037,8 @@ msgid "Skills and Video Section"
 msgstr ""
 
 #: inc/customizer.php:1102
-msgid "<p>1. More options for Skills and Video section.</p>\n"
+msgid ""
+"<p>1. More options for Skills and Video section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Skills and Video section.</p>"
 msgstr ""
@@ -1009,7 +1048,8 @@ msgid "Pricing Plans Section"
 msgstr ""
 
 #: inc/customizer.php:1132
-msgid "<p>1. More options for Pricing Plans section.</p>\n"
+msgid ""
+"<p>1. More options for Pricing Plans section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Pricing Plans section.</p>"
 msgstr ""
@@ -1019,7 +1059,8 @@ msgid "Testimonials Section"
 msgstr ""
 
 #: inc/customizer.php:1162
-msgid "<p>1. More options for Testimonials section.</p>\n"
+msgid ""
+"<p>1. More options for Testimonials section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Testimonials section.</p>"
 msgstr ""
@@ -1029,7 +1070,8 @@ msgid "Our Blogs Section"
 msgstr ""
 
 #: inc/customizer.php:1192
-msgid "<p>1. More options for Our Blogs section.</p>\n"
+msgid ""
+"<p>1. More options for Our Blogs section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Our Blogs section.</p>"
 msgstr ""
@@ -1039,7 +1081,8 @@ msgid "Newsletter Section"
 msgstr ""
 
 #: inc/customizer.php:1222
-msgid "<p>1. More options for Newsletter section.</p>\n"
+msgid ""
+"<p>1. More options for Newsletter section.</p>\n"
 "\t\t\t<p>2. Unlimited images options.</p>\n"
 "\t\t\t<p>3. Color options for Newsletter section.</p>"
 msgstr ""
@@ -1165,7 +1208,7 @@ msgid "Copyright Alignment"
 msgstr ""
 
 #: inc/customizer.php:1541
-#: inc/customizer.php:2997
+#: inc/customizer.php:3203
 msgid "Show / Hide Scroll To Top"
 msgstr ""
 
@@ -1174,7 +1217,7 @@ msgid "Add Scroll to Top Icon"
 msgstr ""
 
 #: inc/customizer.php:1569
-#: inc/customizer.php:2818
+#: inc/customizer.php:3024
 msgid "Icon Font Size"
 msgstr ""
 
@@ -1183,17 +1226,17 @@ msgid "Icon Padding Top Bottom"
 msgstr ""
 
 #: inc/customizer.php:1597
-#: inc/customizer.php:2846
+#: inc/customizer.php:3052
 msgid "Icon Width"
 msgstr ""
 
 #: inc/customizer.php:1611
-#: inc/customizer.php:2860
+#: inc/customizer.php:3066
 msgid "Icon Height"
 msgstr ""
 
 #: inc/customizer.php:1626
-#: inc/customizer.php:2875
+#: inc/customizer.php:3081
 msgid "Icon Border Radius"
 msgstr ""
 
@@ -1218,599 +1261,662 @@ msgid "Post Sidebar Layout"
 msgstr ""
 
 #: inc/customizer.php:1686
-#: inc/customizer.php:2190
+#: inc/customizer.php:2337
 msgid "Here you can change the sidebar layout for posts. "
 msgstr ""
 
 #: inc/customizer.php:1689
-#: inc/customizer.php:2193
-#: inc/customizer.php:2617
-#: inc/customizer.php:3097
-#: inc/customizer.php:3137
+#: inc/customizer.php:2340
+#: inc/customizer.php:2822
+#: inc/customizer.php:3303
+#: inc/customizer.php:3343
 msgid "Left Sidebar"
 msgstr ""
 
 #: inc/customizer.php:1690
-#: inc/customizer.php:2194
-#: inc/customizer.php:2618
-#: inc/customizer.php:3098
-#: inc/customizer.php:3138
+#: inc/customizer.php:2341
+#: inc/customizer.php:2823
+#: inc/customizer.php:3304
+#: inc/customizer.php:3344
 msgid "Right Sidebar"
 msgstr ""
 
 #: inc/customizer.php:1691
-#: inc/customizer.php:2195
-#: inc/customizer.php:2619
+#: inc/customizer.php:2342
+#: inc/customizer.php:2824
 msgid "One Column"
 msgstr ""
 
 #: inc/customizer.php:1692
-#: inc/customizer.php:2196
+#: inc/customizer.php:2343
 msgid "Three Columns"
 msgstr ""
 
 #: inc/customizer.php:1693
-#: inc/customizer.php:2197
+#: inc/customizer.php:2344
 msgid "Four Columns"
 msgstr ""
 
 #: inc/customizer.php:1694
-#: inc/customizer.php:2198
+#: inc/customizer.php:2345
 msgid "Grid Layout"
 msgstr ""
 
 #: inc/customizer.php:1710
-#: inc/customizer.php:2229
-#: inc/customizer.php:2447
+#: inc/customizer.php:2209
+#: inc/customizer.php:2376
+#: inc/customizer.php:2610
 msgid "Add Post Date Icon"
 msgstr ""
 
 #: inc/customizer.php:1723
-#: inc/customizer.php:2242
-#: inc/customizer.php:2460
-#: inc/customizer.php:2947
+#: inc/customizer.php:2199
+#: inc/customizer.php:2389
+#: inc/customizer.php:2623
+#: inc/customizer.php:3153
 msgid "Show / Hide Post Date"
 msgstr ""
 
 #: inc/customizer.php:1733
-#: inc/customizer.php:2252
-#: inc/customizer.php:2470
+#: inc/customizer.php:2232
+#: inc/customizer.php:2399
+#: inc/customizer.php:2633
 msgid "Add Author Icon"
 msgstr ""
 
 #: inc/customizer.php:1746
-#: inc/customizer.php:2265
-#: inc/customizer.php:2483
-#: inc/customizer.php:2957
+#: inc/customizer.php:2222
+#: inc/customizer.php:2412
+#: inc/customizer.php:2646
+#: inc/customizer.php:3163
 msgid "Show / Hide Author"
 msgstr ""
 
 #: inc/customizer.php:1756
-#: inc/customizer.php:2275
-#: inc/customizer.php:2493
+#: inc/customizer.php:2255
+#: inc/customizer.php:2422
+#: inc/customizer.php:2656
 msgid "Add Comments Icon"
 msgstr ""
 
 #: inc/customizer.php:1769
-#: inc/customizer.php:2288
-#: inc/customizer.php:2506
-#: inc/customizer.php:2967
+#: inc/customizer.php:2245
+#: inc/customizer.php:2435
+#: inc/customizer.php:2669
+#: inc/customizer.php:3173
 msgid "Show / Hide Comments"
 msgstr ""
 
 #: inc/customizer.php:1779
-#: inc/customizer.php:2298
+#: inc/customizer.php:2278
+#: inc/customizer.php:2445
 msgid "Add Time Icon"
 msgstr ""
 
 #: inc/customizer.php:1792
-#: inc/customizer.php:2311
-#: inc/customizer.php:2977
+#: inc/customizer.php:2268
+#: inc/customizer.php:2458
+#: inc/customizer.php:3183
 msgid "Show / Hide Time"
 msgstr ""
 
 #: inc/customizer.php:1802
-#: inc/customizer.php:2332
+#: inc/customizer.php:2291
+#: inc/customizer.php:2495
+#: inc/customizer.php:2679
 msgid "Show / Hide Featured Image"
 msgstr ""
 
 #: inc/customizer.php:1812
-msgid "Blog Post Featured Image Option"
-msgstr ""
-
-#: inc/customizer.php:1814
-msgid "Blog Post Image"
-msgstr ""
-
-#: inc/customizer.php:1815
-msgid "Blog Post Image Color"
-msgstr ""
-
-#: inc/customizer.php:1826
-msgid "Blog Post Featured Image Color"
-msgstr ""
-
-#: inc/customizer.php:1839
-msgid "Blog Post Featured Image Dimension"
-msgstr ""
-
-#: inc/customizer.php:1843
-msgid "Custom Image Size"
-msgstr ""
-
-#: inc/customizer.php:1852
-msgid "Featured Image Custom Width"
-msgstr ""
-
-#: inc/customizer.php:1867
-msgid "Featured Image Custom Height"
-msgstr ""
-
-#: inc/customizer.php:1884
-msgid "Excerpt length"
-msgstr ""
-
-#: inc/customizer.php:1902
-msgid "Display Blog Posts"
-msgstr ""
-
-#: inc/customizer.php:1905
-#: inc/customizer.php:2531
-msgid "Into Blocks"
-msgstr ""
-
-#: inc/customizer.php:1906
-#: inc/customizer.php:2532
-msgid "Without Blocks"
-msgstr ""
-
-#: inc/customizer.php:1915
-#: inc/customizer.php:2320
-#: inc/customizer.php:2515
-msgid "Add Meta Separator"
-msgstr ""
-
-#: inc/customizer.php:1916
-#: inc/customizer.php:2321
-#: inc/customizer.php:2516
-msgid "Add the seperator for meta box. Example: \"|\", \"/\", etc."
-msgstr ""
-
-#: inc/customizer.php:1928
-msgid "Post Content"
-msgstr ""
-
-#: inc/customizer.php:1931
-#: inc/customizer.php:2572
-msgid "Content"
-msgstr ""
-
-#: inc/customizer.php:1932
-#: inc/customizer.php:2573
-msgid "Excerpt"
-msgstr ""
-
-#: inc/customizer.php:1933
-#: inc/customizer.php:2574
-msgid "No Content"
-msgstr ""
-
-#: inc/customizer.php:1942
-#: inc/customizer.php:2554
-msgid "Add Excerpt Suffix"
-msgstr ""
-
-#: inc/customizer.php:1944
-#: inc/customizer.php:2556
-msgid "[...]"
-msgstr ""
-
-#: inc/customizer.php:1956
-msgid "Show / Hide Blog Pagination"
-msgstr ""
-
-#: inc/customizer.php:1967
-msgid "Blog Pagination"
-msgstr ""
-
-#: inc/customizer.php:1969
-msgid "Numeric"
-msgstr ""
-
-#: inc/customizer.php:1970
-msgid "Older Posts/Newer Posts"
-msgstr ""
-
-#: inc/customizer.php:1979
-msgid "Blog Post Pagination Position"
-msgstr ""
-
-#: inc/customizer.php:1984
-msgid "Both"
-msgstr ""
-
-#: inc/customizer.php:1990
-msgid "Button Settings"
-msgstr ""
-
-#: inc/customizer.php:1999
-msgid "Padding Top Bottom"
-msgstr ""
-
-#: inc/customizer.php:2013
-msgid "Padding Left Right"
-msgstr ""
-
-#: inc/customizer.php:2028
-msgid "Button Border Radius"
-msgstr ""
-
-#: inc/customizer.php:2044
-msgid "Button Font Size"
-msgstr ""
-
-#: inc/customizer.php:2063
-msgid "Button Letter Spacing"
-msgstr ""
-
-#: inc/customizer.php:2084
-msgid "Button Text Transform"
-msgstr ""
-
-#: inc/customizer.php:2104
-#: inc/customizer.php:2541
-#: inc/customizer.php:2765
-msgid "Add Button Text"
-msgstr ""
-
-#: inc/customizer.php:2114
-msgid "Related Posts Settings"
-msgstr ""
-
-#: inc/customizer.php:2130
-msgid "Show / Hide Related Post"
-msgstr ""
-
-#: inc/customizer.php:2139
-msgid "Add Related Post Title"
-msgstr ""
-
-#: inc/customizer.php:2141
-msgid "Related Post"
-msgstr ""
-
-#: inc/customizer.php:2152
-msgid "Add Related Post Count"
-msgstr ""
-
-#: inc/customizer.php:2154
-#: inc/getstart/getstart.php:424
-msgid "3"
-msgstr ""
-
-#: inc/customizer.php:2166
-msgid "Related Posts Excerpt length"
-msgstr ""
-
-#: inc/customizer.php:2179
-msgid "Single Post Settings"
-msgstr ""
-
-#: inc/customizer.php:2189
-msgid "Single Post Sidebar Layout"
-msgstr ""
-
-#: inc/customizer.php:2208
-msgid "Show / Hide Breadcrumb"
-msgstr ""
-
-#: inc/customizer.php:2219
-msgid "Show / Hide Category"
-msgstr ""
-
-#: inc/customizer.php:2342
-msgid "Show / Hide Tags"
-msgstr ""
-
-#: inc/customizer.php:2352
-msgid "Show / Hide comments"
-msgstr ""
-
-#: inc/customizer.php:2362
-msgid "Add Comment Title"
-msgstr ""
-
-#: inc/customizer.php:2376
-msgid "Add Comment Button Text"
-msgstr ""
-
-#: inc/customizer.php:2389
-msgid "Comment Form Width"
-msgstr ""
-
-#: inc/customizer.php:2390
-msgid "Enter a value in %. Example:50%"
-msgstr ""
-
-#: inc/customizer.php:2392
-msgid "100%"
-msgstr ""
-
-#: inc/customizer.php:2404
-msgid "Show / Hide Post Navigation"
-msgstr ""
-
-#: inc/customizer.php:2414
-#: inc/customizer.php:2427
-msgid "Post Navigation Text"
-msgstr ""
-
-#: inc/customizer.php:2416
-msgid "PREVIOUS"
-msgstr ""
-
-#: inc/customizer.php:2429
-msgid "NEXT"
-msgstr ""
-
-#: inc/customizer.php:2437
-msgid "Grid Layout Settings"
-msgstr ""
-
-#: inc/customizer.php:2528
-msgid "Display Grid Posts"
-msgstr ""
-
-#: inc/customizer.php:2569
-msgid "Grid Post Content"
-msgstr ""
-
-#: inc/customizer.php:2581
-msgid "Others Settings"
-msgstr ""
-
-#: inc/customizer.php:2588
-#: inc/getstart/getstart.php:130
-#: inc/getstart/getstart.php:246
-#: inc/getstart/getstart.php:316
-msgid "General Settings"
-msgstr ""
-
-#: inc/customizer.php:2598
-msgid "Width Layouts"
-msgstr ""
-
-#: inc/customizer.php:2599
-msgid "Here you can change the width layout of Website."
-msgstr ""
-
-#: inc/customizer.php:2613
-msgid "Page Sidebar Layout"
-msgstr ""
-
-#: inc/customizer.php:2614
-msgid "Here you can change the sidebar layout for pages. "
-msgstr ""
-
-#: inc/customizer.php:2629
-msgid "Show / Hide Page Breadcrumb"
-msgstr ""
-
-#: inc/customizer.php:2640
-msgid "Featured Image Border Radius"
-msgstr ""
-
-#: inc/customizer.php:2656
 msgid "Featured Image Box Shadow"
 msgstr ""
 
-#: inc/customizer.php:2673
+#: inc/customizer.php:1828
+msgid "Blog Post Featured Image Option"
+msgstr ""
+
+#: inc/customizer.php:1830
+msgid "Blog Post Image"
+msgstr ""
+
+#: inc/customizer.php:1831
+msgid "Blog Post Image Color"
+msgstr ""
+
+#: inc/customizer.php:1842
+msgid "Blog Post Featured Image Color"
+msgstr ""
+
+#: inc/customizer.php:1855
+msgid "Blog Post Featured Image Dimension"
+msgstr ""
+
+#: inc/customizer.php:1859
+msgid "Custom Image Size"
+msgstr ""
+
+#: inc/customizer.php:1868
+msgid "Featured Image Custom Width"
+msgstr ""
+
+#: inc/customizer.php:1883
+msgid "Featured Image Custom Height"
+msgstr ""
+
+#: inc/customizer.php:1900
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer.php:1918
+msgid "Display Blog Posts"
+msgstr ""
+
+#: inc/customizer.php:1921
+#: inc/customizer.php:2704
+msgid "Into Blocks"
+msgstr ""
+
+#: inc/customizer.php:1922
+#: inc/customizer.php:2705
+msgid "Without Blocks"
+msgstr ""
+
+#: inc/customizer.php:1931
+#: inc/customizer.php:2483
+#: inc/customizer.php:2688
+msgid "Add Meta Separator"
+msgstr ""
+
+#: inc/customizer.php:1932
+#: inc/customizer.php:2484
+#: inc/customizer.php:2689
+msgid "Add the seperator for meta box. Example: \"|\", \"/\", etc."
+msgstr ""
+
+#: inc/customizer.php:1944
+msgid "Post Content"
+msgstr ""
+
+#: inc/customizer.php:1947
+#: inc/customizer.php:2745
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:1948
+#: inc/customizer.php:2746
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer.php:1949
+#: inc/customizer.php:2747
+msgid "No Content"
+msgstr ""
+
+#: inc/customizer.php:1958
+#: inc/customizer.php:2727
+msgid "Add Excerpt Suffix"
+msgstr ""
+
+#: inc/customizer.php:1960
+#: inc/customizer.php:2729
+msgid "[...]"
+msgstr ""
+
+#: inc/customizer.php:1972
+msgid "Show / Hide Blog Pagination"
+msgstr ""
+
+#: inc/customizer.php:1983
+msgid "Blog Pagination"
+msgstr ""
+
+#: inc/customizer.php:1985
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer.php:1986
+msgid "Older Posts/Newer Posts"
+msgstr ""
+
+#: inc/customizer.php:1995
+msgid "Blog Post Pagination Position"
+msgstr ""
+
+#: inc/customizer.php:2000
+msgid "Both"
+msgstr ""
+
+#: inc/customizer.php:2006
+msgid "Button Settings"
+msgstr ""
+
+#: inc/customizer.php:2015
+msgid "Padding Top Bottom"
+msgstr ""
+
+#: inc/customizer.php:2029
+msgid "Padding Left Right"
+msgstr ""
+
+#: inc/customizer.php:2044
+msgid "Button Border Radius"
+msgstr ""
+
+#: inc/customizer.php:2060
+msgid "Button Font Size"
+msgstr ""
+
+#: inc/customizer.php:2079
+msgid "Button Letter Spacing"
+msgstr ""
+
+#: inc/customizer.php:2100
+msgid "Button Text Transform"
+msgstr ""
+
+#: inc/customizer.php:2120
+#: inc/customizer.php:2316
+#: inc/customizer.php:2714
+#: inc/customizer.php:2971
+msgid "Add Button Text"
+msgstr ""
+
+#: inc/customizer.php:2130
+msgid "Related Posts Settings"
+msgstr ""
+
+#: inc/customizer.php:2146
+msgid "Show / Hide Related Post"
+msgstr ""
+
+#: inc/customizer.php:2155
+msgid "Add Related Post Title"
+msgstr ""
+
+#: inc/customizer.php:2157
+msgid "Related Post"
+msgstr ""
+
+#: inc/customizer.php:2168
+msgid "Add Related Post Count"
+msgstr ""
+
+#: inc/customizer.php:2170
+#: inc/getstart/getstart.php:260
+msgid "3"
+msgstr ""
+
+#: inc/customizer.php:2182
+msgid "Related Posts Excerpt length"
+msgstr ""
+
+#: inc/customizer.php:2301
+msgid "Related post Image Box Shadow"
+msgstr ""
+
+#: inc/customizer.php:2326
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer.php:2336
+msgid "Single Post Sidebar Layout"
+msgstr ""
+
+#: inc/customizer.php:2355
+msgid "Show / Hide Breadcrumb"
+msgstr ""
+
+#: inc/customizer.php:2366
+msgid "Show / Hide Category"
+msgstr ""
+
+#: inc/customizer.php:2468
+msgid "Single post Image Box Shadow"
+msgstr ""
+
+#: inc/customizer.php:2505
+msgid "Show / Hide Tags"
+msgstr ""
+
+#: inc/customizer.php:2515
+msgid "Show / Hide comments"
+msgstr ""
+
+#: inc/customizer.php:2525
+msgid "Add Comment Title"
+msgstr ""
+
+#: inc/customizer.php:2539
+msgid "Add Comment Button Text"
+msgstr ""
+
+#: inc/customizer.php:2552
+msgid "Comment Form Width"
+msgstr ""
+
+#: inc/customizer.php:2553
+msgid "Enter a value in %. Example:50%"
+msgstr ""
+
+#: inc/customizer.php:2555
+msgid "100%"
+msgstr ""
+
+#: inc/customizer.php:2567
+msgid "Show / Hide Post Navigation"
+msgstr ""
+
+#: inc/customizer.php:2577
+#: inc/customizer.php:2590
+msgid "Post Navigation Text"
+msgstr ""
+
+#: inc/customizer.php:2579
+msgid "PREVIOUS"
+msgstr ""
+
+#: inc/customizer.php:2592
+msgid "NEXT"
+msgstr ""
+
+#: inc/customizer.php:2600
+msgid "Grid Layout Settings"
+msgstr ""
+
+#: inc/customizer.php:2701
+msgid "Display Grid Posts"
+msgstr ""
+
+#: inc/customizer.php:2742
+msgid "Grid Post Content"
+msgstr ""
+
+#: inc/customizer.php:2757
+msgid "Grid Featured Image Border Radius"
+msgstr ""
+
+#: inc/customizer.php:2773
+msgid "Grid Featured Image Box Shadow"
+msgstr ""
+
+#: inc/customizer.php:2786
+msgid "Others Settings"
+msgstr ""
+
+#: inc/customizer.php:2793
+#: inc/getstart/getstart.php:148
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:2803
+msgid "Width Layouts"
+msgstr ""
+
+#: inc/customizer.php:2804
+msgid "Here you can change the width layout of Website."
+msgstr ""
+
+#: inc/customizer.php:2818
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: inc/customizer.php:2819
+msgid "Here you can change the sidebar layout for pages. "
+msgstr ""
+
+#: inc/customizer.php:2834
+msgid "Show / Hide Page Breadcrumb"
+msgstr ""
+
+#: inc/customizer.php:2844
+msgid "Bradcrumbs Alignment"
+msgstr ""
+
+#: inc/customizer.php:2860
+msgid "Featured Image Border Radius"
+msgstr ""
+
+#: inc/customizer.php:2879
 msgid "Show / Hide Animations"
 msgstr ""
 
-#: inc/customizer.php:2674
+#: inc/customizer.php:2880
 msgid "Here you can disable overall site animation effect"
 msgstr ""
 
-#: inc/customizer.php:2683
+#: inc/customizer.php:2889
 msgid "Reset All Settings"
 msgstr ""
 
-#: inc/customizer.php:2695
+#: inc/customizer.php:2901
 msgid "Show / Hide Pre-Loader"
 msgstr ""
 
-#: inc/customizer.php:2704
+#: inc/customizer.php:2910
 msgid "Pre-Loader Background Color"
 msgstr ""
 
-#: inc/customizer.php:2713
+#: inc/customizer.php:2919
 msgid "Pre-Loader Border Color"
 msgstr ""
 
-#: inc/customizer.php:2722
+#: inc/customizer.php:2928
 msgid "Preloader Background Image"
 msgstr ""
 
-#: inc/customizer.php:2728
+#: inc/customizer.php:2934
 msgid "404 Page Settings"
 msgstr ""
 
-#: inc/customizer.php:2738
-#: inc/customizer.php:2785
+#: inc/customizer.php:2944
+#: inc/customizer.php:2991
 msgid "Add Title"
 msgstr ""
 
-#: inc/customizer.php:2752
-#: inc/customizer.php:2799
+#: inc/customizer.php:2958
+#: inc/customizer.php:3005
 msgid "Add Text"
 msgstr ""
 
-#: inc/customizer.php:2775
+#: inc/customizer.php:2981
 msgid "No Results Page Settings"
 msgstr ""
 
-#: inc/customizer.php:2787
+#: inc/customizer.php:2993
 #: no-results.php:9
 msgid "Nothing Found"
 msgstr ""
 
-#: inc/customizer.php:2801
+#: inc/customizer.php:3007
 #: no-results.php:14
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: inc/customizer.php:2809
+#: inc/customizer.php:3015
 msgid "Social Icons Settings"
 msgstr ""
 
-#: inc/customizer.php:2832
+#: inc/customizer.php:3038
 msgid "Icon Padding"
 msgstr ""
 
-#: inc/customizer.php:2887
+#: inc/customizer.php:3093
 msgid "Responsive Media"
 msgstr ""
 
-#: inc/customizer.php:2917
+#: inc/customizer.php:3123
 msgid "Show / Hide Sticky Header"
 msgstr ""
 
-#: inc/customizer.php:2987
+#: inc/customizer.php:3193
 msgid "Show / Hide Metabox"
 msgstr ""
 
-#: inc/customizer.php:3007
+#: inc/customizer.php:3213
 msgid "Show / Hide Sidebar"
 msgstr ""
 
-#: inc/customizer.php:3017
+#: inc/customizer.php:3223
 msgid "Show / Hide Preloader"
 msgstr ""
 
-#: inc/customizer.php:3027
+#: inc/customizer.php:3233
 msgid "Add Mobile Menu Label"
 msgstr ""
 
-#: inc/customizer.php:3037
+#: inc/customizer.php:3243
 msgid "Add Open Menu Icon"
 msgstr ""
 
-#: inc/customizer.php:3050
+#: inc/customizer.php:3256
 msgid "Add Close Menu Icon"
 msgstr ""
 
-#: inc/customizer.php:3062
+#: inc/customizer.php:3268
 msgid "Toggle Button Bg Color"
 msgstr ""
 
-#: inc/customizer.php:3068
+#: inc/customizer.php:3274
 msgid "Woocommerce Settings"
 msgstr ""
 
-#: inc/customizer.php:3084
+#: inc/customizer.php:3290
 msgid "Show / Hide Shop Page Sidebar"
 msgstr ""
 
-#: inc/customizer.php:3094
+#: inc/customizer.php:3300
 msgid "Shop Page Sidebar Layout"
 msgstr ""
 
-#: inc/customizer.php:3109
+#: inc/customizer.php:3315
 msgid "Shop Page Pagination"
 msgstr ""
 
-#: inc/customizer.php:3124
+#: inc/customizer.php:3330
 msgid "Show / Hide Single Product Sidebar"
 msgstr ""
 
-#: inc/customizer.php:3134
+#: inc/customizer.php:3340
 msgid "Single Product Sidebar Layout"
 msgstr ""
 
-#: inc/customizer.php:3148
+#: inc/customizer.php:3354
 msgid "Products Per Page"
 msgstr ""
 
-#: inc/customizer.php:3149
-#: inc/customizer.php:3166
+#: inc/customizer.php:3355
+#: inc/customizer.php:3372
 msgid "Display on shop page"
 msgstr ""
 
-#: inc/customizer.php:3165
+#: inc/customizer.php:3371
 msgid "Products Per Row"
 msgstr ""
 
-#: inc/customizer.php:3182
+#: inc/customizer.php:3388
 msgid "Product Border"
 msgstr ""
 
-#: inc/customizer.php:3191
+#: inc/customizer.php:3397
 msgid "Products Padding Top Bottom"
 msgstr ""
 
-#: inc/customizer.php:3205
+#: inc/customizer.php:3411
 msgid "Products Padding Left Right"
 msgstr ""
 
-#: inc/customizer.php:3220
+#: inc/customizer.php:3426
 msgid "Products Box Shadow"
 msgstr ""
 
-#: inc/customizer.php:3236
+#: inc/customizer.php:3442
 msgid "Products Border Radius"
 msgstr ""
 
-#: inc/customizer.php:3251
+#: inc/customizer.php:3457
 msgid "Products Button Padding Top Bottom"
 msgstr ""
 
-#: inc/customizer.php:3265
+#: inc/customizer.php:3471
 msgid "Products Button Padding Left Right"
 msgstr ""
 
-#: inc/customizer.php:3280
+#: inc/customizer.php:3486
 msgid "Products Button Border Radius"
 msgstr ""
 
-#: inc/customizer.php:3297
+#: inc/customizer.php:3503
 msgid "Sale Badge Position"
 msgstr ""
 
-#: inc/customizer.php:3310
+#: inc/customizer.php:3516
 msgid "Sale Font Size"
 msgstr ""
 
-#: inc/customizer.php:3324
+#: inc/customizer.php:3530
 msgid "Sale Padding Top Bottom"
 msgstr ""
 
-#: inc/customizer.php:3338
+#: inc/customizer.php:3544
 msgid "Sale Padding Left Right"
 msgstr ""
 
-#: inc/customizer.php:3353
+#: inc/customizer.php:3559
 msgid "Sale Border Radius"
 msgstr ""
 
-#: inc/customizer.php:3370
+#: inc/customizer.php:3576
 msgid "Show / Hide Related product"
 msgstr ""
 
-#: inc/customizer.php:3498
+#: inc/customizer.php:3704
 msgid "SIRAT PRO"
 msgstr ""
 
-#: inc/customizer.php:3506
+#: inc/customizer.php:3712
 msgid "DOCUMENTATION"
 msgstr ""
 
-#: inc/customizer.php:3507
+#: inc/customizer.php:3713
 msgid "DOCS"
+msgstr ""
+
+#: inc/getstart/demo-content.php:8
+#: inc/getstart/demo-content.php:124
+msgid "Your demo import has been completed successfully."
+msgstr ""
+
+#: inc/getstart/demo-content.php:9
+#: inc/getstart/demo-content.php:125
+msgid "VIEW SITE"
+msgstr ""
+
+#: inc/getstart/demo-content.php:42
+msgid "Home"
+msgstr ""
+
+#: inc/getstart/demo-content.php:70
+msgid "Pages"
+msgstr ""
+
+#: inc/getstart/demo-content.php:99
+msgid "About Us"
+msgstr ""
+
+#: inc/getstart/demo-content.php:275
+msgid "Please back up your website if it’s already live with data. This importer will overwrite your existing settings with the new customizer values for Sirat"
+msgstr ""
+
+#: inc/getstart/demo-content.php:278
+msgid "Run Importer"
 msgstr ""
 
 #: inc/getstart/getstart.php:5
 msgid "About Sirat"
+msgstr ""
+
+#: inc/getstart/getstart.php:5
+msgid "Theme Demo Import"
 msgstr ""
 
 #: inc/getstart/getstart.php:25
@@ -1821,541 +1927,444 @@ msgstr ""
 msgid "All our WordPress themes are modern, minimalist, 100% responsive, seo-friendly,feature-rich, and multipurpose that best suit designers, bloggers and other professionals who are working in the creative fields."
 msgstr ""
 
-#: inc/getstart/getstart.php:33
-msgid "Buy Sirat at 20% Discount"
+#: inc/getstart/getstart.php:34
+msgid "Try Premium "
 msgstr ""
 
-#: inc/getstart/getstart.php:34
-msgid "Use Coupon"
-msgstr ""
-
-#: inc/getstart/getstart.php:34
-msgid "vwpro20"
+#: inc/getstart/getstart.php:35
+msgid "Sirat Theme"
 msgstr ""
 
 #: inc/getstart/getstart.php:36
-#: inc/getstart/getstart.php:580
+msgid "at 20% Discount"
+msgstr ""
+
+#: inc/getstart/getstart.php:37
+msgid "Use Coupon"
+msgstr ""
+
+#: inc/getstart/getstart.php:37
+msgid "vwpro20"
+msgstr ""
+
+#: inc/getstart/getstart.php:39
+#: inc/getstart/getstart.php:416
 msgid "Upgrade to Pro"
 msgstr ""
 
-#: inc/getstart/getstart.php:43
-msgid "Setup With Customizer"
-msgstr ""
-
-#: inc/getstart/getstart.php:44
-msgid "Setup With Block Pattern"
-msgstr ""
-
-#: inc/getstart/getstart.php:45
-msgid "Setup With Gutunberg Block"
-msgstr ""
-
-#: inc/getstart/getstart.php:46
-msgid "Woocommerce Product Addons"
-msgstr ""
-
-#: inc/getstart/getstart.php:47
-msgid "Get Premium"
-msgstr ""
-
-#: inc/getstart/getstart.php:48
-msgid "Support"
-msgstr ""
-
-#: inc/getstart/getstart.php:70
-#: inc/getstart/getstart.php:191
-msgid "Skip"
-msgstr ""
-
-#: inc/getstart/getstart.php:79
-msgid "Lite Theme Information"
-msgstr ""
-
-#: inc/getstart/getstart.php:81
-msgid "Free multipurpose WordPress theme is immensely beneficial for different businesses or consultancies and by the end of the day; there is no need of any investment to acquire this theme because it is available free of cost in the online international market. Free multipurpose WordPress theme is known for its user friendly nature apart from being clean and simple with some of the features comparable to the premium one. Certain features that make it good for the business websites or the personal portfolio are CTA, bootstrap, retina ready, customization options, clean code, testimonial section, personalization options and much more. It is a social media oriented and SEO friendly theme making it good for the small businesses as well as the startups. Being professional, this particular theme is good for the corporate businesses, online agencies as well as the startups. It is accompanied with the multipurpose one-page design, blog or news page and above all a clean look."
-msgstr ""
-
-#: inc/getstart/getstart.php:83
-msgid "Theme Documentation"
-msgstr ""
-
-#: inc/getstart/getstart.php:84
-msgid "If you need any assistance regarding setting up and configuring the Theme, our documentation is there."
-msgstr ""
-
-#: inc/getstart/getstart.php:86
-#: inc/getstart/getstart.php:172
-msgid "Documentation"
-msgstr ""
-
-#: inc/getstart/getstart.php:89
-msgid "Theme Customizer"
-msgstr ""
-
-#: inc/getstart/getstart.php:90
-msgid "To begin customizing your website, start by clicking \"Customize\"."
-msgstr ""
-
-#: inc/getstart/getstart.php:92
-msgid "Customizing"
-msgstr ""
-
-#: inc/getstart/getstart.php:95
-msgid "Having Trouble, Need Support?"
-msgstr ""
-
-#: inc/getstart/getstart.php:96
-msgid "Our dedicated team is well prepared to help you out in case of queries and doubts regarding our theme."
-msgstr ""
-
-#: inc/getstart/getstart.php:98
-msgid "Support Forum"
-msgstr ""
-
-#: inc/getstart/getstart.php:101
-msgid "Reviews & Testimonials"
-msgstr ""
-
-#: inc/getstart/getstart.php:102
-msgid "All the features and aspects of this WordPress Theme are phenomenal. I'd recommend this theme to all."
-msgstr ""
-
-#: inc/getstart/getstart.php:104
-msgid "Reviews"
-msgstr ""
-
-#: inc/getstart/getstart.php:107
-#: inc/getstart/getstart.php:214
-#: inc/getstart/getstart.php:284
-msgid "Link to customizer"
-msgstr ""
-
-#: inc/getstart/getstart.php:112
-#: inc/getstart/getstart.php:219
-#: inc/getstart/getstart.php:289
-msgid "Upload your logo"
-msgstr ""
-
-#: inc/getstart/getstart.php:115
-msgid "Typography"
-msgstr ""
-
-#: inc/getstart/getstart.php:121
-msgid "Topbar Settings"
-msgstr ""
-
-#: inc/getstart/getstart.php:124
-msgid "Slider Section"
-msgstr ""
-
-#: inc/getstart/getstart.php:133
-#: inc/getstart/getstart.php:231
-#: inc/getstart/getstart.php:301
-msgid "Footer Text"
-msgstr ""
-
-#: inc/getstart/getstart.php:139
-#: inc/getstart/getstart.php:237
-#: inc/getstart/getstart.php:307
-msgid "Post settings"
-msgstr ""
-
-#: inc/getstart/getstart.php:142
-#: inc/getstart/getstart.php:240
-#: inc/getstart/getstart.php:310
-msgid "WooCommerce Layout"
-msgstr ""
-
-#: inc/getstart/getstart.php:148
-#: inc/getstart/getstart.php:227
-#: inc/getstart/getstart.php:297
-msgid "Menus"
-msgstr ""
-
-#: inc/getstart/getstart.php:151
-#: inc/getstart/getstart.php:249
-#: inc/getstart/getstart.php:319
-msgid "Footer Widget"
-msgstr ""
-
-#: inc/getstart/getstart.php:159
-msgid "How to set up Home Page Template"
-msgstr ""
-
-#: inc/getstart/getstart.php:161
-msgid "Follow these instructions to setup Home page."
-msgstr ""
-
-#: inc/getstart/getstart.php:163
-msgid "1. Create a new page :"
-msgstr ""
-
-#: inc/getstart/getstart.php:163
-#: inc/getstart/getstart.php:168
-msgid " Go to "
-msgstr ""
-
-#: inc/getstart/getstart.php:164
-msgid " Dashboard >> Pages >> Add New Page"
-msgstr ""
-
-#: inc/getstart/getstart.php:166
-msgid "Name it as \"Home\" then select the template \"Custom Home Page\"."
-msgstr ""
-
-#: inc/getstart/getstart.php:168
-msgid "2. Set the front page:"
-msgstr ""
-
-#: inc/getstart/getstart.php:169
-msgid " Settings >> Reading "
-msgstr ""
-
-#: inc/getstart/getstart.php:170
-msgid "Select the option of Static Page, now select the page you created to be the homepage, while another page to be your default page."
-msgstr ""
-
-#: inc/getstart/getstart.php:172
-msgid " Once you are done with this, then follow the"
-msgstr ""
-
-#: inc/getstart/getstart.php:201
-msgid "Block Patterns"
-msgstr ""
-
-#: inc/getstart/getstart.php:203
-msgid "Follow the below instructions to setup Home page with Block Patterns."
-msgstr ""
-
-#: inc/getstart/getstart.php:204
-msgid "Click on Below Add new page button >> Click on \"+\" Icon."
-msgstr ""
-
-#: inc/getstart/getstart.php:206
-msgid "Add New Page"
-msgstr ""
-
-#: inc/getstart/getstart.php:209
-msgid "Click on Patterns Tab >> Click on Theme Name >> Click on Sections >> Publish."
-msgstr ""
-
-#: inc/getstart/getstart.php:222
-#: inc/getstart/getstart.php:292
-msgid "Social Icons"
-msgstr ""
-
-#: inc/getstart/getstart.php:277
-msgid "Gutunberg Blocks"
-msgstr ""
-
-#: inc/getstart/getstart.php:280
-msgid "Ibtana Settings"
-msgstr ""
-
-#: inc/getstart/getstart.php:347
-msgid "Woocommerce Products Blocks"
-msgstr ""
-
-#: inc/getstart/getstart.php:350
-msgid "Follow the below instructions to setup Products Templates."
-msgstr ""
-
-#: inc/getstart/getstart.php:351
-msgid "1. First you need to activate these plugins"
-msgstr ""
-
-#: inc/getstart/getstart.php:352
-msgid "1. Ibtana - WordPress Website Builder "
-msgstr ""
-
-#: inc/getstart/getstart.php:353
-msgid "2. Ibtana - Ecommerce Product Addons."
-msgstr ""
-
-#: inc/getstart/getstart.php:354
-msgid "3. Woocommerce"
-msgstr ""
-
-#: inc/getstart/getstart.php:356
-msgid "2. Go To Dashboard >> Ibtana Settings >> Woocommerce Templates"
-msgstr ""
-
-#: inc/getstart/getstart.php:358
-msgid "Woocommerce Templates"
-msgstr ""
-
-#: inc/getstart/getstart.php:360
-msgid "You can create a template as you like."
-msgstr ""
-
-#: inc/getstart/getstart.php:366
-msgid "Premium Theme Information"
-msgstr ""
-
-#: inc/getstart/getstart.php:369
-msgid "Premium multipurpose WordPress theme is truly beneficial for wide range of businesses or any kind of startup and the best part of it is that it is not only simple and clean but is also user friendly as well apart from being lightweight and extensive to the limit as preferred by the user. Because of its splendid features, it has the potential to create any type of website related to the blog, portfolio or business and above that, it is accompanied with the WooCommerce store comprising of a design that is beautiful to the core and at the same time professional as well. Multipurpose WordPress theme is not only fast but responsive to the core other than being RTL and translation ready and highly suitable for some of the finest SEO practices. The ecommerce features with this premium category theme are unique and there is no doubt about this fact."
-msgstr ""
-
-#: inc/getstart/getstart.php:371
-msgid "Live Demo"
-msgstr ""
-
-#: inc/getstart/getstart.php:372
-msgid "Buy Pro"
-msgstr ""
-
-#: inc/getstart/getstart.php:373
-msgid "Pro Documentation"
-msgstr ""
-
-#: inc/getstart/getstart.php:380
-msgid "Theme Features"
-msgstr ""
-
-#: inc/getstart/getstart.php:387
-msgid "Free Themes"
-msgstr ""
-
-#: inc/getstart/getstart.php:388
-msgid "Premium Themes"
-msgstr ""
-
-#: inc/getstart/getstart.php:393
-msgid "Theme Customization"
-msgstr ""
-
-#: inc/getstart/getstart.php:398
-msgid "Responsive Design"
-msgstr ""
-
-#: inc/getstart/getstart.php:403
-msgid "Logo Upload"
-msgstr ""
-
-#: inc/getstart/getstart.php:408
-msgid "Social Media Links"
-msgstr ""
-
-#: inc/getstart/getstart.php:418
-msgid "Number of Slides"
-msgstr ""
-
-#: inc/getstart/getstart.php:419
-msgid "4"
-msgstr ""
-
-#: inc/getstart/getstart.php:420
-msgid "Unlimited"
-msgstr ""
-
-#: inc/getstart/getstart.php:423
-msgid "Template Pages"
-msgstr ""
-
-#: inc/getstart/getstart.php:425
-msgid "6"
-msgstr ""
-
-#: inc/getstart/getstart.php:428
-msgid "Home Page Template"
-msgstr ""
-
-#: inc/getstart/getstart.php:429
-#: inc/getstart/getstart.php:430
-#: inc/getstart/getstart.php:440
-msgid "1"
-msgstr ""
-
-#: inc/getstart/getstart.php:433
-msgid "Theme sections"
-msgstr ""
-
-#: inc/getstart/getstart.php:434
-msgid "2"
-msgstr ""
-
-#: inc/getstart/getstart.php:435
-msgid "15"
-msgstr ""
-
-#: inc/getstart/getstart.php:438
-msgid "Contact us Page Template"
-msgstr ""
-
-#: inc/getstart/getstart.php:443
-msgid "Blog Templates & Layout"
-msgstr ""
-
-#: inc/getstart/getstart.php:445
-msgid "3(Full width/Left/Right Sidebar)"
-msgstr ""
-
-#: inc/getstart/getstart.php:448
-msgid "Page Templates & Layout"
-msgstr ""
-
-#: inc/getstart/getstart.php:450
-msgid "2(Left/Right Sidebar)"
-msgstr ""
-
-#: inc/getstart/getstart.php:453
-msgid "Color Pallete For Particular Sections"
-msgstr ""
-
-#: inc/getstart/getstart.php:458
-msgid "Global Color Option"
-msgstr ""
-
-#: inc/getstart/getstart.php:463
-msgid "Section Reordering"
-msgstr ""
-
-#: inc/getstart/getstart.php:468
+#: inc/getstart/getstart.php:50
+#: inc/getstart/getstart.php:304
 msgid "Demo Importer"
 msgstr ""
 
-#: inc/getstart/getstart.php:473
+#: inc/getstart/getstart.php:51
+msgid "Setup With Customizer"
+msgstr ""
+
+#: inc/getstart/getstart.php:53
+msgid "Get Premium"
+msgstr ""
+
+#: inc/getstart/getstart.php:54
+msgid "Free Vs Premium"
+msgstr ""
+
+#: inc/getstart/getstart.php:55
+#: inc/getstart/getstart.php:208
+msgid "Get 250+ Themes Bundle at $99"
+msgstr ""
+
+#: inc/getstart/getstart.php:67
+msgid "Click the below run importer button to import demo content"
+msgstr ""
+
+#: inc/getstart/getstart.php:88
+msgid "Skip"
+msgstr ""
+
+#: inc/getstart/getstart.php:97
+msgid "Lite Theme Information"
+msgstr ""
+
+#: inc/getstart/getstart.php:99
+msgid "Sirat is a multipurpose theme known primarily for its simplicity apart from being clean, user-friendly as well as finely organised making it a very good choice when it comes to WordPress themes relevant for various business purposes like a Apps landing, Architects, startup, Social Media Management, Virtual Assistant Service, Webinar sign-up, ebook download, Service offering, One page website, landing pages, quotes blog Organizations, Consultant, Manufacture plant, Services, IT Firm, Cloth business, responsive landing page, course websites, wedding planners, sport/medical shops) political and WooCommerce storefront with a beautiful & professional design, shortcodes fashion store, Retailer, Wholesaler, Online business, Sign a petition, B2B, app landing page, builder, catering, course, fitness, landing, launch, Marketing, SEO Agency, Advertising agency, Insurance, generating form, University Landing page, corporate, portfolio, agency, startup, creative business, Event, Digital Health, Sell Your Art Online, Ideology-Based business, Print-On-Demand, Finance, Stock Market, IT infrastructure, business agency. The theme comes with a new header layout and there are more options of sidebar layout available for post and pages. Apart from that, there are more width options as well as preload options available. Another important thing with this particular WordPress theme is that it is lightweight and can be extended to the limit one likes. It also has the availability of the enable and disable button. With some of its exemplary features like WooCommerce, retina ready, clean code, flexible header, CTA, Right Sidebar, bootstrap framework, Schema friendly, customization options, mobile friendliness etc, This WP theme has content limit option and is also accompanied with blog post settings. Another important characteristic with it is the beauty it has and also the design that is immensely professional. Sirat is a fast theme and is accompanied with some of the best SEO practices in the online world. You have the option of customization a mentioned earlier making it extremely beneficial for personal portfolio. Apart from all this, Sirat is modern, luxurious, stunning as well as animated making it a fine option for the businesses where creativity is involved and it also has scroll top layout. Siart is translation ready and supports AR_ARABIC, DE_GERMAN, ES_SPANISH, FR_FRENCH, IT_ITALIAN, RU_RUSSIAN, ZH_CHINESE, TR_TURKISH languages. It fits creative business, small businesses restaurants, medical shops, startups, corporate businesses, online agencies and firms, portfolios, ecommerce. Sirat has banner opacity and colour changing feature included."
+msgstr ""
+
+#: inc/getstart/getstart.php:101
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/getstart/getstart.php:102
+msgid "If you need any assistance regarding setting up and configuring the Theme, our documentation is there."
+msgstr ""
+
+#: inc/getstart/getstart.php:104
+#: inc/getstart/getstart.php:190
+#: inc/getstart/getstart.php:439
+msgid "Documentation"
+msgstr ""
+
+#: inc/getstart/getstart.php:107
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/getstart/getstart.php:108
+msgid "To begin customizing your website, start by clicking \"Customize\"."
+msgstr ""
+
+#: inc/getstart/getstart.php:110
+msgid "Customizing"
+msgstr ""
+
+#: inc/getstart/getstart.php:113
+msgid "Having Trouble, Need Support?"
+msgstr ""
+
+#: inc/getstart/getstart.php:114
+msgid "Our dedicated team is well prepared to help you out in case of queries and doubts regarding our theme."
+msgstr ""
+
+#: inc/getstart/getstart.php:116
+msgid "Support Forum"
+msgstr ""
+
+#: inc/getstart/getstart.php:119
+msgid "Reviews & Testimonials"
+msgstr ""
+
+#: inc/getstart/getstart.php:120
+msgid "All the features and aspects of this WordPress Theme are phenomenal. I'd recommend this theme to all."
+msgstr ""
+
+#: inc/getstart/getstart.php:122
+msgid "Reviews"
+msgstr ""
+
+#: inc/getstart/getstart.php:125
+msgid "Link to customizer"
+msgstr ""
+
+#: inc/getstart/getstart.php:130
+msgid "Upload your logo"
+msgstr ""
+
+#: inc/getstart/getstart.php:133
+msgid "Typography"
+msgstr ""
+
+#: inc/getstart/getstart.php:139
+msgid "Topbar Settings"
+msgstr ""
+
+#: inc/getstart/getstart.php:142
+msgid "Slider Section"
+msgstr ""
+
+#: inc/getstart/getstart.php:151
+msgid "Footer Text"
+msgstr ""
+
+#: inc/getstart/getstart.php:157
+msgid "Post settings"
+msgstr ""
+
+#: inc/getstart/getstart.php:160
+msgid "WooCommerce Layout"
+msgstr ""
+
+#: inc/getstart/getstart.php:166
+msgid "Menus"
+msgstr ""
+
+#: inc/getstart/getstart.php:169
+msgid "Footer Widget"
+msgstr ""
+
+#: inc/getstart/getstart.php:177
+msgid "How to set up Home Page Template"
+msgstr ""
+
+#: inc/getstart/getstart.php:179
+msgid "Follow these instructions to setup Home page."
+msgstr ""
+
+#: inc/getstart/getstart.php:181
+msgid "1. Create a new page :"
+msgstr ""
+
+#: inc/getstart/getstart.php:181
+#: inc/getstart/getstart.php:186
+msgid " Go to "
+msgstr ""
+
+#: inc/getstart/getstart.php:182
+msgid " Dashboard >> Pages >> Add New Page"
+msgstr ""
+
+#: inc/getstart/getstart.php:184
+msgid "Name it as \"Home\" then select the template \"Custom Home Page\"."
+msgstr ""
+
+#: inc/getstart/getstart.php:186
+msgid "2. Set the front page:"
+msgstr ""
+
+#: inc/getstart/getstart.php:187
+msgid " Settings >> Reading "
+msgstr ""
+
+#: inc/getstart/getstart.php:188
+msgid "Select the option of Static Page, now select the page you created to be the homepage, while another page to be your default page."
+msgstr ""
+
+#: inc/getstart/getstart.php:190
+msgid " Once you are done with this, then follow the"
+msgstr ""
+
+#: inc/getstart/getstart.php:198
+msgid "Premium Theme Information"
+msgstr ""
+
+#: inc/getstart/getstart.php:201
+msgid "Premium multipurpose WordPress theme is truly beneficial for wide range of businesses or any kind of startup and the best part of it is that it is not only simple and clean but is also user friendly as well apart from being lightweight and extensive to the limit as preferred by the user. Because of its splendid features, it has the potential to create any type of website related to the blog, portfolio or business and above that, it is accompanied with the WooCommerce store comprising of a design that is beautiful to the core and at the same time professional as well. Multipurpose WordPress theme is not only fast but responsive to the core other than being RTL and translation ready and highly suitable for some of the finest SEO practices. The ecommerce features with this premium category theme are unique and there is no doubt about this fact."
+msgstr ""
+
+#: inc/getstart/getstart.php:205
+msgid "Live Demo"
+msgstr ""
+
+#: inc/getstart/getstart.php:206
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/getstart/getstart.php:207
+msgid "Pro Documentation"
+msgstr ""
+
+#: inc/getstart/getstart.php:216
+msgid "Theme Features"
+msgstr ""
+
+#: inc/getstart/getstart.php:223
+msgid "Free Themes"
+msgstr ""
+
+#: inc/getstart/getstart.php:224
+msgid "Premium Themes"
+msgstr ""
+
+#: inc/getstart/getstart.php:229
+msgid "Theme Customization"
+msgstr ""
+
+#: inc/getstart/getstart.php:234
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/getstart/getstart.php:239
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/getstart/getstart.php:244
+msgid "Social Media Links"
+msgstr ""
+
+#: inc/getstart/getstart.php:254
+msgid "Number of Slides"
+msgstr ""
+
+#: inc/getstart/getstart.php:255
+msgid "4"
+msgstr ""
+
+#: inc/getstart/getstart.php:256
+msgid "Unlimited"
+msgstr ""
+
+#: inc/getstart/getstart.php:259
+msgid "Template Pages"
+msgstr ""
+
+#: inc/getstart/getstart.php:261
+msgid "6"
+msgstr ""
+
+#: inc/getstart/getstart.php:264
+msgid "Home Page Template"
+msgstr ""
+
+#: inc/getstart/getstart.php:265
+#: inc/getstart/getstart.php:266
+#: inc/getstart/getstart.php:276
+msgid "1"
+msgstr ""
+
+#: inc/getstart/getstart.php:269
+msgid "Theme sections"
+msgstr ""
+
+#: inc/getstart/getstart.php:270
+msgid "2"
+msgstr ""
+
+#: inc/getstart/getstart.php:271
+msgid "15"
+msgstr ""
+
+#: inc/getstart/getstart.php:274
+msgid "Contact us Page Template"
+msgstr ""
+
+#: inc/getstart/getstart.php:279
+msgid "Blog Templates & Layout"
+msgstr ""
+
+#: inc/getstart/getstart.php:281
+msgid "3(Full width/Left/Right Sidebar)"
+msgstr ""
+
+#: inc/getstart/getstart.php:284
+msgid "Page Templates & Layout"
+msgstr ""
+
+#: inc/getstart/getstart.php:286
+msgid "2(Left/Right Sidebar)"
+msgstr ""
+
+#: inc/getstart/getstart.php:289
+msgid "Color Pallete For Particular Sections"
+msgstr ""
+
+#: inc/getstart/getstart.php:294
+msgid "Global Color Option"
+msgstr ""
+
+#: inc/getstart/getstart.php:299
+msgid "Section Reordering"
+msgstr ""
+
+#: inc/getstart/getstart.php:309
 msgid "Allow To Set Site Title, Tagline, Logo"
 msgstr ""
 
-#: inc/getstart/getstart.php:478
+#: inc/getstart/getstart.php:314
 msgid "Enable Disable Options On All Sections, Logo"
 msgstr ""
 
-#: inc/getstart/getstart.php:483
+#: inc/getstart/getstart.php:319
 msgid "Full Documentation"
 msgstr ""
 
-#: inc/getstart/getstart.php:488
+#: inc/getstart/getstart.php:324
 msgid "Latest WordPress Compatibility"
 msgstr ""
 
-#: inc/getstart/getstart.php:493
+#: inc/getstart/getstart.php:329
 msgid "Woo-Commerce Compatibility"
 msgstr ""
 
-#: inc/getstart/getstart.php:498
+#: inc/getstart/getstart.php:334
 msgid "Support 3rd Party Plugins"
 msgstr ""
 
-#: inc/getstart/getstart.php:503
+#: inc/getstart/getstart.php:339
 msgid "Secure and Optimized Code"
 msgstr ""
 
-#: inc/getstart/getstart.php:508
+#: inc/getstart/getstart.php:344
 msgid "Exclusive Functionalities"
 msgstr ""
 
-#: inc/getstart/getstart.php:513
+#: inc/getstart/getstart.php:349
 msgid "Section Enable / Disable"
 msgstr ""
 
-#: inc/getstart/getstart.php:518
+#: inc/getstart/getstart.php:354
 msgid "Section Google Font Choices"
 msgstr ""
 
-#: inc/getstart/getstart.php:523
+#: inc/getstart/getstart.php:359
 msgid "Gallery"
 msgstr ""
 
-#: inc/getstart/getstart.php:528
+#: inc/getstart/getstart.php:364
 msgid "Simple & Mega Menu Option"
 msgstr ""
 
-#: inc/getstart/getstart.php:533
+#: inc/getstart/getstart.php:369
 msgid "Support to add custom CSS / JS "
 msgstr ""
 
-#: inc/getstart/getstart.php:538
+#: inc/getstart/getstart.php:374
 msgid "Shortcodes"
 msgstr ""
 
-#: inc/getstart/getstart.php:543
+#: inc/getstart/getstart.php:379
 msgid "Custom Background, Colors, Header, Logo & Menu"
 msgstr ""
 
-#: inc/getstart/getstart.php:548
+#: inc/getstart/getstart.php:384
 msgid "Premium Membership"
 msgstr ""
 
-#: inc/getstart/getstart.php:553
+#: inc/getstart/getstart.php:389
 msgid "Budget Friendly Value"
 msgstr ""
 
-#: inc/getstart/getstart.php:558
+#: inc/getstart/getstart.php:394
 msgid "Priority Error Fixing"
 msgstr ""
 
-#: inc/getstart/getstart.php:563
+#: inc/getstart/getstart.php:399
 msgid "Custom Feature Addition"
 msgstr ""
 
-#: inc/getstart/getstart.php:568
+#: inc/getstart/getstart.php:404
 msgid "All Access Theme Pass"
 msgstr ""
 
-#: inc/getstart/getstart.php:573
+#: inc/getstart/getstart.php:409
 msgid "Seamless Customer Support"
 msgstr ""
 
-#: inc/getstart/getstart.php:590
-msgid "Pro Version"
+#: inc/getstart/getstart.php:426
+msgid "WP Theme Bundle"
 msgstr ""
 
-#: inc/getstart/getstart.php:591
-msgid "To gain access to extra theme options and more interesting features, upgrade to pro version."
+#: inc/getstart/getstart.php:427
+msgid "Enhance your website effortlessly with our WP Theme Bundle. Get access to 250+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience."
 msgstr ""
 
-#: inc/getstart/getstart.php:593
-msgid "Get Pro"
+#: inc/getstart/getstart.php:429
+msgid "Features:"
 msgstr ""
 
-#: inc/getstart/getstart.php:597
-msgid "Pre-purchase Queries"
+#: inc/getstart/getstart.php:430
+msgid "250+ Premium Themes & 5+ Plugins."
 msgstr ""
 
-#: inc/getstart/getstart.php:598
-msgid "If you have any pre-sale query, we are prepared to resolve it."
+#: inc/getstart/getstart.php:431
+msgid "Seamless Integration."
 msgstr ""
 
-#: inc/getstart/getstart.php:600
-msgid "Question"
+#: inc/getstart/getstart.php:432
+msgid "Customization Flexibility."
 msgstr ""
 
-#: inc/getstart/getstart.php:604
-msgid "Child Theme"
+#: inc/getstart/getstart.php:433
+msgid "Regular Updates."
 msgstr ""
 
-#: inc/getstart/getstart.php:605
-msgid "For theme file customizations, make modifications in the child theme and not in the main theme file."
+#: inc/getstart/getstart.php:434
+msgid "Dedicated Support."
 msgstr ""
 
-#: inc/getstart/getstart.php:607
-msgid "About Child Theme"
+#: inc/getstart/getstart.php:436
+msgid "Upgrade now and give your website the professional edge it deserves, all at an unbeatable price of $99!"
 msgstr ""
 
-#: inc/getstart/getstart.php:612
-msgid "Frequently Asked Questions"
-msgstr ""
-
-#: inc/getstart/getstart.php:613
-msgid "We have gathered top most, frequently asked questions and answered them for your easy understanding. We will list down more as we get new challenging queries. Check back often."
-msgstr ""
-
-#: inc/getstart/getstart.php:615
-msgid "View FAQ"
-msgstr ""
-
-#: inc/getstart/getstart.php:620
-msgid "Support Queries"
-msgstr ""
-
-#: inc/getstart/getstart.php:621
-msgid "If you have any queries after purchase, you can contact us. We are eveready to help you out."
-msgstr ""
-
-#: inc/getstart/getstart.php:623
-msgid "Contact Us"
+#: inc/getstart/getstart.php:438
+msgid "Buy Now"
 msgstr ""
 
 #: inc/getstart/plugin-activation.php:40
@@ -3615,18 +3624,6 @@ msgctxt "submit button"
 msgid "Search"
 msgstr ""
 
-#: sidebar.php:16
-msgid "Archives"
-msgstr ""
-
-#: sidebar.php:22
-msgid "Meta"
-msgstr ""
-
-#: sidebar.php:30
-msgid "Categories"
-msgstr ""
-
 #: sidebar.php:36
 msgid "Dropdown Categories"
 msgstr ""
@@ -3645,6 +3642,7 @@ msgstr ""
 #: template-parts/content.php:96
 #: template-parts/content.php:147
 #: template-parts/grid-layout.php:39
+#: template-parts/related-posts.php:59
 #: template-parts/single-post-layout.php:29
 msgid "0 Comment"
 msgstr ""
@@ -3659,6 +3657,7 @@ msgstr ""
 #: template-parts/content.php:96
 #: template-parts/content.php:147
 #: template-parts/grid-layout.php:39
+#: template-parts/related-posts.php:59
 #: template-parts/single-post-layout.php:29
 msgid "0 Comments"
 msgstr ""
@@ -3673,6 +3672,7 @@ msgstr ""
 #: template-parts/content.php:96
 #: template-parts/content.php:147
 #: template-parts/grid-layout.php:39
+#: template-parts/related-posts.php:59
 #: template-parts/single-post-layout.php:29
 msgid "% Comments"
 msgstr ""
@@ -3718,6 +3718,10 @@ msgstr ""
 msgid "You must be logged in to checkout."
 msgstr ""
 
-#: woocommerce/checkout/form-checkout.php:52
+#: woocommerce/checkout/form-checkout.php:32
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:54
 msgid "Your order"
 msgstr ""

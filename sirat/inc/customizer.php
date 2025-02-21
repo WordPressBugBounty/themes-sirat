@@ -2190,6 +2190,98 @@ function sirat_customize_register( $wp_customize ) {
 		),
 	) );
 
+	$wp_customize->add_setting( 'sirat_related_toggle_postdate',array(
+	    'default' => 1,
+	    'transport' => 'refresh',
+	    'sanitize_callback' => 'sirat_switch_sanitization'
+  	));
+  	$wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_related_toggle_postdate',array(
+	    'label' => esc_html__( 'Show / Hide Post Date','sirat' ),
+	    'section' => 'sirat_related_posts_settings'
+  	)));
+
+  	$wp_customize->add_setting('sirat_related_postdate_icon',array(
+	    'default' => 'fas fa-calendar-alt',
+	    'sanitize_callback' => 'sanitize_text_field'
+  	));
+  	$wp_customize->add_control(new Sirat_Fontawesome_Icon_Chooser(
+  	$wp_customize,'sirat_related_postdate_icon',array(
+	    'label' => __('Add Post Date Icon','sirat'),
+	    'transport' => 'refresh',
+	    'section' => 'sirat_related_posts_settings',
+	    'setting' => 'sirat_related_postdate_icon',
+	    'type'    => 'icon'
+  	)));
+
+	$wp_customize->add_setting( 'sirat_related_toggle_author',array(
+		'default' => 1,
+		'transport' => 'refresh',
+		'sanitize_callback' => 'sirat_switch_sanitization'
+  	));
+  	$wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_related_toggle_author',array(
+		'label' => esc_html__( 'Show / Hide Author','sirat' ),
+		'section' => 'sirat_related_posts_settings'
+  	)));
+
+  	$wp_customize->add_setting('sirat_related_author_icon',array(
+	    'default' => 'fas fa-user',
+	    'sanitize_callback' => 'sanitize_text_field'
+  	));
+  	$wp_customize->add_control(new Sirat_Fontawesome_Icon_Chooser(
+  	$wp_customize,'sirat_related_author_icon',array(
+	    'label' => __('Add Author Icon','sirat'),
+	    'transport' => 'refresh',
+	    'section' => 'sirat_related_posts_settings',
+	    'setting' => 'sirat_related_author_icon',
+	    'type'    => 'icon'
+  	)));
+
+	$wp_customize->add_setting( 'sirat_related_toggle_comments',array(
+		'default' => 1,
+		'transport' => 'refresh',
+		'sanitize_callback' => 'sirat_switch_sanitization'
+  	) );
+  	$wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_related_toggle_comments',array(
+		'label' => esc_html__( 'Show / Hide Comments','sirat' ),
+		'section' => 'sirat_related_posts_settings'
+  	)));
+
+  	$wp_customize->add_setting('sirat_related_comments_icon',array(
+	    'default' => 'fa fa-comments',
+	    'sanitize_callback' => 'sanitize_text_field'
+  	));
+  	$wp_customize->add_control(new Sirat_Fontawesome_Icon_Chooser(
+  	$wp_customize,'sirat_related_comments_icon',array(
+	    'label' => __('Add Comments Icon','sirat'),
+	    'transport' => 'refresh',
+	    'section' => 'sirat_related_posts_settings',
+	    'setting' => 'sirat_related_comments_icon',
+	    'type'    => 'icon'
+  	)));
+
+	$wp_customize->add_setting( 'sirat_related_toggle_time',array(
+		'default' => 1,
+		'transport' => 'refresh',
+		'sanitize_callback' => 'sirat_switch_sanitization'
+  	) );
+  	$wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_related_toggle_time',array(
+		'label' => esc_html__( 'Show / Hide Time','sirat' ),
+		'section' => 'sirat_related_posts_settings'
+  	)));
+
+  	$wp_customize->add_setting('sirat_related_time_icon',array(
+	    'default' => 'fas fa-clock',
+	    'sanitize_callback' => 'sanitize_text_field'
+  	));
+  	$wp_customize->add_control(new Sirat_Fontawesome_Icon_Chooser(
+  	$wp_customize,'sirat_related_time_icon',array(
+	    'label' => __('Add Time Icon','sirat'),
+	    'transport' => 'refresh',
+	    'section' => 'sirat_related_posts_settings',
+	    'setting' => 'sirat_related_time_icon',
+	    'type'    => 'icon'
+  	)));
+
 	$wp_customize->add_setting( 'sirat_related_image_hide_show',array(
 		'default' => 1,
 		'transport' => 'refresh',
@@ -2198,7 +2290,7 @@ function sirat_customize_register( $wp_customize ) {
   	$wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_related_image_hide_show', array(
 		'label' => esc_html__( 'Show / Hide Featured Image','sirat' ),
 		'section' => 'sirat_related_posts_settings'
-  )));
+  	)));
 
   	$wp_customize->add_setting( 'sirat_related_image_box_shadow', array(
 		'default'              => '0',

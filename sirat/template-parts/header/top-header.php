@@ -25,7 +25,21 @@
 	        		<?php }?>
 			    </div>
 			    <div class="<?php if(get_theme_mod('sirat_header_search',true)) { ?>col-lg-4 col-md-4" <?php } else { ?>col-lg-5 col-md-5 "<?php } ?> >
-				    <?php dynamic_sidebar('social-links'); ?>
+			    	<?php if (is_active_sidebar('social-links')) : ?>
+				    	<?php dynamic_sidebar('social-links'); ?>
+				    <?php else : ?>
+					  <!-- Default Social Icons Widgets -->
+					    <div class="widget">
+					        <ul class="custom-social-icons" >
+					          <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li> 
+					          <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li> 
+					          <li><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li> 
+					          <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+					          <li><a href="https://pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a></li> 
+					          <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>                     
+					        </ul>
+					    </div>
+					<?php endif; ?> 	
 			    </div>
 			    <?php if( get_theme_mod( 'sirat_header_search',true) == 1 || get_theme_mod( 'sirat_resp_search_hide_show',true) == 1) { ?>
 		        	<div class="col-lg-1 col-md-1">

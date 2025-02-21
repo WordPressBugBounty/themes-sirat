@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.2
-Stable tag: 1.4.8
+Stable tag: 1.4.9
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -713,6 +713,15 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Added button text option in related post.
     -- Added css for return to cart button in checkout page.
 
+= 1.4.9 =    
+    -- Added metafield in related post.
+    -- Added show/hide post date,author,comment and time option in related post setting.
+    -- Added post date,author,comment and time icons change option in related post setting.
+    -- Added classes to global color.
+    -- Added default social icons.
+    -- Resolved css error for login page.
+    -- Updated pot file.
+
 == Resources ==
 
 Sirat WordPress Theme, Copyright 2019 VWthemes
@@ -792,6 +801,14 @@ Theme is Built using the following resource bundles.
     Header Image, Copyright Christina Morillo
     License: CC0 1.0 Universal (CC0 1.0)
     Source: https://stocksnap.io/photo/GVUWVKUHZE
+
+    Header Image, Copyright Christina Morillo
+    License: CC0 1.0 Universal (CC0 1.0)
+    Source: https://stocksnap.io/photo/conference-room-KQNZJCQYZY
+
+    Header Image, Copyright Christina Morillo
+    License: CC0 1.0 Universal (CC0 1.0)
+    Source: https://stocksnap.io/photo/office-graph-3PLFDQQZ5M
 
     About Image, Copyright Bruce Mars
     License: CC0 1.0 Universal (CC0 1.0)
