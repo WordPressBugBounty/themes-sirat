@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.2
-Stable tag: 1.4.9
+Stable tag: 1.5
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -720,6 +720,11 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Added classes to global color.
     -- Added default social icons.
     -- Resolved css error for login page.
+    -- Updated pot file.
+
+= 1.5 =
+    -- Added meta separator in related post.
+    -- Added css for close toggle button bg color.
     -- Updated pot file.
 
 == Resources ==

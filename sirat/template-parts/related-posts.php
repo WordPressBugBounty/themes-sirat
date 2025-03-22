@@ -48,15 +48,15 @@ if ( $sirat_related_posts->have_posts() ) : ?>
                             <?php if( get_theme_mod( 'sirat_related_toggle_postdate',true) == 1 || get_theme_mod( 'sirat_related_toggle_author',true) == 1 || get_theme_mod( 'sirat_related_toggle_comments',true) == 1 || get_theme_mod( 'sirat_related_toggle_time',true) == 1) { ?>
                                 <div class="post-info p-2 my-3">
                                   <?php if(get_theme_mod('sirat_related_toggle_postdate',true)==1){ ?>
-                                    <i class="<?php echo esc_attr(get_theme_mod('sirat_related_postdate_icon','fas fa-calendar-alt')); ?> me-2"></i><span class="entry-date"><a href="<?php echo esc_url( get_day_link( $sirat_archive_year, $sirat_archive_month, $sirat_archive_day)); ?>"><?php echo esc_html( get_the_date() ); ?><span class="screen-reader-text"><?php echo esc_html( get_the_date() ); ?></span></a></span><span><?php echo esc_html(get_theme_mod('sirat_meta_field_separator', '|'));?></span>
+                                    <i class="<?php echo esc_attr(get_theme_mod('sirat_related_postdate_icon','fas fa-calendar-alt')); ?> me-2"></i><span class="entry-date"><a href="<?php echo esc_url( get_day_link( $sirat_archive_year, $sirat_archive_month, $sirat_archive_day)); ?>"><?php echo esc_html( get_the_date() ); ?><span class="screen-reader-text"><?php echo esc_html( get_the_date() ); ?></span></a></span><span><?php echo esc_html(get_theme_mod('sirat_related_post_meta_field_separator', '|'));?></span>
                                   <?php } ?>
 
                                   <?php if(get_theme_mod('sirat_related_toggle_author',true)==1){ ?>
-                                    <i class="<?php echo esc_attr(get_theme_mod('sirat_related_author_icon','fas fa-user')); ?> me-2"></i><span class="entry-author"><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' )) ); ?>"><?php the_author(); ?><span class="screen-reader-text"><?php the_author(); ?></span></a></span><span><?php echo esc_html(get_theme_mod('sirat_meta_field_separator', '|'));?></span>
+                                    <i class="<?php echo esc_attr(get_theme_mod('sirat_related_author_icon','fas fa-user')); ?> me-2"></i><span class="entry-author"><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' )) ); ?>"><?php the_author(); ?><span class="screen-reader-text"><?php the_author(); ?></span></a></span><span><?php echo esc_html(get_theme_mod('sirat_related_post_meta_field_separator', '|'));?></span>
                                   <?php } ?>
 
                                   <?php if(get_theme_mod('sirat_related_toggle_comments',true)==1){ ?>
-                                    <i class="<?php echo esc_attr(get_theme_mod('sirat_related_comments_icon','fa fa-comments')); ?> me-2" aria-hidden="true"></i><span class="entry-comments"><?php comments_number( __('0 Comment', 'sirat'), __('0 Comments', 'sirat'), __('% Comments', 'sirat') ); ?></span><span><?php echo esc_html(get_theme_mod('sirat_meta_field_separator', '|'));?></span>
+                                    <i class="<?php echo esc_attr(get_theme_mod('sirat_related_comments_icon','fa fa-comments')); ?> me-2" aria-hidden="true"></i><span class="entry-comments"><?php comments_number( __('0 Comment', 'sirat'), __('0 Comments', 'sirat'), __('% Comments', 'sirat') ); ?></span><span><?php echo esc_html(get_theme_mod('sirat_related_post_meta_field_separator', '|'));?></span>
                                   <?php } ?>
 
                                   <?php if(get_theme_mod('sirat_related_toggle_time',true)==1){ ?>

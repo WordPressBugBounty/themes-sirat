@@ -2282,6 +2282,17 @@ function sirat_customize_register( $wp_customize ) {
 	    'type'    => 'icon'
   	)));
 
+  	$wp_customize->add_setting('sirat_related_post_meta_field_separator',array(
+		'default'=> '|',
+		'sanitize_callback'	=> 'sanitize_text_field'
+	));
+	$wp_customize->add_control('sirat_related_post_meta_field_separator',array(
+		'label'	=> __('Add Meta Separator','sirat'),
+		'description' => __('Add the seperator for meta box. Example: "|", "/", etc.','sirat'),
+		'section'=> 'sirat_related_posts_settings',
+		'type'=> 'text'
+	));
+
 	$wp_customize->add_setting( 'sirat_related_image_hide_show',array(
 		'default' => 1,
 		'transport' => 'refresh',
