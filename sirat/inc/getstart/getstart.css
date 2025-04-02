@@ -341,7 +341,10 @@ a.doc-links:hover {
     text-decoration: none;
     margin-left: 10px;
 }
-.lite-theme-tab,.gutenberg-editor-tab{
+#lite_theme .sirat-recommended-plugins{
+    display: none;
+}
+.gutenberg-editor-tab{
     display: none;
 }
 

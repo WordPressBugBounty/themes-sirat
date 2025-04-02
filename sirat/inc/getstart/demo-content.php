@@ -12,6 +12,27 @@
 		//POST and update the customizer and other related data of POLITICAL CAMPAIGN
         if (isset($_POST['submit'])) {
 
+            // Check if ibtana visual editor is installed and activated
+            if (!is_plugin_active('ibtana-visual-editor/plugin.php')) {
+              // Install the plugin if it doesn't exist
+              $sirat_plugin_slug = 'ibtana-visual-editor';
+              $sirat_plugin_file = 'ibtana-visual-editor/plugin.php';
+
+              // Check if plugin is installed
+              $sirat_installed_plugins = get_plugins();
+              if (!isset($sirat_installed_plugins[$sirat_plugin_file])) {
+                  include_once(ABSPATH . 'wp-admin/includes/plugin-install.php');
+                  include_once(ABSPATH . 'wp-admin/includes/file.php');
+                  include_once(ABSPATH . 'wp-admin/includes/misc.php');
+                  include_once(ABSPATH . 'wp-admin/includes/class-wp-upgrader.php');
+
+                  // Install the plugin
+                  $sirat_upgrader = new Plugin_Upgrader();
+                  $sirat_upgrader->install('https://downloads.wordpress.org/plugin/ibtana-visual-editor.latest-stable.zip');
+              }
+              // Activate the plugin
+              activate_plugin($sirat_plugin_file);
+            }
 
             // ------- Create Nav Menu --------
             $sirat_menuname = 'Main Menus';
