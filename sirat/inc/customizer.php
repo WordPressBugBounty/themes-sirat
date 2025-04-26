@@ -1648,6 +1648,21 @@ function sirat_customize_register( $wp_customize ) {
             'Right' => esc_url(get_template_directory_uri()).'/assets/images/layout3.png'
     ))));
 
+    $wp_customize->add_setting('sirat_align_footer_social_icon',array(
+        'default' => 'center',
+        'sanitize_callback' => 'sirat_sanitize_choices'
+	));
+	$wp_customize->add_control('sirat_align_footer_social_icon',array(
+        'type' => 'select',
+        'label' => __('Social Icon Alignment ','sirat'),
+        'section' => 'sirat_footer',
+        'choices' => array(
+            'left' => __('Left','sirat'),
+            'right' => __('Right','sirat'),
+            'center' => __('Center','sirat'),
+        ),
+	) );
+
 	//Blog Post Settings
 	$wp_customize->add_panel( 'sirat_blog_post_parent_panel', array(
 		'title' => esc_html__( 'Blog Post Settings', 'sirat' ),

@@ -94,9 +94,9 @@
             <div id="footer-2">
               	<div class="copyright container">
                     <p><?php sirat_credit(); ?> <?php echo esc_html(get_theme_mod('sirat_footer_text',__('By VWThemes','sirat'))); ?></p>
-                    <?php if ( ! dynamic_sidebar( 'footer-icon' ) ) : ?>
+                    <?php if(get_theme_mod('sirat_footer_icon',false) != false) {?>
                         <?php dynamic_sidebar('footer-icon'); ?>
-                    <?php endif; ?> 
+                    <?php }?> 
                     <?php if( get_theme_mod( 'sirat_hide_show_scroll',true) == 1 || get_theme_mod( 'sirat_resp_scroll_top_hide_show',true) == 1) { ?>
                         <?php $sirat_theme_lay = get_theme_mod( 'sirat_scroll_top_alignment','Right');
                         if($sirat_theme_lay == 'Left'){ ?>

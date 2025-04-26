@@ -443,24 +443,6 @@ function sirat_string_limit_words($string, $word_limit) {
 	return implode(' ', $words);
 }
 
-define('SIRAT_FREE_THEME_DOC',__('https://preview.vwthemesdemo.com/docs/free-sirat/','sirat'));
-define('SIRAT_SUPPORT',__('https://wordpress.org/support/theme/sirat/','sirat'));
-define('SIRAT_REVIEW',__('https://wordpress.org/support/theme/sirat/reviews','sirat'));
-define('SIRAT_BUY_NOW',__('https://www.vwthemes.com/products/multipurpose-wordpress-theme','sirat'));
-define('SIRAT_LIVE_DEMO',__('https://preview.vwthemesdemo.com/vw-sirat/','sirat'));
-define('SIRAT_PRO_DOC',__('https://preview.vwthemesdemo.com/docs/vw-sirat-pro/','sirat'));
-define('SIRAT_FAQ',__('https://www.vwthemes.com/faqs/','sirat'));
-define('SIRAT_CONTACT',__('https://www.vwthemes.com/contact/','sirat'));
-define('SIRAT_CHILD_THEME',__('https://developer.wordpress.org/themes/advanced-topics/child-themes/','sirat'));
-define('SIRAT_THEME_BUNDLE_BUY_NOW',__('https://www.vwthemes.com/products/wp-theme-bundle','sirat'));
-define('SIRAT_THEME_BUNDLE_DOC',__('https://preview.vwthemesdemo.com/docs/theme-bundle/','sirat'));
-
-define('SIRAT_CREDIT',__('https://www.vwthemes.com/products/free-multipurpose-wordpress-theme','sirat'));
-if ( ! function_exists( 'sirat_credit' ) ) {
-	function sirat_credit(){
-		echo "<a href=".esc_url(SIRAT_CREDIT)." target='_blank'>".esc_html__('Sirat WordPress Theme','sirat')."</a>";
-	}
-}
 
 // Change number or products per row to 3
 add_filter('loop_shop_columns', 'sirat_loop_columns');
@@ -646,39 +628,60 @@ if (!function_exists('sirat_edit_link')) :
     }
 endif;
 
-/* Implement the Custom Header feature. */
-require get_template_directory() . '/inc/custom-header.php';
+function sirat_init_setup() {
+	define('SIRAT_FREE_THEME_DOC',__('https://preview.vwthemesdemo.com/docs/free-sirat/','sirat'));
+	define('SIRAT_SUPPORT',__('https://wordpress.org/support/theme/sirat/','sirat'));
+	define('SIRAT_REVIEW',__('https://wordpress.org/support/theme/sirat/reviews','sirat'));
+	define('SIRAT_BUY_NOW',__('https://www.vwthemes.com/products/multipurpose-wordpress-theme','sirat'));
+	define('SIRAT_LIVE_DEMO',__('https://preview.vwthemesdemo.com/vw-sirat/','sirat'));
+	define('SIRAT_PRO_DOC',__('https://preview.vwthemesdemo.com/docs/vw-sirat-pro/','sirat'));
+	define('SIRAT_FAQ',__('https://www.vwthemes.com/faqs/','sirat'));
+	define('SIRAT_CONTACT',__('https://www.vwthemes.com/contact/','sirat'));
+	define('SIRAT_CHILD_THEME',__('https://developer.wordpress.org/themes/advanced-topics/child-themes/','sirat'));
+	define('SIRAT_THEME_BUNDLE_BUY_NOW',__('https://www.vwthemes.com/products/wp-theme-bundle','sirat'));
+	define('SIRAT_THEME_BUNDLE_DOC',__('https://preview.vwthemesdemo.com/docs/theme-bundle/','sirat'));
 
-/* Custom template tags for this theme. */
-require get_template_directory() . '/inc/template-tags.php';
+	define('SIRAT_CREDIT',__('https://www.vwthemes.com/products/free-multipurpose-wordpress-theme','sirat'));
+	if ( ! function_exists( 'sirat_credit' ) ) {
+		function sirat_credit(){
+			echo "<a href=".esc_url(SIRAT_CREDIT)." target='_blank'>".esc_html__('Sirat WordPress Theme','sirat')."</a>";
+		}
+	}
 
-/* Customizer additions. */
-require get_template_directory() . '/inc/customizer.php';
+	/* Implement the Custom Header feature. */
+	require get_template_directory() . '/inc/custom-header.php';
 
-/* Customizer additions. */
-require get_template_directory() . '/inc/themes-widgets/social-icon.php';
+	/* Custom template tags for this theme. */
+	require get_template_directory() . '/inc/template-tags.php';
 
-/* Customizer additions. */
-require get_template_directory() . '/inc/themes-widgets/about-us-widget.php';
+	/* Customizer additions. */
+	require get_template_directory() . '/inc/customizer.php';
 
-/* Customizer additions. */
-require get_template_directory() . '/inc/themes-widgets/contact-us-widget.php';
+	/* Customizer additions. */
+	require get_template_directory() . '/inc/themes-widgets/social-icon.php';
 
-/* Plugin Activation */
-require get_template_directory() . '/inc/getstart/plugin-activation.php';
+	/* Customizer additions. */
+	require get_template_directory() . '/inc/themes-widgets/about-us-widget.php';
 
-/* Implement the About theme page */
-require get_template_directory() . '/inc/getstart/getstart.php';
+	/* Customizer additions. */
+	require get_template_directory() . '/inc/themes-widgets/contact-us-widget.php';
 
-/* Typography */
-require get_template_directory() . '/inc/typography/ctypo.php';
+	/* Plugin Activation */
+	require get_template_directory() . '/inc/getstart/plugin-activation.php';
 
-/* Block Pattern */
-require get_template_directory() . '/inc/block-patterns/block-patterns.php';
+	/* Implement the About theme page */
+	require get_template_directory() . '/inc/getstart/getstart.php';
 
-/* TGM Plugin Activation */
-require get_template_directory() . '/inc/tgm/tgm.php';
+	/* Typography */
+	require get_template_directory() . '/inc/typography/ctypo.php';
 
+	/* Block Pattern */
+	require get_template_directory() . '/inc/block-patterns/block-patterns.php';
 
-/* Webfonts */
-require get_template_directory() . '/inc/wptt-webfont-loader.php';
+	/* TGM Plugin Activation */
+	require get_template_directory() . '/inc/tgm/tgm.php';
+
+	/* Webfonts */
+	require get_template_directory() . '/inc/wptt-webfont-loader.php';
+}	
+add_action( 'after_setup_theme', 'sirat_init_setup' );

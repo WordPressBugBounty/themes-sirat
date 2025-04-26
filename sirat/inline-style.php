@@ -831,6 +831,21 @@
 		$sirat_custom_css .='.copyright p,#footer-2 p{';
 			$sirat_custom_css .='text-align: '.esc_attr($sirat_copyright_alingment).';';
 		$sirat_custom_css .='}';
+		$sirat_custom_css .='
+		@media screen and (max-width:720px) {
+			.copyright p,#footer-2 p{';
+			$sirat_custom_css .='text-align: center;} }';
+	}
+
+	$sirat_align_footer_social_icon = get_theme_mod('sirat_align_footer_social_icon');
+	if($sirat_align_footer_social_icon != false){
+		$sirat_custom_css .='.copyright .widget{';
+			$sirat_custom_css .='text-align: '.esc_attr($sirat_align_footer_social_icon).';';
+		$sirat_custom_css .='}';
+		$sirat_custom_css .='
+		@media screen and (max-width:720px) {
+			.copyright .widget{';
+			$sirat_custom_css .='text-align: center;} }';
 	}
 
 	$sirat_footer_widgets_content = get_theme_mod( 'sirat_footer_widgets_content','Left');
@@ -852,13 +867,6 @@
 	if($sirat_footer_padding != false){
 		$sirat_custom_css .='#footer{';
 			$sirat_custom_css .='padding: '.esc_attr($sirat_footer_padding).' 0;';
-		$sirat_custom_css .='}';
-	}
-
-	$sirat_footer_icon = get_theme_mod('sirat_footer_icon');
-	if($sirat_footer_icon == false){
-		$sirat_custom_css .='.copyright p{';
-			$sirat_custom_css .='width:100%; text-align:center; float:none;';
 		$sirat_custom_css .='}';
 	}
 
