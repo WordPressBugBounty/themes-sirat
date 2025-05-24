@@ -31,18 +31,29 @@ function sirat_mostrar_guide() {
 		</div>
 		<div class="logo-right">			
 			<div class="update-now">
-				<h4><?php esc_html_e('Try Premium ','sirat'); ?></h4>
-				<h4><?php esc_html_e('Sirat Theme','sirat'); ?></h4>
-				<h4 class="disc-text"><?php esc_html_e('at 20% Discount','sirat'); ?></h4>
-				<h4><?php esc_html_e('Use Coupon','sirat'); ?> ( <span><?php esc_html_e('vwpro20','sirat'); ?></span> ) </h4> 
-				<div class="info-link">
-					<a href="<?php echo esc_url( SIRAT_BUY_NOW ); ?>" target="_blank"> <?php esc_html_e( 'Upgrade to Pro', 'sirat' ); ?></a>
-				</div>
+				<div class="theme-info">
+					<div class="theme-info-left">
+						<h2><?php esc_html_e('TRY PREMIUM','sirat'); ?></h2>
+						<h4><?php esc_html_e('SIRAT THEME','sirat'); ?></h4>
+					</div>	
+					<div class="theme-info-right"></div>
+				</div>	
+				<div class="dicount-row">
+					<div class="disc-sec">	
+						<h5 class="disc-text"><?php esc_html_e('GET THE FLAT DISCOUNT OF','sirat'); ?></h5>
+						<h1 class="disc-per"><?php esc_html_e('20%','sirat'); ?></h1>	
+					</div>
+					<div class="coupen-info">
+						<h5 class="coupen-code"><?php esc_html_e('"VWPRO20"','sirat'); ?></h5>
+						<h5 class="coupen-text"><?php esc_html_e('USE COUPON CODE','sirat'); ?></h5>
+						<div class="info-link">						
+							<a href="<?php echo esc_url( SIRAT_BUY_NOW ); ?>" target="_blank"> <?php esc_html_e( 'UPGRADE TO PRO', 'sirat' ); ?></a>
+						</div>	
+					</div>	
+				</div>				
 			</div>
-		</div>   
-		<div class="logo-img">
-			<img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/getstart/images/final-logo.png" alt="" />
-		</div>
+		</div> 
+		
     </div>
 
     <div class="tab-sec">

@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 1.5.2
+Stable tag: 1.5.3
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -735,6 +735,11 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Resolved error for copyright alignment.
     -- Fixed a issue related to early textdomain loading.
     -- Tested upto WP v6.8
+
+= 1.5.3 =
+    -- Updated coupon code.
+    -- Resolved error for blog post button letter-spacing.
+    -- Updated pot file.
 
 == Resources ==
 

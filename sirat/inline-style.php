@@ -409,7 +409,7 @@
 		$sirat_custom_css .='}';
 	}
 
-	$sirat_button_letter_spacing = get_theme_mod('sirat_button_letter_spacing',14);
+	$sirat_button_letter_spacing = get_theme_mod('sirat_button_letter_spacing');
 	$sirat_custom_css .='.post-main-box .more-btn a{';
 		$sirat_custom_css .='letter-spacing: '.esc_attr($sirat_button_letter_spacing).';';
 	$sirat_custom_css .='}';

@@ -6,10 +6,10 @@
         // If the demo import is completed, display the "View Site" button
         if ($sirat_demo_import_completed) {
         echo '<p class="notice-text">' . esc_html__('Your demo import has been completed successfully.', 'sirat') . '</p>';
-        echo '<span><a href="' . esc_url(home_url()) . '" class="button button-primary site-btn" target="_blank">' . esc_html__('VIEW SITE', 'sirat') . '</a></span>';
+        echo '<span><a href="' . esc_url(home_url()) . '" class="button button-primary site-btn" target="_blank">' . esc_html__('View Site', 'sirat') . '</a></span>';
         }
 
-		//POST and update the customizer and other related data of POLITICAL CAMPAIGN
+		//POST and update the customizer and other related data
         if (isset($_POST['submit'])) {
 
             // Check if ibtana visual editor is installed and activated
@@ -143,7 +143,7 @@
     		update_option('sirat_demo_import_completed', true);
     		// Display success message and "View Site" button
     		echo '<p class="notice-text">' . esc_html__('Your demo import has been completed successfully.', 'sirat') . '</p>';
-    		echo '<span><a href="' . esc_url(home_url()) . '" class="button button-primary site-btn" target="_blank">' . esc_html__('VIEW SITE', 'sirat') . '</a></span>';
+    		echo '<span><a href="' . esc_url(home_url()) . '" class="button button-primary site-btn" target="_blank">' . esc_html__('View Site', 'sirat') . '</a></span>';
             //end 
 
 

@@ -96,7 +96,7 @@ add_action( 'after_setup_theme', 'sirat_setup' );
 // Notice after Theme Activation
 function sirat_activation_notice() {
 	echo '<div class="notice notice-success is-dismissible welcome-notice">';
-		echo '<p>'. esc_html__( 'Thank you for choosing Sirat Theme. Would like to have you on our Welcome page so that you can reap all the benefits of our Sirat Theme.', 'sirat' ) .'</p>';
+		echo '<p>'. esc_html__( 'Thank you for choosing Sirat Theme. Would like to have you on our Welcome page so that you can read all the benefits of our Sirat Theme.', 'sirat' ) .'</p>';
 		echo '<span><a href="'. esc_url( admin_url( 'themes.php?page=sirat_guide' ) ) .'" class="button button-primary">'. esc_html__( 'DEMO IMPORT', 'sirat' ) .'</a></span>';
 		echo '<span class="demo-btn"><a href="'. esc_url( 'https://preview.vwthemesdemo.com/vw-sirat/' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'VIEW DEMO', 'sirat' ) .'</a></span>';
 		echo '<span class="upgrade-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/multipurpose-wordpress-theme' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'UPGRADE PRO', 'sirat' ) .'</a></span>';
@@ -628,6 +628,9 @@ if (!function_exists('sirat_edit_link')) :
     }
 endif;
 
+/* Implement the Custom Header feature. */
+require get_template_directory() . '/inc/custom-header.php';
+
 function sirat_init_setup() {
 	define('SIRAT_FREE_THEME_DOC',__('https://preview.vwthemesdemo.com/docs/free-sirat/','sirat'));
 	define('SIRAT_SUPPORT',__('https://wordpress.org/support/theme/sirat/','sirat'));
@@ -647,9 +650,6 @@ function sirat_init_setup() {
 			echo "<a href=".esc_url(SIRAT_CREDIT)." target='_blank'>".esc_html__('Sirat WordPress Theme','sirat')."</a>";
 		}
 	}
-
-	/* Implement the Custom Header feature. */
-	require get_template_directory() . '/inc/custom-header.php';
 
 	/* Custom template tags for this theme. */
 	require get_template_directory() . '/inc/template-tags.php';
