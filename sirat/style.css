@@ -7,7 +7,7 @@ Description: Sirat is a multipurpose theme known primarily for its simplicity ap
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Version: 1.5.3
+Version: 1.5.4
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: sirat
@@ -1145,6 +1145,10 @@ iframe,
   border: solid 3px #febe00;
   border-radius: 50%;
   z-index: 99;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.scrollup:hover {
+  transform: scale(1.3);
 }
 .scrollup.left {
   left: 10px;
@@ -1209,6 +1213,21 @@ header.woocommerce-Address-title.title a:hover,#tag-cloud-sec .tag-cloud-link:ho
   color: #fff !important;
 }
 /* --------- Blog Page ------- */
+.post-main-box .box-image img,.grid-post-main-box .box-image img{
+    transition: border-radius 0.3s ease;
+}
+.post-main-box .box-image img:hover,.grid-post-main-box .box-image img:hover {
+    border-radius: 50%;
+}
+.post-main-box .box-image  img,.grid-post-main-box .box-image  img{
+  height: 300px; 
+  width: 300px;
+  object-fit: cover;
+  margin: 0;
+}
+.related-post .post-main-box .box-image  img{
+  height: 230px;
+}
 article p a{
   text-decoration: underline;
 }

@@ -63,7 +63,7 @@ function sirat_mostrar_guide() {
 			
 		  	<button class="tablinks" onclick="sirat_open_tab(event, 'theme_pro')"><?php esc_html_e( 'Get Premium', 'sirat' ); ?></button>
 		  	<button class="tablinks" onclick="sirat_open_tab(event, 'free_pro')"><?php esc_html_e( 'Free Vs Premium', 'sirat' ); ?></button>
-		  	<button class="tablinks" onclick="sirat_open_tab(event, 'get_bundle')"><?php esc_html_e( 'Get 250+ Themes Bundle at $99', 'sirat' ); ?></button>
+		  	<button class="tablinks" onclick="sirat_open_tab(event, 'get_bundle')"><?php esc_html_e( 'Get 350+ Themes Bundle at $99', 'sirat' ); ?></button>
 		</div>
 
 		<?php
@@ -216,7 +216,7 @@ function sirat_mostrar_guide() {
 			    	<a href="<?php echo esc_url( SIRAT_LIVE_DEMO ); ?>" target="_blank"><?php esc_html_e('Live Demo', 'sirat'); ?></a>
 					<a href="<?php echo esc_url( SIRAT_BUY_NOW ); ?>" target="_blank"><?php esc_html_e('Buy Pro', 'sirat'); ?></a>
 					<a href="<?php echo esc_url( SIRAT_PRO_DOC ); ?>" target="_blank"><?php esc_html_e('Pro Documentation', 'sirat'); ?></a>
-					<a href="<?php echo esc_url( SIRAT_THEME_BUNDLE_BUY_NOW ); ?>" target="_blank"><?php esc_html_e('Get 250+ Themes Bundle at $99', 'sirat'); ?></a>
+					<a href="<?php echo esc_url( SIRAT_THEME_BUNDLE_BUY_NOW ); ?>" target="_blank"><?php esc_html_e('Get 350+ Themes Bundle at $99', 'sirat'); ?></a>
 				</div>
 		    	<img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/getstart/images/responsive.png" alt="" />
 		    </div>
@@ -435,10 +435,10 @@ function sirat_mostrar_guide() {
 		<div id="get_bundle" class="tabcontent">		  	
 		   <div class="col-left-pro">
 		   	<h3><?php esc_html_e( 'WP Theme Bundle', 'sirat' ); ?></h3>
-		    	<p><?php esc_html_e('Enhance your website effortlessly with our WP Theme Bundle. Get access to 250+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience.','sirat'); ?></p>
+		    	<p><?php esc_html_e('Enhance your website effortlessly with our WP Theme Bundle. Get access to 350+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience.','sirat'); ?></p>
 		    	<div class="feature">
 		    		<h4><?php esc_html_e( 'Features:', 'sirat' ); ?></h4>
-		    		<p><?php esc_html_e('250+ Premium Themes & 5+ Plugins.', 'sirat'); ?></p>
+		    		<p><?php esc_html_e('350+ Premium Themes & 5+ Plugins.', 'sirat'); ?></p>
 		    		<p><?php esc_html_e('Seamless Integration.', 'sirat'); ?></p>
 		    		<p><?php esc_html_e('Customization Flexibility.', 'sirat'); ?></p>
 		    		<p><?php esc_html_e('Regular Updates.', 'sirat'); ?></p>

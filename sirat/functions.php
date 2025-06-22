@@ -96,13 +96,26 @@ add_action( 'after_setup_theme', 'sirat_setup' );
 // Notice after Theme Activation
 function sirat_activation_notice() {
 	echo '<div class="notice notice-success is-dismissible welcome-notice">';
-		echo '<p>'. esc_html__( 'Thank you for choosing Sirat Theme. Would like to have you on our Welcome page so that you can read all the benefits of our Sirat Theme.', 'sirat' ) .'</p>';
-		echo '<span><a href="'. esc_url( admin_url( 'themes.php?page=sirat_guide' ) ) .'" class="button button-primary">'. esc_html__( 'DEMO IMPORT', 'sirat' ) .'</a></span>';
-		echo '<span class="demo-btn"><a href="'. esc_url( 'https://preview.vwthemesdemo.com/vw-sirat/' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'VIEW DEMO', 'sirat' ) .'</a></span>';
-		echo '<span class="upgrade-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/multipurpose-wordpress-theme' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'UPGRADE PRO', 'sirat' ) .'</a></span>';
-		echo '<span class="bundle-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/wp-theme-bundle' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'THEME BUNDLE', 'sirat' ) .'</a></span>';
+		echo '<div class="notice-row">';
+			echo '<div class="notice-text">';
+				echo '<p class="welcome-text1">'. esc_html__( '🎉 Welcome to VW Themes,', 'sirat' ) .'</p>';
+				echo '<p class="welcome-text2">'. esc_html__( 'You are now using the Sirat, a beautifully designed theme to kickstart your website.', 'sirat' ) .'</p>';
+				echo '<p class="welcome-text3">'. esc_html__( 'To help you get started quickly, use the options below:', 'sirat' ) .'</p>';
+				echo '<span class="import-btn"><a href="'. esc_url( admin_url( 'themes.php?page=sirat_guide' ) ) .'" class="button button-primary">'. esc_html__( 'IMPORT DEMO', 'sirat' ) .'</a></span>';
+				echo '<span class="demo-btn"><a href="'. esc_url( 'https://preview.vwthemesdemo.com/vw-sirat/' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'VIEW DEMO', 'sirat' ) .'</a></span>';
+				echo '<span class="upgrade-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/multipurpose-wordpress-theme' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'UPGRADE TO PRO', 'sirat' ) .'</a></span>';
+				echo '<span class="bundle-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/wp-theme-bundle' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'BUNDLE OF 350+ THEMES', 'sirat' ) .'</a></span>';
+			echo '</div>';
+			echo '<div class="notice-img1">';
+				echo '<img src="' . esc_url( get_template_directory_uri() . '/inc/getstart/images/arrow-notice.png' ) . '" width="180" alt="' . esc_attr__( 'Sirat', 'sirat' ) . '" />';
+			echo '</div>';
+			echo '<div class="notice-img2">';
+				echo '<img src="' . esc_url( get_template_directory_uri() . '/inc/getstart/images/bundle-notice.png' ) . '" width="180" alt="' . esc_attr__( 'Sirat', 'sirat' ) . '" />';
+			echo '</div>';	
+		echo '</div>';	
 	echo '</div>';
 }
+
 
 /* Theme Widgets Setup */
 function sirat_widgets_init() {
@@ -358,7 +371,7 @@ function sirat_font_url() {
 	);
 	$font_url = add_query_arg($query_args,'//fonts.googleapis.com/css');
 	return $font_url;
-	$contents = wptt_get_webfont_url( esc_url_raw( $fonts_url ) );
+	$contents = sirat_wptt_get_webfont_url( esc_url_raw( $fonts_url ) );
 }
 
 /* Theme enqueue scripts */
