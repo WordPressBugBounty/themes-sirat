@@ -90,27 +90,29 @@
                 </div>
             </div>
         <?php }?>
-        <?php if (get_theme_mod('sirat_copyright_hide_show', true)) {?>
-            <div id="footer-2">
-              	<div class="copyright container">
-                    <p><?php sirat_credit(); ?> <?php echo esc_html(get_theme_mod('sirat_footer_text',__('By VWThemes','sirat'))); ?></p>
-                    <?php if(get_theme_mod('sirat_footer_icon',false) != false) {?>
-                        <?php dynamic_sidebar('footer-icon'); ?>
-                    <?php }?> 
-                    <?php if( get_theme_mod( 'sirat_hide_show_scroll',true) == 1 || get_theme_mod( 'sirat_resp_scroll_top_hide_show',true) == 1) { ?>
-                        <?php $sirat_theme_lay = get_theme_mod( 'sirat_scroll_top_alignment','Right');
-                        if($sirat_theme_lay == 'Left'){ ?>
-                          <a href="#" class="scrollup left"><i class="<?php echo esc_attr(get_theme_mod('sirat_scroll_to_top_icon','fas fa-long-arrow-alt-up')); ?>"></i><span class="screen-reader-text"><?php esc_html_e( 'Scroll Up', 'sirat' ); ?></span></a>
-                        <?php }else if($sirat_theme_lay == 'Center'){ ?>
-                          <a href="#" class="scrollup center"><i class="<?php echo esc_attr(get_theme_mod('sirat_scroll_to_top_icon','fas fa-long-arrow-alt-up')); ?>"></i><span class="screen-reader-text"><?php esc_html_e( 'Scroll Up', 'sirat' ); ?></span></a>
-                        <?php }else{ ?>
-                          <a href="#" class="scrollup"><i class="<?php echo esc_attr(get_theme_mod('sirat_scroll_to_top_icon','fas fa-long-arrow-alt-up')); ?>"></i><span class="screen-reader-text"><?php esc_html_e( 'Scroll Up', 'sirat' ); ?></span></a>
+        <div class="footer <?php if( get_theme_mod( 'sirat_copyright_sticky', false) == 1) { ?> copyright-sticky"<?php } else { ?>close-sticky <?php } ?>">
+            <?php if (get_theme_mod('sirat_copyright_hide_show', true)) {?>
+                <div id="footer-2">
+                  	<div class="copyright container">
+                        <p><?php sirat_credit(); ?> <?php echo esc_html(get_theme_mod('sirat_footer_text',__('By VWThemes','sirat'))); ?></p>
+                        <?php if(get_theme_mod('sirat_footer_icon',false) != false) {?>
+                            <?php dynamic_sidebar('footer-icon'); ?>
+                        <?php }?> 
+                        <?php if( get_theme_mod( 'sirat_hide_show_scroll',true) == 1 || get_theme_mod( 'sirat_resp_scroll_top_hide_show',true) == 1) { ?>
+                            <?php $sirat_theme_lay = get_theme_mod( 'sirat_scroll_top_alignment','Right');
+                            if($sirat_theme_lay == 'Left'){ ?>
+                              <a href="#" class="scrollup left"><i class="<?php echo esc_attr(get_theme_mod('sirat_scroll_to_top_icon','fas fa-long-arrow-alt-up')); ?>"></i><span class="screen-reader-text"><?php esc_html_e( 'Scroll Up', 'sirat' ); ?></span></a>
+                            <?php }else if($sirat_theme_lay == 'Center'){ ?>
+                              <a href="#" class="scrollup center"><i class="<?php echo esc_attr(get_theme_mod('sirat_scroll_to_top_icon','fas fa-long-arrow-alt-up')); ?>"></i><span class="screen-reader-text"><?php esc_html_e( 'Scroll Up', 'sirat' ); ?></span></a>
+                            <?php }else{ ?>
+                              <a href="#" class="scrollup"><i class="<?php echo esc_attr(get_theme_mod('sirat_scroll_to_top_icon','fas fa-long-arrow-alt-up')); ?>"></i><span class="screen-reader-text"><?php esc_html_e( 'Scroll Up', 'sirat' ); ?></span></a>
+                            <?php }?>
                         <?php }?>
-                    <?php }?>
-              	</div>
-              	<div class="clear"></div>
-            </div>
-        <?php }?>
+                  	</div>
+                  	<div class="clear"></div>
+                </div>
+            <?php }?>
+        </div>    
     </footer>
         <?php wp_footer(); ?>
 

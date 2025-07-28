@@ -2,27 +2,29 @@
 # This file is distributed under the GPLv3.0 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Sirat 1.5.3\n"
+"Project-Id-Version: Sirat 1.5.5\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sirat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-05-24T09:59:47+05:30\n"
+"POT-Creation-Date: 2025-07-26T10:49:36+05:30\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: sirat\n"
 
 #. Theme Name of the theme
 #: style.css
+#: functions.php:110
+#: functions.php:113
 #: inc/block-patterns/block-patterns.php:16
 msgid "Sirat"
 msgstr ""
 
 #. Theme URI of the theme
 #: style.css
-#: functions.php:644
+#: functions.php:660
 msgid "https://www.vwthemes.com/products/free-multipurpose-wordpress-theme"
 msgstr ""
 
@@ -42,17 +44,17 @@ msgid "https://www.vwthemes.com/"
 msgstr ""
 
 #: 404.php:12
-#: inc/customizer.php:2972
+#: inc/customizer.php:2997
 msgid "404 Not Found"
 msgstr ""
 
 #: 404.php:13
-#: inc/customizer.php:2986
+#: inc/customizer.php:3011
 msgid "Looks like you have taken a wrong turn, Dont worry, it happens to the best of us."
 msgstr ""
 
 #: 404.php:16
-#: inc/customizer.php:2999
+#: inc/customizer.php:3024
 msgid "Go Back"
 msgstr ""
 
@@ -74,12 +76,12 @@ msgid "Comments are closed."
 msgstr ""
 
 #: comments.php:77
-#: inc/customizer.php:2553
+#: inc/customizer.php:2578
 msgid "Leave a Reply"
 msgstr ""
 
 #: comments.php:78
-#: inc/customizer.php:2567
+#: inc/customizer.php:2592
 msgid "Post Comment"
 msgstr ""
 
@@ -105,13 +107,13 @@ msgstr ""
 msgid "Categories"
 msgstr ""
 
-#: footer.php:96
+#: footer.php:97
 msgid "By VWThemes"
 msgstr ""
 
-#: footer.php:103
-#: footer.php:105
-#: footer.php:107
+#: footer.php:104
+#: footer.php:106
+#: footer.php:108
 msgid "Scroll Up"
 msgstr ""
 
@@ -119,162 +121,170 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:99
-msgid "Thank you for choosing Sirat Theme. Would like to have you on our Welcome page so that you can read all the benefits of our Sirat Theme."
-msgstr ""
-
-#: functions.php:100
-msgid "DEMO IMPORT"
-msgstr ""
-
 #: functions.php:101
-msgid "VIEW DEMO"
+msgid "🎉 Welcome to VW Themes,"
 msgstr ""
 
 #: functions.php:102
-#: inc/customizer.php:3731
-msgid "UPGRADE PRO"
+msgid "You are now using the Sirat, a beautifully designed theme to kickstart your website."
 msgstr ""
 
 #: functions.php:103
-msgid "THEME BUNDLE"
+msgid "To help you get started quickly, use the options below:"
 msgstr ""
 
-#: functions.php:110
+#: functions.php:104
+msgid "IMPORT DEMO"
+msgstr ""
+
+#: functions.php:105
+msgid "VIEW DEMO"
+msgstr ""
+
+#: functions.php:106
+#: inc/getstart/getstart.php:50
+msgid "UPGRADE TO PRO"
+msgstr ""
+
+#: functions.php:107
+msgid "BUNDLE OF 350+ THEMES"
+msgstr ""
+
+#: functions.php:123
 msgid "Blog Sidebar"
 msgstr ""
 
-#: functions.php:111
+#: functions.php:124
 msgid "Appears on blog page sidebar"
 msgstr ""
 
-#: functions.php:120
+#: functions.php:133
 msgid "Page Sidebar"
 msgstr ""
 
-#: functions.php:121
-#: functions.php:131
+#: functions.php:134
+#: functions.php:144
 msgid "Appears on page sidebar"
 msgstr ""
 
-#: functions.php:130
+#: functions.php:143
 msgid "Sidebar 3"
 msgstr ""
 
-#: functions.php:140
+#: functions.php:153
 msgid "Footer Navigation 1"
 msgstr ""
 
-#: functions.php:141
+#: functions.php:154
 msgid "Appears on footer 1"
 msgstr ""
 
-#: functions.php:150
+#: functions.php:163
 msgid "Footer Navigation 2"
 msgstr ""
 
-#: functions.php:151
+#: functions.php:164
 msgid "Appears on footer 2"
 msgstr ""
 
-#: functions.php:160
+#: functions.php:173
 msgid "Footer Navigation 3"
 msgstr ""
 
-#: functions.php:161
+#: functions.php:174
 msgid "Appears on footer 3"
 msgstr ""
 
-#: functions.php:170
+#: functions.php:183
 msgid "Footer Navigation 4"
 msgstr ""
 
-#: functions.php:171
+#: functions.php:184
 msgid "Appears on footer 4"
 msgstr ""
 
-#: functions.php:180
+#: functions.php:193
 msgid "Top Bar Social Media"
 msgstr ""
 
-#: functions.php:181
+#: functions.php:194
 msgid "Appears on top bar"
 msgstr ""
 
-#: functions.php:190
+#: functions.php:203
 msgid "Shop Page Sidebar"
 msgstr ""
 
-#: functions.php:191
+#: functions.php:204
 msgid "Appears on shop page"
 msgstr ""
 
-#: functions.php:200
+#: functions.php:213
 msgid "Single Product Sidebar"
 msgstr ""
 
-#: functions.php:201
+#: functions.php:214
 msgid "Appears on single product page"
 msgstr ""
 
-#: functions.php:210
+#: functions.php:223
 msgid "Footer Social Icon"
 msgstr ""
 
-#: functions.php:211
+#: functions.php:224
 msgid "Appears on right side footer"
 msgstr ""
 
 #. translators: %s: Name of current post. Only visible to screen readers
-#: functions.php:615
+#: functions.php:628
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
-#: functions.php:632
+#: functions.php:648
 msgid "https://preview.vwthemesdemo.com/docs/free-sirat/"
 msgstr ""
 
-#: functions.php:633
+#: functions.php:649
 msgid "https://wordpress.org/support/theme/sirat/"
 msgstr ""
 
-#: functions.php:634
+#: functions.php:650
 msgid "https://wordpress.org/support/theme/sirat/reviews"
 msgstr ""
 
-#: functions.php:635
+#: functions.php:651
 msgid "https://www.vwthemes.com/products/multipurpose-wordpress-theme"
 msgstr ""
 
-#: functions.php:636
+#: functions.php:652
 msgid "https://preview.vwthemesdemo.com/vw-sirat/"
 msgstr ""
 
-#: functions.php:637
+#: functions.php:653
 msgid "https://preview.vwthemesdemo.com/docs/vw-sirat-pro/"
 msgstr ""
 
-#: functions.php:638
+#: functions.php:654
 msgid "https://www.vwthemes.com/faqs/"
 msgstr ""
 
-#: functions.php:639
+#: functions.php:655
 msgid "https://www.vwthemes.com/contact/"
 msgstr ""
 
-#: functions.php:640
+#: functions.php:656
 msgid "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 msgstr ""
 
-#: functions.php:641
+#: functions.php:657
 msgid "https://www.vwthemes.com/products/wp-theme-bundle"
 msgstr ""
 
-#: functions.php:642
+#: functions.php:658
 msgid "https://preview.vwthemesdemo.com/docs/theme-bundle/"
 msgstr ""
 
-#: functions.php:647
+#: functions.php:663
 msgid "Sirat WordPress Theme"
 msgstr ""
 
@@ -400,7 +410,7 @@ msgstr ""
 
 #: inc/customizer.php:82
 #: inc/customizer.php:1387
-#: inc/customizer.php:2013
+#: inc/customizer.php:2038
 msgid "Top"
 msgstr ""
 
@@ -414,8 +424,8 @@ msgstr ""
 #: inc/customizer.php:1423
 #: inc/customizer.php:1439
 #: inc/customizer.php:1660
-#: inc/customizer.php:2873
-#: inc/customizer.php:3532
+#: inc/customizer.php:2898
+#: inc/customizer.php:3557
 msgid "Left"
 msgstr ""
 
@@ -424,7 +434,7 @@ msgstr ""
 #: inc/customizer.php:1424
 #: inc/customizer.php:1440
 #: inc/customizer.php:1662
-#: inc/customizer.php:2875
+#: inc/customizer.php:2900
 msgid "Center"
 msgstr ""
 
@@ -433,8 +443,8 @@ msgstr ""
 #: inc/customizer.php:1425
 #: inc/customizer.php:1441
 #: inc/customizer.php:1661
-#: inc/customizer.php:2874
-#: inc/customizer.php:3533
+#: inc/customizer.php:2899
+#: inc/customizer.php:3558
 msgid "Right"
 msgstr ""
 
@@ -445,7 +455,7 @@ msgstr ""
 
 #: inc/customizer.php:88
 #: inc/customizer.php:1393
-#: inc/customizer.php:2014
+#: inc/customizer.php:2039
 msgid "Bottom"
 msgstr ""
 
@@ -455,7 +465,7 @@ msgid "Bottom Right"
 msgstr ""
 
 #: inc/customizer.php:99
-#: inc/customizer.php:3129
+#: inc/customizer.php:3154
 msgid "Show / Hide Topbar"
 msgstr ""
 
@@ -476,23 +486,23 @@ msgstr ""
 #: inc/customizer.php:1584
 #: inc/customizer.php:1598
 #: inc/customizer.php:1612
-#: inc/customizer.php:1884
-#: inc/customizer.php:1899
-#: inc/customizer.php:2031
-#: inc/customizer.php:2045
-#: inc/customizer.php:2076
-#: inc/customizer.php:2095
-#: inc/customizer.php:3051
-#: inc/customizer.php:3065
-#: inc/customizer.php:3079
-#: inc/customizer.php:3093
-#: inc/customizer.php:3424
-#: inc/customizer.php:3438
-#: inc/customizer.php:3484
-#: inc/customizer.php:3498
-#: inc/customizer.php:3543
-#: inc/customizer.php:3557
-#: inc/customizer.php:3571
+#: inc/customizer.php:1909
+#: inc/customizer.php:1924
+#: inc/customizer.php:2056
+#: inc/customizer.php:2070
+#: inc/customizer.php:2101
+#: inc/customizer.php:2120
+#: inc/customizer.php:3076
+#: inc/customizer.php:3090
+#: inc/customizer.php:3104
+#: inc/customizer.php:3118
+#: inc/customizer.php:3449
+#: inc/customizer.php:3463
+#: inc/customizer.php:3509
+#: inc/customizer.php:3523
+#: inc/customizer.php:3568
+#: inc/customizer.php:3582
+#: inc/customizer.php:3596
 #: inc/logo/logo-resizer.php:39
 #: inc/logo/logo-resizer.php:53
 #: inc/logo/logo-resizer.php:77
@@ -513,23 +523,23 @@ msgstr ""
 #: inc/customizer.php:1586
 #: inc/customizer.php:1600
 #: inc/customizer.php:1614
-#: inc/customizer.php:1886
-#: inc/customizer.php:1901
-#: inc/customizer.php:2033
-#: inc/customizer.php:2047
-#: inc/customizer.php:2078
-#: inc/customizer.php:2097
-#: inc/customizer.php:3053
-#: inc/customizer.php:3067
-#: inc/customizer.php:3081
-#: inc/customizer.php:3095
-#: inc/customizer.php:3426
-#: inc/customizer.php:3440
-#: inc/customizer.php:3486
-#: inc/customizer.php:3500
-#: inc/customizer.php:3545
-#: inc/customizer.php:3559
-#: inc/customizer.php:3573
+#: inc/customizer.php:1911
+#: inc/customizer.php:1926
+#: inc/customizer.php:2058
+#: inc/customizer.php:2072
+#: inc/customizer.php:2103
+#: inc/customizer.php:2122
+#: inc/customizer.php:3078
+#: inc/customizer.php:3092
+#: inc/customizer.php:3106
+#: inc/customizer.php:3120
+#: inc/customizer.php:3451
+#: inc/customizer.php:3465
+#: inc/customizer.php:3511
+#: inc/customizer.php:3525
+#: inc/customizer.php:3570
+#: inc/customizer.php:3584
+#: inc/customizer.php:3598
 #: inc/logo/logo-resizer.php:41
 #: inc/logo/logo-resizer.php:55
 #: inc/logo/logo-resizer.php:79
@@ -538,7 +548,7 @@ msgid "10px"
 msgstr ""
 
 #: inc/customizer.php:123
-#: inc/customizer.php:3139
+#: inc/customizer.php:3164
 msgid "Show / Hide Search"
 msgstr ""
 
@@ -671,24 +681,24 @@ msgstr ""
 #: inc/customizer.php:368
 #: inc/customizer.php:386
 #: inc/customizer.php:1296
-#: inc/customizer.php:2117
+#: inc/customizer.php:2142
 msgid "Uppercase"
 msgstr ""
 
 #: inc/customizer.php:369
 #: inc/customizer.php:1297
-#: inc/customizer.php:2118
+#: inc/customizer.php:2143
 msgid "Capitalize"
 msgstr ""
 
 #: inc/customizer.php:370
 #: inc/customizer.php:1298
-#: inc/customizer.php:2119
+#: inc/customizer.php:2144
 msgid "Lowercase"
 msgstr ""
 
 #: inc/customizer.php:385
-#: inc/customizer.php:1873
+#: inc/customizer.php:1898
 msgid "Default"
 msgstr ""
 
@@ -697,7 +707,7 @@ msgid "Menu Item Hover Style"
 msgstr ""
 
 #: inc/customizer.php:400
-#: inc/customizer.php:1847
+#: inc/customizer.php:1872
 msgid "None"
 msgstr ""
 
@@ -746,7 +756,7 @@ msgid "Free theme has 3 slides options, For unlimited slides and more options <a
 msgstr ""
 
 #: inc/customizer.php:485
-#: inc/customizer.php:3159
+#: inc/customizer.php:3184
 msgid "Show / Hide Slider"
 msgstr ""
 
@@ -824,7 +834,7 @@ msgid "Show / Hide Slider Content"
 msgstr ""
 
 #: inc/customizer.php:650
-#: inc/customizer.php:3169
+#: inc/customizer.php:3194
 msgid "Show / Hide Slider Button"
 msgstr ""
 
@@ -834,11 +844,11 @@ msgstr ""
 
 #: inc/customizer.php:663
 #: inc/customizer.php:993
-#: inc/customizer.php:2137
-#: inc/customizer.php:2338
-#: inc/customizer.php:2344
-#: inc/customizer.php:2736
-#: inc/customizer.php:2742
+#: inc/customizer.php:2162
+#: inc/customizer.php:2363
+#: inc/customizer.php:2369
+#: inc/customizer.php:2761
+#: inc/customizer.php:2767
 #: page-template/custom-home-page.php:60
 #: page-template/custom-home-page.php:123
 #: page-template/custom-home-page.php:164
@@ -1211,7 +1221,7 @@ msgid "Copyright Alignment"
 msgstr ""
 
 #: inc/customizer.php:1541
-#: inc/customizer.php:3229
+#: inc/customizer.php:3254
 msgid "Show / Hide Scroll To Top"
 msgstr ""
 
@@ -1220,7 +1230,7 @@ msgid "Add Scroll to Top Icon"
 msgstr ""
 
 #: inc/customizer.php:1569
-#: inc/customizer.php:3050
+#: inc/customizer.php:3075
 msgid "Icon Font Size"
 msgstr ""
 
@@ -1229,17 +1239,17 @@ msgid "Icon Padding Top Bottom"
 msgstr ""
 
 #: inc/customizer.php:1597
-#: inc/customizer.php:3078
+#: inc/customizer.php:3103
 msgid "Icon Width"
 msgstr ""
 
 #: inc/customizer.php:1611
-#: inc/customizer.php:3092
+#: inc/customizer.php:3117
 msgid "Icon Height"
 msgstr ""
 
 #: inc/customizer.php:1626
-#: inc/customizer.php:3107
+#: inc/customizer.php:3132
 msgid "Icon Border Radius"
 msgstr ""
 
@@ -1251,642 +1261,654 @@ msgstr ""
 msgid "Social Icon Alignment "
 msgstr ""
 
-#: inc/customizer.php:1668
+#: inc/customizer.php:1672
+msgid "Show / Hide Sticky Copyright"
+msgstr ""
+
+#: inc/customizer.php:1681
+msgid "Social Icon Font Size"
+msgstr ""
+
+#: inc/customizer.php:1693
 msgid "Blog Post Settings"
 msgstr ""
 
-#: inc/customizer.php:1675
+#: inc/customizer.php:1700
 msgid "Post Settings"
 msgstr ""
 
-#: inc/customizer.php:1686
+#: inc/customizer.php:1711
 msgid "Blog Layouts"
 msgstr ""
 
-#: inc/customizer.php:1700
+#: inc/customizer.php:1725
 msgid "Post Sidebar Layout"
 msgstr ""
 
-#: inc/customizer.php:1701
-#: inc/customizer.php:2363
+#: inc/customizer.php:1726
+#: inc/customizer.php:2388
 msgid "Here you can change the sidebar layout for posts. "
 msgstr ""
 
-#: inc/customizer.php:1704
-#: inc/customizer.php:2366
-#: inc/customizer.php:2848
-#: inc/customizer.php:3329
-#: inc/customizer.php:3369
+#: inc/customizer.php:1729
+#: inc/customizer.php:2391
+#: inc/customizer.php:2873
+#: inc/customizer.php:3354
+#: inc/customizer.php:3394
 msgid "Left Sidebar"
 msgstr ""
 
-#: inc/customizer.php:1705
-#: inc/customizer.php:2367
-#: inc/customizer.php:2849
-#: inc/customizer.php:3330
-#: inc/customizer.php:3370
+#: inc/customizer.php:1730
+#: inc/customizer.php:2392
+#: inc/customizer.php:2874
+#: inc/customizer.php:3355
+#: inc/customizer.php:3395
 msgid "Right Sidebar"
 msgstr ""
 
-#: inc/customizer.php:1706
-#: inc/customizer.php:2368
-#: inc/customizer.php:2850
+#: inc/customizer.php:1731
+#: inc/customizer.php:2393
+#: inc/customizer.php:2875
 msgid "One Column"
 msgstr ""
 
-#: inc/customizer.php:1707
-#: inc/customizer.php:2369
+#: inc/customizer.php:1732
+#: inc/customizer.php:2394
 msgid "Three Columns"
 msgstr ""
 
-#: inc/customizer.php:1708
-#: inc/customizer.php:2370
+#: inc/customizer.php:1733
+#: inc/customizer.php:2395
 msgid "Four Columns"
 msgstr ""
 
-#: inc/customizer.php:1709
-#: inc/customizer.php:2371
+#: inc/customizer.php:1734
+#: inc/customizer.php:2396
 msgid "Grid Layout"
 msgstr ""
 
-#: inc/customizer.php:1725
-#: inc/customizer.php:2224
-#: inc/customizer.php:2402
-#: inc/customizer.php:2636
+#: inc/customizer.php:1750
+#: inc/customizer.php:2249
+#: inc/customizer.php:2427
+#: inc/customizer.php:2661
 msgid "Add Post Date Icon"
 msgstr ""
 
-#: inc/customizer.php:1738
-#: inc/customizer.php:2214
-#: inc/customizer.php:2415
-#: inc/customizer.php:2649
-#: inc/customizer.php:3179
+#: inc/customizer.php:1763
+#: inc/customizer.php:2239
+#: inc/customizer.php:2440
+#: inc/customizer.php:2674
+#: inc/customizer.php:3204
 msgid "Show / Hide Post Date"
 msgstr ""
 
-#: inc/customizer.php:1748
-#: inc/customizer.php:2247
-#: inc/customizer.php:2425
-#: inc/customizer.php:2659
+#: inc/customizer.php:1773
+#: inc/customizer.php:2272
+#: inc/customizer.php:2450
+#: inc/customizer.php:2684
 msgid "Add Author Icon"
 msgstr ""
 
-#: inc/customizer.php:1761
-#: inc/customizer.php:2237
-#: inc/customizer.php:2438
-#: inc/customizer.php:2672
-#: inc/customizer.php:3189
+#: inc/customizer.php:1786
+#: inc/customizer.php:2262
+#: inc/customizer.php:2463
+#: inc/customizer.php:2697
+#: inc/customizer.php:3214
 msgid "Show / Hide Author"
 msgstr ""
 
-#: inc/customizer.php:1771
-#: inc/customizer.php:2270
-#: inc/customizer.php:2448
-#: inc/customizer.php:2682
+#: inc/customizer.php:1796
+#: inc/customizer.php:2295
+#: inc/customizer.php:2473
+#: inc/customizer.php:2707
 msgid "Add Comments Icon"
 msgstr ""
 
-#: inc/customizer.php:1784
-#: inc/customizer.php:2260
-#: inc/customizer.php:2461
-#: inc/customizer.php:2695
-#: inc/customizer.php:3199
+#: inc/customizer.php:1809
+#: inc/customizer.php:2285
+#: inc/customizer.php:2486
+#: inc/customizer.php:2720
+#: inc/customizer.php:3224
 msgid "Show / Hide Comments"
 msgstr ""
 
-#: inc/customizer.php:1794
-#: inc/customizer.php:2293
-#: inc/customizer.php:2471
+#: inc/customizer.php:1819
+#: inc/customizer.php:2318
+#: inc/customizer.php:2496
 msgid "Add Time Icon"
 msgstr ""
 
-#: inc/customizer.php:1807
-#: inc/customizer.php:2283
-#: inc/customizer.php:2484
-#: inc/customizer.php:3209
+#: inc/customizer.php:1832
+#: inc/customizer.php:2308
+#: inc/customizer.php:2509
+#: inc/customizer.php:3234
 msgid "Show / Hide Time"
 msgstr ""
 
-#: inc/customizer.php:1817
-#: inc/customizer.php:2317
-#: inc/customizer.php:2521
-#: inc/customizer.php:2705
+#: inc/customizer.php:1842
+#: inc/customizer.php:2342
+#: inc/customizer.php:2546
+#: inc/customizer.php:2730
 msgid "Show / Hide Featured Image"
 msgstr ""
 
-#: inc/customizer.php:1827
+#: inc/customizer.php:1852
 msgid "Featured Image Box Shadow"
 msgstr ""
 
-#: inc/customizer.php:1843
+#: inc/customizer.php:1868
 msgid "Blog Post Featured Image Option"
 msgstr ""
 
-#: inc/customizer.php:1845
+#: inc/customizer.php:1870
 msgid "Blog Post Image"
 msgstr ""
 
-#: inc/customizer.php:1846
+#: inc/customizer.php:1871
 msgid "Blog Post Image Color"
 msgstr ""
 
-#: inc/customizer.php:1857
+#: inc/customizer.php:1882
 msgid "Blog Post Featured Image Color"
 msgstr ""
 
-#: inc/customizer.php:1870
+#: inc/customizer.php:1895
 msgid "Blog Post Featured Image Dimension"
 msgstr ""
 
-#: inc/customizer.php:1874
+#: inc/customizer.php:1899
 msgid "Custom Image Size"
 msgstr ""
 
-#: inc/customizer.php:1883
+#: inc/customizer.php:1908
 msgid "Featured Image Custom Width"
 msgstr ""
 
-#: inc/customizer.php:1898
+#: inc/customizer.php:1923
 msgid "Featured Image Custom Height"
 msgstr ""
 
-#: inc/customizer.php:1915
+#: inc/customizer.php:1940
 msgid "Excerpt length"
 msgstr ""
 
-#: inc/customizer.php:1933
+#: inc/customizer.php:1958
 msgid "Display Blog Posts"
 msgstr ""
 
-#: inc/customizer.php:1936
-#: inc/customizer.php:2730
+#: inc/customizer.php:1961
+#: inc/customizer.php:2755
 msgid "Into Blocks"
 msgstr ""
 
-#: inc/customizer.php:1937
-#: inc/customizer.php:2731
+#: inc/customizer.php:1962
+#: inc/customizer.php:2756
 msgid "Without Blocks"
 msgstr ""
 
-#: inc/customizer.php:1946
-#: inc/customizer.php:2305
-#: inc/customizer.php:2509
-#: inc/customizer.php:2714
+#: inc/customizer.php:1971
+#: inc/customizer.php:2330
+#: inc/customizer.php:2534
+#: inc/customizer.php:2739
 msgid "Add Meta Separator"
 msgstr ""
 
-#: inc/customizer.php:1947
-#: inc/customizer.php:2306
-#: inc/customizer.php:2510
-#: inc/customizer.php:2715
+#: inc/customizer.php:1972
+#: inc/customizer.php:2331
+#: inc/customizer.php:2535
+#: inc/customizer.php:2740
 msgid "Add the seperator for meta box. Example: \"|\", \"/\", etc."
 msgstr ""
 
-#: inc/customizer.php:1959
+#: inc/customizer.php:1984
 msgid "Post Content"
 msgstr ""
 
-#: inc/customizer.php:1962
-#: inc/customizer.php:2771
+#: inc/customizer.php:1987
+#: inc/customizer.php:2796
 msgid "Content"
 msgstr ""
 
-#: inc/customizer.php:1963
-#: inc/customizer.php:2772
+#: inc/customizer.php:1988
+#: inc/customizer.php:2797
 msgid "Excerpt"
 msgstr ""
 
-#: inc/customizer.php:1964
-#: inc/customizer.php:2773
+#: inc/customizer.php:1989
+#: inc/customizer.php:2798
 msgid "No Content"
 msgstr ""
 
-#: inc/customizer.php:1973
-#: inc/customizer.php:2753
+#: inc/customizer.php:1998
+#: inc/customizer.php:2778
 msgid "Add Excerpt Suffix"
 msgstr ""
 
-#: inc/customizer.php:1975
-#: inc/customizer.php:2755
+#: inc/customizer.php:2000
+#: inc/customizer.php:2780
 msgid "[...]"
 msgstr ""
 
-#: inc/customizer.php:1987
+#: inc/customizer.php:2012
 msgid "Show / Hide Blog Pagination"
 msgstr ""
 
-#: inc/customizer.php:1998
+#: inc/customizer.php:2023
 msgid "Blog Pagination"
 msgstr ""
 
-#: inc/customizer.php:2000
+#: inc/customizer.php:2025
 msgid "Numeric"
 msgstr ""
 
-#: inc/customizer.php:2001
+#: inc/customizer.php:2026
 msgid "Older Posts/Newer Posts"
 msgstr ""
 
-#: inc/customizer.php:2010
+#: inc/customizer.php:2035
 msgid "Blog Post Pagination Position"
 msgstr ""
 
-#: inc/customizer.php:2015
+#: inc/customizer.php:2040
 msgid "Both"
 msgstr ""
 
-#: inc/customizer.php:2021
+#: inc/customizer.php:2046
 msgid "Button Settings"
 msgstr ""
 
-#: inc/customizer.php:2030
+#: inc/customizer.php:2055
 msgid "Padding Top Bottom"
 msgstr ""
 
-#: inc/customizer.php:2044
+#: inc/customizer.php:2069
 msgid "Padding Left Right"
 msgstr ""
 
-#: inc/customizer.php:2059
+#: inc/customizer.php:2084
 msgid "Button Border Radius"
 msgstr ""
 
-#: inc/customizer.php:2075
+#: inc/customizer.php:2100
 msgid "Button Font Size"
 msgstr ""
 
-#: inc/customizer.php:2094
+#: inc/customizer.php:2119
 msgid "Button Letter Spacing"
 msgstr ""
 
-#: inc/customizer.php:2115
+#: inc/customizer.php:2140
 msgid "Button Text Transform"
 msgstr ""
 
-#: inc/customizer.php:2135
-#: inc/customizer.php:2342
-#: inc/customizer.php:2740
-#: inc/customizer.php:2997
+#: inc/customizer.php:2160
+#: inc/customizer.php:2367
+#: inc/customizer.php:2765
+#: inc/customizer.php:3022
 msgid "Add Button Text"
 msgstr ""
 
-#: inc/customizer.php:2145
+#: inc/customizer.php:2170
 msgid "Related Posts Settings"
 msgstr ""
 
-#: inc/customizer.php:2161
+#: inc/customizer.php:2186
 msgid "Show / Hide Related Post"
 msgstr ""
 
-#: inc/customizer.php:2170
+#: inc/customizer.php:2195
 msgid "Add Related Post Title"
 msgstr ""
 
-#: inc/customizer.php:2172
+#: inc/customizer.php:2197
 msgid "Related Post"
 msgstr ""
 
-#: inc/customizer.php:2183
+#: inc/customizer.php:2208
 msgid "Add Related Post Count"
 msgstr ""
 
-#: inc/customizer.php:2185
+#: inc/customizer.php:2210
 #: inc/getstart/getstart.php:271
 msgid "3"
 msgstr ""
 
-#: inc/customizer.php:2197
+#: inc/customizer.php:2222
 msgid "Related Posts Excerpt length"
 msgstr ""
 
-#: inc/customizer.php:2327
+#: inc/customizer.php:2352
 msgid "Related post Image Box Shadow"
 msgstr ""
 
-#: inc/customizer.php:2352
+#: inc/customizer.php:2377
 msgid "Single Post Settings"
 msgstr ""
 
-#: inc/customizer.php:2362
+#: inc/customizer.php:2387
 msgid "Single Post Sidebar Layout"
 msgstr ""
 
-#: inc/customizer.php:2381
+#: inc/customizer.php:2406
 msgid "Show / Hide Breadcrumb"
 msgstr ""
 
-#: inc/customizer.php:2392
+#: inc/customizer.php:2417
 msgid "Show / Hide Category"
 msgstr ""
 
-#: inc/customizer.php:2494
+#: inc/customizer.php:2519
 msgid "Single post Image Box Shadow"
 msgstr ""
 
-#: inc/customizer.php:2531
+#: inc/customizer.php:2556
 msgid "Show / Hide Tags"
 msgstr ""
 
-#: inc/customizer.php:2541
+#: inc/customizer.php:2566
 msgid "Show / Hide comments"
 msgstr ""
 
-#: inc/customizer.php:2551
+#: inc/customizer.php:2576
 msgid "Add Comment Title"
 msgstr ""
 
-#: inc/customizer.php:2565
+#: inc/customizer.php:2590
 msgid "Add Comment Button Text"
 msgstr ""
 
-#: inc/customizer.php:2578
+#: inc/customizer.php:2603
 msgid "Comment Form Width"
 msgstr ""
 
-#: inc/customizer.php:2579
+#: inc/customizer.php:2604
 msgid "Enter a value in %. Example:50%"
 msgstr ""
 
-#: inc/customizer.php:2581
+#: inc/customizer.php:2606
 msgid "100%"
 msgstr ""
 
-#: inc/customizer.php:2593
+#: inc/customizer.php:2618
 msgid "Show / Hide Post Navigation"
 msgstr ""
 
-#: inc/customizer.php:2603
-#: inc/customizer.php:2616
+#: inc/customizer.php:2628
+#: inc/customizer.php:2641
 msgid "Post Navigation Text"
 msgstr ""
 
-#: inc/customizer.php:2605
+#: inc/customizer.php:2630
 msgid "PREVIOUS"
 msgstr ""
 
-#: inc/customizer.php:2618
+#: inc/customizer.php:2643
 msgid "NEXT"
 msgstr ""
 
-#: inc/customizer.php:2626
+#: inc/customizer.php:2651
 msgid "Grid Layout Settings"
 msgstr ""
 
-#: inc/customizer.php:2727
+#: inc/customizer.php:2752
 msgid "Display Grid Posts"
 msgstr ""
 
-#: inc/customizer.php:2768
+#: inc/customizer.php:2793
 msgid "Grid Post Content"
 msgstr ""
 
-#: inc/customizer.php:2783
+#: inc/customizer.php:2808
 msgid "Grid Featured Image Border Radius"
 msgstr ""
 
-#: inc/customizer.php:2799
+#: inc/customizer.php:2824
 msgid "Grid Featured Image Box Shadow"
 msgstr ""
 
-#: inc/customizer.php:2812
+#: inc/customizer.php:2837
 msgid "Others Settings"
 msgstr ""
 
-#: inc/customizer.php:2819
+#: inc/customizer.php:2844
 #: inc/getstart/getstart.php:159
 msgid "General Settings"
 msgstr ""
 
-#: inc/customizer.php:2829
+#: inc/customizer.php:2854
 msgid "Width Layouts"
 msgstr ""
 
-#: inc/customizer.php:2830
+#: inc/customizer.php:2855
 msgid "Here you can change the width layout of Website."
 msgstr ""
 
-#: inc/customizer.php:2844
+#: inc/customizer.php:2869
 msgid "Page Sidebar Layout"
 msgstr ""
 
-#: inc/customizer.php:2845
+#: inc/customizer.php:2870
 msgid "Here you can change the sidebar layout for pages. "
 msgstr ""
 
-#: inc/customizer.php:2860
+#: inc/customizer.php:2885
 msgid "Show / Hide Page Breadcrumb"
 msgstr ""
 
-#: inc/customizer.php:2870
+#: inc/customizer.php:2895
 msgid "Bradcrumbs Alignment"
 msgstr ""
 
-#: inc/customizer.php:2886
+#: inc/customizer.php:2911
 msgid "Featured Image Border Radius"
 msgstr ""
 
-#: inc/customizer.php:2905
+#: inc/customizer.php:2930
 msgid "Show / Hide Animations"
 msgstr ""
 
-#: inc/customizer.php:2906
+#: inc/customizer.php:2931
 msgid "Here you can disable overall site animation effect"
 msgstr ""
 
-#: inc/customizer.php:2915
+#: inc/customizer.php:2940
 msgid "Reset All Settings"
 msgstr ""
 
-#: inc/customizer.php:2927
+#: inc/customizer.php:2952
 msgid "Show / Hide Pre-Loader"
 msgstr ""
 
-#: inc/customizer.php:2936
+#: inc/customizer.php:2961
 msgid "Pre-Loader Background Color"
 msgstr ""
 
-#: inc/customizer.php:2945
+#: inc/customizer.php:2970
 msgid "Pre-Loader Border Color"
 msgstr ""
 
-#: inc/customizer.php:2954
+#: inc/customizer.php:2979
 msgid "Preloader Background Image"
 msgstr ""
 
-#: inc/customizer.php:2960
+#: inc/customizer.php:2985
 msgid "404 Page Settings"
 msgstr ""
 
-#: inc/customizer.php:2970
-#: inc/customizer.php:3017
+#: inc/customizer.php:2995
+#: inc/customizer.php:3042
 msgid "Add Title"
 msgstr ""
 
-#: inc/customizer.php:2984
-#: inc/customizer.php:3031
+#: inc/customizer.php:3009
+#: inc/customizer.php:3056
 msgid "Add Text"
 msgstr ""
 
-#: inc/customizer.php:3007
+#: inc/customizer.php:3032
 msgid "No Results Page Settings"
 msgstr ""
 
-#: inc/customizer.php:3019
+#: inc/customizer.php:3044
 #: no-results.php:9
 msgid "Nothing Found"
 msgstr ""
 
-#: inc/customizer.php:3033
+#: inc/customizer.php:3058
 #: no-results.php:14
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: inc/customizer.php:3041
+#: inc/customizer.php:3066
 msgid "Social Icons Settings"
 msgstr ""
 
-#: inc/customizer.php:3064
+#: inc/customizer.php:3089
 msgid "Icon Padding"
 msgstr ""
 
-#: inc/customizer.php:3119
+#: inc/customizer.php:3144
 msgid "Responsive Media"
 msgstr ""
 
-#: inc/customizer.php:3149
+#: inc/customizer.php:3174
 msgid "Show / Hide Sticky Header"
 msgstr ""
 
-#: inc/customizer.php:3219
+#: inc/customizer.php:3244
 msgid "Show / Hide Metabox"
 msgstr ""
 
-#: inc/customizer.php:3239
+#: inc/customizer.php:3264
 msgid "Show / Hide Sidebar"
 msgstr ""
 
-#: inc/customizer.php:3249
+#: inc/customizer.php:3274
 msgid "Show / Hide Preloader"
 msgstr ""
 
-#: inc/customizer.php:3259
+#: inc/customizer.php:3284
 msgid "Add Mobile Menu Label"
 msgstr ""
 
-#: inc/customizer.php:3269
+#: inc/customizer.php:3294
 msgid "Add Open Menu Icon"
 msgstr ""
 
-#: inc/customizer.php:3282
+#: inc/customizer.php:3307
 msgid "Add Close Menu Icon"
 msgstr ""
 
-#: inc/customizer.php:3294
+#: inc/customizer.php:3319
 msgid "Toggle Button Bg Color"
 msgstr ""
 
-#: inc/customizer.php:3300
+#: inc/customizer.php:3325
 msgid "Woocommerce Settings"
 msgstr ""
 
-#: inc/customizer.php:3316
+#: inc/customizer.php:3341
 msgid "Show / Hide Shop Page Sidebar"
 msgstr ""
 
-#: inc/customizer.php:3326
+#: inc/customizer.php:3351
 msgid "Shop Page Sidebar Layout"
 msgstr ""
 
-#: inc/customizer.php:3341
+#: inc/customizer.php:3366
 msgid "Shop Page Pagination"
 msgstr ""
 
-#: inc/customizer.php:3356
+#: inc/customizer.php:3381
 msgid "Show / Hide Single Product Sidebar"
 msgstr ""
 
-#: inc/customizer.php:3366
+#: inc/customizer.php:3391
 msgid "Single Product Sidebar Layout"
 msgstr ""
 
-#: inc/customizer.php:3380
+#: inc/customizer.php:3405
 msgid "Products Per Page"
 msgstr ""
 
-#: inc/customizer.php:3381
-#: inc/customizer.php:3398
+#: inc/customizer.php:3406
+#: inc/customizer.php:3423
 msgid "Display on shop page"
 msgstr ""
 
-#: inc/customizer.php:3397
+#: inc/customizer.php:3422
 msgid "Products Per Row"
 msgstr ""
 
-#: inc/customizer.php:3414
+#: inc/customizer.php:3439
 msgid "Product Border"
 msgstr ""
 
-#: inc/customizer.php:3423
+#: inc/customizer.php:3448
 msgid "Products Padding Top Bottom"
 msgstr ""
 
-#: inc/customizer.php:3437
+#: inc/customizer.php:3462
 msgid "Products Padding Left Right"
 msgstr ""
 
-#: inc/customizer.php:3452
+#: inc/customizer.php:3477
 msgid "Products Box Shadow"
 msgstr ""
 
-#: inc/customizer.php:3468
+#: inc/customizer.php:3493
 msgid "Products Border Radius"
 msgstr ""
 
-#: inc/customizer.php:3483
+#: inc/customizer.php:3508
 msgid "Products Button Padding Top Bottom"
 msgstr ""
 
-#: inc/customizer.php:3497
+#: inc/customizer.php:3522
 msgid "Products Button Padding Left Right"
 msgstr ""
 
-#: inc/customizer.php:3512
+#: inc/customizer.php:3537
 msgid "Products Button Border Radius"
 msgstr ""
 
-#: inc/customizer.php:3529
+#: inc/customizer.php:3554
 msgid "Sale Badge Position"
 msgstr ""
 
-#: inc/customizer.php:3542
+#: inc/customizer.php:3567
 msgid "Sale Font Size"
 msgstr ""
 
-#: inc/customizer.php:3556
+#: inc/customizer.php:3581
 msgid "Sale Padding Top Bottom"
 msgstr ""
 
-#: inc/customizer.php:3570
+#: inc/customizer.php:3595
 msgid "Sale Padding Left Right"
 msgstr ""
 
-#: inc/customizer.php:3585
+#: inc/customizer.php:3610
 msgid "Sale Border Radius"
 msgstr ""
 
-#: inc/customizer.php:3602
+#: inc/customizer.php:3627
 msgid "Show / Hide Related product"
 msgstr ""
 
-#: inc/customizer.php:3730
+#: inc/customizer.php:3755
 msgid "SIRAT PRO"
 msgstr ""
 
-#: inc/customizer.php:3738
+#: inc/customizer.php:3756
+msgid "UPGRADE PRO"
+msgstr ""
+
+#: inc/customizer.php:3763
 msgid "DOCUMENTATION"
 msgstr ""
 
-#: inc/customizer.php:3739
+#: inc/customizer.php:3764
 msgid "DOCS"
 msgstr ""
 
@@ -1960,10 +1982,6 @@ msgstr ""
 msgid "USE COUPON CODE"
 msgstr ""
 
-#: inc/getstart/getstart.php:50
-msgid "UPGRADE TO PRO"
-msgstr ""
-
 #: inc/getstart/getstart.php:61
 #: inc/getstart/getstart.php:315
 msgid "Demo Importer"
@@ -1983,7 +2001,7 @@ msgstr ""
 
 #: inc/getstart/getstart.php:66
 #: inc/getstart/getstart.php:219
-msgid "Get 250+ Themes Bundle at $99"
+msgid "Get 350+ Themes Bundle at $99"
 msgstr ""
 
 #: inc/getstart/getstart.php:78
@@ -2348,7 +2366,7 @@ msgid "WP Theme Bundle"
 msgstr ""
 
 #: inc/getstart/getstart.php:438
-msgid "Enhance your website effortlessly with our WP Theme Bundle. Get access to 250+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience."
+msgid "Enhance your website effortlessly with our WP Theme Bundle. Get access to 350+ premium WordPress themes and 5+ powerful plugins, all designed to meet diverse business needs. Enjoy seamless integration with any plugins, ultimate customization flexibility, and regular updates to keep your site current and secure. Plus, benefit from our dedicated customer support, ensuring a smooth and professional web experience."
 msgstr ""
 
 #: inc/getstart/getstart.php:440
@@ -2356,7 +2374,7 @@ msgid "Features:"
 msgstr ""
 
 #: inc/getstart/getstart.php:441
-msgid "250+ Premium Themes & 5+ Plugins."
+msgid "350+ Premium Themes & 5+ Plugins."
 msgstr ""
 
 #: inc/getstart/getstart.php:442

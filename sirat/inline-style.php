@@ -837,6 +837,18 @@
 			$sirat_custom_css .='text-align: center;} }';
 	}
 
+	$sirat_resp_stickycopyright = get_theme_mod( 'sirat_stickycopyright_hide_show',false);
+	if($sirat_resp_stickycopyright == true && get_theme_mod( 'sirat_copyright_sticky',false) != true){
+    	$sirat_custom_css .='.copyright-sticky{';
+			$sirat_custom_css .='position:static;';
+		$sirat_custom_css .='} ';
+	}
+
+	$sirat_footer_social_icons_font_size = get_theme_mod('sirat_footer_social_icons_font_size','16');
+	$sirat_custom_css .='.copyright .widget i{';
+		$sirat_custom_css .='font-size: '.esc_attr($sirat_footer_social_icons_font_size).'px;';
+	$sirat_custom_css .='}';
+
 	$sirat_align_footer_social_icon = get_theme_mod('sirat_align_footer_social_icon');
 	if($sirat_align_footer_social_icon != false){
 		$sirat_custom_css .='.copyright .widget{';

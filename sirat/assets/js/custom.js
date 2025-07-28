@@ -111,6 +111,24 @@ jQuery(document).ready(function () {
 	});
 })( jQuery );
 
+/*sticky copyright*/
+window.addEventListener('scroll', function() {
+  var sticky = document.querySelector('.copyright-sticky');
+  if (!sticky) return;
+
+  var scrollTop = window.scrollY || document.documentElement.scrollTop;
+  var windowHeight = window.innerHeight;
+  var documentHeight = document.documentElement.scrollHeight;
+
+  var isBottom = scrollTop + windowHeight >= documentHeight-100;
+
+  if (scrollTop >= 100 && !isBottom) {
+    sticky.classList.add('copyright-fixed');
+  } else {
+    sticky.classList.remove('copyright-fixed');
+  }
+});
+
 jQuery(document).ready(function () {
 	  function sirat_search_loop_focus(element) {
 	  var sirat_focus = element.find('select, input, textarea, button, a[href]');

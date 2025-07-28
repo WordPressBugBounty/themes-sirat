@@ -1663,6 +1663,31 @@ function sirat_customize_register( $wp_customize ) {
         ),
 	) );
 
+	$wp_customize->add_setting( 'sirat_copyright_sticky',array(
+      'default' => 0,
+      'transport' => 'refresh',
+      'sanitize_callback' => 'sirat_switch_sanitization'
+    ) );
+    $wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_copyright_sticky',array(
+      'label' => esc_html__( 'Show / Hide Sticky Copyright','sirat' ),
+      'section' => 'sirat_footer'
+    )));
+
+   $wp_customize->add_setting('sirat_footer_social_icons_font_size',array(
+       'default'=> 16,
+       'sanitize_callback' => 'sanitize_text_field'
+    ));
+    $wp_customize->add_control('sirat_footer_social_icons_font_size',array(
+    'label' => __('Social Icon Font Size','sirat'),
+    	'type'        => 'number',
+		'input_attrs' => array(
+			'step'             => 1,
+			'min'              => 1,
+			'max'              => 50,
+		),
+		'section'=> 'sirat_footer',
+	 ));
+
 	//Blog Post Settings
 	$wp_customize->add_panel( 'sirat_blog_post_parent_panel', array(
 		'title' => esc_html__( 'Blog Post Settings', 'sirat' ),

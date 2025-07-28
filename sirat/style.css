@@ -7,7 +7,7 @@ Description: Sirat is a multipurpose theme known primarily for its simplicity ap
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Version: 1.5.4
+Version: 1.5.5
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: sirat
@@ -400,6 +400,16 @@ input[type="submit"]:hover {
 }
 .elementor-page #preloader{
   display: none;
+}
+/*---------Sticky Copyright---------*/
+.copyright-fixed {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%;
+  z-index: 999;
+  transition: bottom 0.4s;
+  box-shadow: 0px 0px 8px #000000;
 }
 /*---------Sticky Header---------*/
 .header-fixed {
@@ -2711,6 +2721,12 @@ li.wc-block-grid__product{
   }
   #sidebar{
     margin-top: 40px !important;
+  }
+  #footer h3, #footer .wp-block-search .wp-block-search__label,#footer ul,#footer ul li{
+    text-align: center !important;
+  }
+  #footer h3:after, #footer label.wp-block-search__label:after{
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1000px){
