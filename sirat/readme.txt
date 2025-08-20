@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 1.5.5
+Stable tag: 1.5.6
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -751,6 +751,9 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Added footer social icons font size option.
     -- Resolved css error for footer widgets.
     -- Updated pot file.
+
+= 1.5.6 =
+    -- Resolved minor css error.
 
 == Resources ==
 
