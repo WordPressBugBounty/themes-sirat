@@ -1864,14 +1864,14 @@ p.post-nav-links, .post-nav-links span, .post-nav-links a {
 }
 .nav-next span.meta-nav:after{
   content: "\f30b";
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 7 Free';
   font-weight: 900;
   font-size: 18px;
   margin-right: 10px;
 }
 .nav-previous span.meta-nav:before{
   content: "\f30a";
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 7 Free';
   font-weight: 900;
   font-size: 18px;
   margin-left: 10px;
@@ -2358,7 +2358,7 @@ h3#order_review_heading{
   .main-menu-navigation ul li li:hover .sf-with-ul:after{
     content: '\f107';
     font-weight: 600;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 7 Free';
     color: #000;
   }
   .sf-arrows .sf-with-ul:after{
@@ -2369,7 +2369,7 @@ h3#order_review_heading{
     border-top-color: #e1e1e1;
     color: #000;
     font-weight: 600;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 7 Free';
     margin-top: 0px;
     font-size: 12px;
     padding: 0px 10px;

@@ -28,7 +28,7 @@ if(get_theme_mod('sirat_related_post',true)==1){
 $sirat_related_posts = new WP_Query( $sirat_post_args );
 
 if ( $sirat_related_posts->have_posts() ) : ?>
-    <div class="related-post">
+    <div class="related-post wow zoomInUp delay-1000" data-wow-duration="2s">
         <h3><?php echo esc_html(get_theme_mod('sirat_related_post_title','Related Post'));?></h3>
         <div class="row">
             <?php while ( $sirat_related_posts->have_posts() ) : $sirat_related_posts->the_post(); ?>

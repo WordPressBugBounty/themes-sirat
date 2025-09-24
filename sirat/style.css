@@ -7,7 +7,7 @@ Description: Sirat is a multipurpose theme known primarily for its simplicity ap
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Version: 1.5.7
+Version: 1.5.8
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: sirat
@@ -564,7 +564,7 @@ button.search-submit {
   color: #fff;
   cursor: pointer;
   font-size: 15px;
-  padding: 18px 14px;
+  padding: 12px 28px 12px 14px;
   background: #121212;
 }
 .search-box{
@@ -1222,18 +1222,26 @@ header.woocommerce-Address-title.title a:hover,#tag-cloud-sec .tag-cloud-link:ho
   background: #000;
   color: #fff !important;
 }
-/* --------- Blog Page ------- */
-.post-main-box .box-image img,.grid-post-main-box .box-image img{
-    transition: border-radius 0.3s ease;
+.woocommerce ul.products li.product a img{
+  transition: transform 0.4s ease;
 }
+.woocommerce ul.products li.product a img:hover{
+  transform: scale(0.9);
+}
+#footer .center{
+  margin-bottom: 0 !important;
+}
+/* --------- Blog Page ------- */
+
 .post-main-box .box-image img:hover,.grid-post-main-box .box-image img:hover {
-    border-radius: 50%;
+   transform: scale(0.9);
 }
 .post-main-box .box-image  img,.grid-post-main-box .box-image  img{
   height: 300px; 
   width: 300px;
   object-fit: cover;
   margin: 0;
+  transition: transform 0.4s ease;
 }
 .related-post .post-main-box .box-image  img{
   height: 230px;
@@ -1939,14 +1947,14 @@ p.post-nav-links, .post-nav-links span, .post-nav-links a {
 }
 .nav-next span.meta-nav:after{
   content: "\f30b";
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 7 Free';
   font-weight: 900;
   font-size: 18px;
   margin-left: 10px;
 }
 .nav-previous span.meta-nav:before{
   content: "\f30a";
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 7 Free';
   font-weight: 900;
   font-size: 18px;
   margin-right: 10px;
@@ -2552,7 +2560,7 @@ li.wc-block-grid__product{
   .main-menu-navigation ul li li:hover .sf-with-ul:after{
     content: '\f107';
     font-weight: 600;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 7 Free';
     color: #000;
   }
   .sf-arrows .sf-with-ul:after{
@@ -2563,7 +2571,7 @@ li.wc-block-grid__product{
     border-top-color: #e1e1e1;
     color: #000;
     font-weight: 600;
-    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 7 Free';
     margin-top: 0px;
     font-size: 12px;
     padding: 0px 10px;

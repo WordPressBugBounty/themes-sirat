@@ -6,7 +6,7 @@
  */
 ?>
 
-<div id="sidebar" <?php if( is_page_template('blog-post-left-sidebar.php')){?> style="float:left;"<?php } ?>>    
+<div id="sidebar" class="wow zoomInUp delay-1000" data-wow-duration="2s"<?php if( is_page_template('blog-post-left-sidebar.php')){?> style="float:left;"<?php } ?>>    
     <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
         <aside id="search" class="widget" role="complementary" aria-label="firstsidebar">
             <h3 class="widget-title"><?php esc_html_e( 'Search', 'sirat' ); ?></h3>

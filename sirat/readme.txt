@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 1.5.7
+Stable tag: 1.5.8
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -756,7 +756,12 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Resolved minor css error.
 
 = 1.5.7 =
-    -- Resolved minor css error.    
+    -- Resolved minor css error.  
+
+= 1.5.8 =
+    -- Updated fontawesome file.
+    -- Added animations to sidebar,footer and related post.
+    -- Added hover effect to shop page img.       
 
 == Resources ==
 
@@ -773,11 +778,11 @@ Theme is Built using the following resource bundles.
     -- https://github.com/twbs/bootstrap/blob/main/LICENSE
 
 = Font-Awesome =
-    -- Davegandy
-    -- copyright July 12, 2018, Davegandy
-    -- https://github.com/FortAwesome/Font-Awesome.git
-    -- License: http://fontawesome.com/license - Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License.
-    -- https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt
+    * Dave gandy
+    * Copyright (c) 2025 Fonticons, Inc. Dave gandy
+    * https://github.com/FortAwesome/Font-Awesome
+    * License: Icons: CC BY 4.0 License (https://creativecommons.org/licenses/by/4.0/)
+    * https://github.com/FortAwesome/Font-Awesome/blob/7.x/LICENSE.txt
 
 = Customizer Pro =
     -- Justin Tadlock

@@ -37,7 +37,7 @@
                             $colmd = 'col-md-3 col-sm-6';
                         }
                     ?>
-                    <div class="row">
+                    <div class="row wow bounceInUp center delay-1000" data-wow-duration="2s">
                         <div class="<?php echo !is_active_sidebar('footer-1') ? 'footer_hide' : esc_attr($sirat_colmd); ?> col-lg-3 col-md-3 col-xs-12 footer-block">
                             <?php if (is_active_sidebar('footer-1')) : ?>
                                 <?php dynamic_sidebar('footer-1'); ?>
