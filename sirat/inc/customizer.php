@@ -2040,6 +2040,20 @@ function sirat_customize_register( $wp_customize ) {
             'both' => __('Both','sirat')
         ),
     ));
+	$wp_customize->add_setting('sirat_show_first_caps', array(
+	    'default'           => false,
+	    'transport'         => 'refresh',
+	    'sanitize_callback' => 'sirat_switch_sanitization',
+	));
+
+	$wp_customize->add_control(new Sirat_Toggle_Switch_Custom_Control(
+	    $wp_customize,
+	    'sirat_show_first_caps',
+	    array(
+	        'label'   => esc_html__('First Cap (First Capital Letter)', 'sirat'),
+	        'section' => 'sirat_post_settings',
+	    )
+	));
 
 	// Button Settings
 	$wp_customize->add_section( 'sirat_button_settings', array(
@@ -2619,6 +2633,34 @@ function sirat_customize_register( $wp_customize ) {
 		'section' => 'sirat_single_blog_settings'
     )));
 
+	// Featured Image Hover Effect
+	$wp_customize->add_setting(
+		'sirat_featured_image_hover',
+		array(
+			'default'           => 'none',
+			'sanitize_callback' => 'sanitize_text_field',
+		)
+	);
+	$wp_customize->add_control(
+		'sirat_featured_image_hover',
+		array(
+			'label'   => __( 'Featured Image Hover Effect', 'sirat' ),
+			'section' => 'sirat_single_blog_settings',
+			'type'    => 'select',
+			'choices' => array(
+				'none'      => __( 'None', 'sirat' ),
+				'zoom-in'   => __( 'Zoom In', 'sirat' ),
+				'zoom-out'  => __( 'Zoom Out', 'sirat' ),
+				'scale'     => __( 'Scale', 'sirat' ),
+				'grayscale' => __( 'Grayscale', 'sirat' ),
+				'blur'      => __( 'Blur', 'sirat' ),
+				'bright'    => __( 'Bright', 'sirat' ),
+				'sepia'     => __( 'Sepia', 'sirat' ),
+				'translate' => __( 'Translate', 'sirat' ),
+			),
+		)
+	);
+
 	//navigation text
 	$wp_customize->add_setting('sirat_single_blog_prev_navigation_text',array(
 		'default'=> 'PREVIOUS',
@@ -2979,6 +3021,16 @@ function sirat_customize_register( $wp_customize ) {
         'label' => __('Preloader Background Image','sirat'),
         'section' => 'sirat_left_right'
 	)));
+
+	$wp_customize->add_setting( 'sirat_sticky_sidebar',array(
+      'default' => 0,
+      'transport' => 'refresh',
+      'sanitize_callback' => 'sirat_switch_sanitization'
+    ) );
+    $wp_customize->add_control( new Sirat_Toggle_Switch_Custom_Control( $wp_customize, 'sirat_sticky_sidebar',array(
+      'label' => esc_html__( 'Show / Hide Sticky Sidebar','sirat' ),
+      'section' => 'sirat_left_right'
+    )));
 
 	//404 Page Setting
 	$wp_customize->add_section('sirat_404_page',array(

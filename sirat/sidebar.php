@@ -5,7 +5,7 @@
  * @package Sirat
  */
 ?>
-
+<div class="footer wow zoomInUp delay-1000<?php if( get_theme_mod( 'sirat_sticky_sidebar', false) == 1) { ?> sidebar-sticky"data-wow-duration="2s"<?php } else { ?>close-sticky <?php } ?>>
 <div id="sidebar" class="wow zoomInUp delay-1000" data-wow-duration="2s"<?php if( is_page_template('blog-post-left-sidebar.php')){?> style="float:left;"<?php } ?>>    
     <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
         <aside id="search" class="widget" role="complementary" aria-label="firstsidebar">
@@ -45,4 +45,5 @@
             </ul>
         </aside>
     <?php endif; // end sidebar widget area ?>	
+</div>
 </div>

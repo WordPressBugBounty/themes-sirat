@@ -7,6 +7,8 @@
         if ($sirat_demo_import_completed) {
         echo '<p class="notice-text">' . esc_html__('Your demo import has been completed successfully.', 'sirat') . '</p>';
         echo '<span><a href="' . esc_url(home_url()) . '" class="button button-primary site-btn" target="_blank">' . esc_html__('View Site', 'sirat') . '</a></span>';
+        echo '<span><a href="'. esc_url(admin_url('customize.php') ) .'" class="button button-primary demo-btn" target=_blank>'. esc_html__( 'Customize Your Site', 'sirat' ) .'</a></span>';
+        echo '<span><a href="'. esc_url( 'https://preview.vwthemesdemo.com/docs/free-sirat/' ) .'" class="button button-primary doc-btn" target=_blank>'. esc_html__( 'Free Theme Documentation', 'sirat' ) .'</a></span>';
         }
 
 		//POST and update the customizer and other related data
@@ -126,6 +128,140 @@
                     'menu-item-type' => 'post_type'
                 ));
 
+                                //SERVICES PAGE 
+                $sirat_services = array(
+                    'post_type'   => 'page',
+                    'post_title'  => 'Services',
+                    'post_content'=> 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. We provide high quality services tailored to your needs.',
+                    'post_status' => 'publish',
+                    'post_author' => 1,
+                    'post_name'   => 'services'
+                );
+                $sirat_services_id = wp_insert_post($sirat_services);
+
+                wp_update_nav_menu_item($sirat_menu_id, 0, array(
+                    'menu-item-title'  => __('Services', 'sirat'),
+                    'menu-item-classes'=> 'services',
+                    'menu-item-url'    => home_url('/services/'),
+                    'menu-item-status' => 'publish',
+                    'menu-item-object-id' => $sirat_services_id,
+                    'menu-item-object' => 'page',
+                    'menu-item-type'   => 'post_type'
+                ));
+
+                //PROJECTS PAGE
+                $sirat_projects = array(
+                    'post_type'   => 'page',
+                    'post_title'  => 'Projects',
+                    'post_content'=> 'Explore our completed and ongoing projects showcasing our expertise and commitment.',
+                    'post_status' => 'publish',
+                    'post_author' => 1,
+                    'post_name'   => 'projects'
+                );
+                $sirat_projects_id = wp_insert_post($sirat_projects);
+
+                wp_update_nav_menu_item($sirat_menu_id, 0, array(
+                    'menu-item-title'  => __('Projects', 'sirat'),
+                    'menu-item-classes'=> 'projects',
+                    'menu-item-url'    => home_url('/projects/'),
+                    'menu-item-status' => 'publish',
+                    'menu-item-object-id' => $sirat_projects_id,
+                    'menu-item-object' => 'page',
+                    'menu-item-type'   => 'post_type'
+                ));
+
+                // TEAM PAGE 
+                $sirat_team = array(
+                    'post_type'   => 'page',
+                    'post_title'  => 'Our Team',
+                    'post_content'=> 'Meet our experienced and dedicated team members who drive our success.',
+                    'post_status' => 'publish',
+                    'post_author' => 1,
+                    'post_name'   => 'team'
+                );
+                $sirat_team_id = wp_insert_post($sirat_team);
+
+                wp_update_nav_menu_item($sirat_menu_id, 0, array(
+                    'menu-item-title'  => __('Our Team', 'sirat'),
+                    'menu-item-classes'=> 'team',
+                    'menu-item-url'    => home_url('/team/'),
+                    'menu-item-status' => 'publish',
+                    'menu-item-object-id' => $sirat_team_id,
+                    'menu-item-object' => 'page',
+                    'menu-item-type'   => 'post_type'
+                ));
+
+                // TESTIMONIALS PAGE
+                $sirat_testimonial = array(
+                    'post_type'   => 'page',
+                    'post_title'  => 'Testimonials',
+                    'post_content'=> 'What our clients say about us. Read genuine feedback from our valued customers.',
+                    'post_status' => 'publish',
+                    'post_author' => 1,
+                    'post_name'   => 'testimonials'
+                );
+                $sirat_testimonial_id = wp_insert_post($sirat_testimonial);
+
+                wp_update_nav_menu_item($sirat_menu_id, 0, array(
+                    'menu-item-title'  => __('Testimonials', 'sirat'),
+                    'menu-item-classes'=> 'testimonials',
+                    'menu-item-url'    => home_url('/testimonials/'),
+                    'menu-item-status' => 'publish',
+                    'menu-item-object-id' => $sirat_testimonial_id,
+                    'menu-item-object' => 'page',
+                    'menu-item-type'   => 'post_type'
+                ));
+
+                // Create Blog Page 
+                $sirat_blog_page_title = 'Blog';
+
+                $sirat_blog_page_query = new WP_Query(array(
+                    'post_type'      => 'page',
+                    'name'           => sanitize_title($sirat_blog_page_title),
+                    'post_status'    => 'publish',
+                    'posts_per_page' => 1
+                ));
+                if (!$sirat_blog_page_query->have_posts()) {
+                    $sirat_blog_page = array(
+                        'post_type'   => 'page',
+                        'post_title'  => $sirat_blog_page_title,
+                        'post_status' => 'publish',
+                        'post_author' => 1,
+                    );
+                    $sirat_blog_page_id = wp_insert_post($sirat_blog_page);
+                    update_option('page_for_posts', $sirat_blog_page_id);
+
+                    wp_update_nav_menu_item($sirat_menu_id, 0, array(
+                        'menu-item-title'      => __('Blog', 'sirat'),
+                        'menu-item-url'        => get_permalink($sirat_blog_page_id),
+                        'menu-item-status'     => 'publish',
+                        'menu-item-object-id'  => $sirat_blog_page_id,
+                        'menu-item-object'     => 'page',
+                        'menu-item-type'       => 'post_type',
+                    ));
+                }
+
+                    // CONTACT US PAGE
+                    $sirat_contact = array(
+                        'post_type'   => 'page',
+                        'post_title'  => 'Contact Us',
+                        'post_content'=> 'Get in touch with us for inquiries, support, or collaboration. We’d love to hear from you.',
+                        'post_status' => 'publish',
+                        'post_author' => 1,
+                        'post_name'   => 'contact-us'
+                    );
+                    $sirat_contact_id = wp_insert_post($sirat_contact);
+
+                    wp_update_nav_menu_item($sirat_menu_id, 0, array(
+                        'menu-item-title'  => __('Contact Us', 'sirat'),
+                        'menu-item-classes'=> 'contact-us',
+                        'menu-item-url'    => home_url('/contact-us/'),
+                        'menu-item-status' => 'publish',
+                        'menu-item-object-id' => $sirat_contact_id,
+                        'menu-item-object' => 'page',
+                        'menu-item-type'   => 'post_type'
+                    ));
+
                 // Set the menu location if it's not already set
                 if (!has_nav_menu($sirat_bpmenulocation)) {
                     $locations = get_theme_mod('nav_menu_locations'); // Use 'nav_menu_locations' to get locations array
@@ -144,6 +280,8 @@
     		// Display success message and "View Site" button
     		echo '<p class="notice-text">' . esc_html__('Your demo import has been completed successfully.', 'sirat') . '</p>';
     		echo '<span><a href="' . esc_url(home_url()) . '" class="button button-primary site-btn" target="_blank">' . esc_html__('View Site', 'sirat') . '</a></span>';
+            echo '<span><a href="'. esc_url(admin_url('customize.php') ) .'" class="button button-primary demo-btn" target=_blank>'. esc_html__( 'Customize Your Site', 'sirat' ) .'</a></span>';
+            echo '<span><a href="'. esc_url( 'https://preview.vwthemesdemo.com/docs/free-sirat/' ) .'" class="button button-primary doc-btn" target=_blank>'. esc_html__( 'Free Theme Documentation', 'sirat' ) .'</a></span>';
             //end 
 
 
@@ -293,11 +431,15 @@
         }
     ?>
   
-	<p><?php esc_html_e('Please back up your website if it’s already live with data. This importer will overwrite your existing settings with the new customizer values for Sirat', 'sirat'); ?></p>
+	
     <form action="<?php echo esc_url(home_url()); ?>/wp-admin/themes.php?page=sirat_guide" method="POST" onsubmit="return validate(this);">
         <?php if (!get_option('sirat_demo_import_completed')) : ?>
+             <form method="post">
+                 <p class="run-import-text"><?php esc_html_e('Click On The Below Run Importer Button To Import Demo Content Of Sirat', 'sirat'); ?></p>
+                <p><?php esc_html_e('Please back up your website if it’s already live with data. This importer will overwrite your existing settings with the new customizer values for Sirat', 'sirat'); ?></p>
             <input class="run-import" type="submit" name="submit" value="<?php esc_attr_e('Run Importer', 'sirat'); ?>" class="button button-primary button-large">
-        <?php endif; ?>
+              </form>   
+            <?php endif; ?>
         <div id="spinner" style="display:none;">         
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/spinner.png" alt="" />
         </div>

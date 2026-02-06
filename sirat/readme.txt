@@ -2,9 +2,9 @@
 Contributors: VWthemes
 Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, block-patterns, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, translation-ready, threaded-comments, post-formats, rtl-language-support, blog, portfolio, e-commerce
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.2
-Stable tag: 1.5.8
+Stable tag: 1.6.5
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -762,6 +762,40 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Updated fontawesome file.
     -- Added animations to sidebar,footer and related post.
     -- Added hover effect to shop page img.       
+
+= 1.5.9 =
+    -- Resolved minor bugs.
+
+= 1.6.0 =
+    -- Added first capital letter option in blog post setting.
+    -- Added sticky sidebar option.
+    -- Resolved css error for toggle icon. 
+
+= 1.6.1 =
+    -- Fixed layout issues.
+
+= 1.6.2 =
+    -- Resolved css error.    
+
+= 1.6.3 =
+    -- Tested Upto 6.9.
+    -- Resolved activation notice dismiss issue.
+    -- Changed bundle count.
+    -- Added menu on demo import.
+    -- Updated pot file.
+    -- Added new getstarted.    
+    -- Resolved css error.
+
+= 1.6.4 =
+    -- Resolved minor bug.    
+
+= 1.6.5 =
+    -- Added hover effect options for single post featured image.
+    -- Updated rtl css file.
+    -- Updated pot file.
+    -- Resolved getstarted error.
+    -- Resolved css error in notice responsive
+    -- Updated tgm plugin activation file.
 
 == Resources ==
 

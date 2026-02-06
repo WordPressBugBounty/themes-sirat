@@ -36,7 +36,7 @@
         <?php } ?>
         <?php if( get_theme_mod( 'sirat_single_blog_featured_image_hide_show',true) == 1) { ?>
             <?php if(has_post_thumbnail()) { ?>
-                <div class="feature-box">   
+                <div class="feature-box sirat-featured-image">   
                   <?php the_post_thumbnail(); ?>
                   <hr> 
                 </div>                   

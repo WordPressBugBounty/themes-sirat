@@ -5,9 +5,9 @@ Author: VW Themes
 Author URI: https://www.vwthemes.com/
 Description: Sirat is a multipurpose theme known primarily for its simplicity apart from being clean, user-friendly as well as finely organised making it a very good choice when it comes to WordPress themes relevant for various business purposes like a Apps landing, Architects, startup, Social Media Management, Virtual Assistant Service, Webinar sign-up, ebook download, Service offering, One page website, landing pages, quotes blog Organizations, Consultant, Manufacture plant, Services, IT Firm, Cloth business, responsive landing page, course websites, wedding planners, sport/medical shops) political and WooCommerce storefront with a beautiful & professional design, shortcodes fashion store, Retailer, Wholesaler, Online business, Sign a petition, B2B, app landing page, builder, catering, course, fitness, landing, launch, Marketing, SEO Agency, Advertising agency, Insurance, generating form, University Landing page, corporate, portfolio, agency, startup, creative business, Event, Digital Health, Sell Your Art Online, Ideology-Based business, Print-On-Demand, Finance, Stock Market, IT infrastructure, business agency. The theme comes with a new header layout and there are more options of sidebar layout available for post and pages. Apart from that, there are more width options as well as preload options available. Another important thing with this particular WordPress theme is that it is lightweight and can be extended to the limit one likes. It also has the availability of the enable and disable button. With some of its exemplary features like WooCommerce, retina ready, clean code, flexible header, CTA, Right Sidebar, bootstrap framework, Schema friendly, customization options, mobile friendliness etc, This WP theme has content limit option and is also accompanied with blog post settings. Another important characteristic with it is the beauty it has and also the design that is immensely professional. Sirat is a fast theme and is accompanied with some of the best SEO practices in the online world. You have the option of customization a mentioned earlier making it extremely beneficial for personal portfolio. Apart from all this, Sirat is modern, luxurious, stunning as well as animated making it a fine option for the businesses where creativity is involved and it also has scroll top layout. Siart is translation ready and supports AR_ARABIC, DE_GERMAN, ES_SPANISH, FR_FRENCH, IT_ITALIAN, RU_RUSSIAN, ZH_CHINESE, TR_TURKISH languages. It fits creative business, small businesses restaurants, medical shops, startups, corporate businesses, online agencies and firms, portfolios, ecommerce. Sirat has banner opacity and colour changing feature included. Demo: https://preview.vwthemesdemo.com/vw-sirat/
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.2
-Version: 1.5.8
+Version: 1.6.5
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: sirat
@@ -401,6 +401,14 @@ input[type="submit"]:hover {
 .elementor-page #preloader{
   display: none;
 }
+/*---------Sticky Sidebar---------*/
+@media screen and (min-width: 768px){
+  .sidebar-fixed {
+    position: fixed;
+    top:50px;
+    z-index: 999;
+  }
+}
 /*---------Sticky Copyright---------*/
 .copyright-fixed {
   position: fixed;
@@ -762,7 +770,7 @@ ul.list_nav {
   font-size: 15px;
   color: #fff;
   border: solid 2px;
-  padding: 12px 18px;
+  padding: 10px 13px !important;
   border-radius: 50%;
 }
 #slider .carousel-control-prev-icon:hover, 

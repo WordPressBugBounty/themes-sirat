@@ -1305,3 +1305,90 @@
 			$sirat_custom_css .='text-align:end;';
 		$sirat_custom_css .='}}';
 	}
+
+	// sticky sidebar
+		$sirat_resp_stickysidebar = get_theme_mod( 'sirat_stickysidebar_hide_show',false);
+	if($sirat_resp_stickysidebar == true && get_theme_mod( 'sirat_sticky_sidebar',false) != true){
+		$sirat_custom_css .= '@media (min-width: 768px) {';
+    	$sirat_custom_css .='#sidebar{';
+			$sirat_custom_css .='position:static;';
+		$sirat_custom_css .='} ';
+		$sirat_custom_css .= '}';
+	}
+    // First Letter Capital
+	$sirat_show_first_caps = get_theme_mod('sirat_show_first_caps', false);
+	if ($sirat_show_first_caps ) {
+	    $sirat_custom_css .= '.post-main-box .new-text p:nth-of-type(1)::first-letter {';
+	    $sirat_custom_css .=' font-size: 55px;font-weight: 600;margin-right: 5px;';
+	    $sirat_custom_css .='}';
+	} else {
+		$sirat_custom_css .= '.post-main-box .new-text p:nth-of-type(1)::first-letter {';
+	    $sirat_custom_css .= 'display: none;';
+	    $sirat_custom_css .='}';
+	}
+	// Hover on featured image //
+	$sirat_show_featured = get_theme_mod( 'sirat_featured_image_hide_show', 1 );
+	$sirat_hover_effect  = get_theme_mod( 'sirat_featured_image_hover', 'none' );
+
+	if ( $sirat_show_featured && $sirat_hover_effect !== 'none' ) {
+
+		$sirat_custom_css .= '
+		.sirat-featured-image img{
+			transition: all 0.4s ease;
+		}';
+
+		if ( $sirat_hover_effect === 'zoom-in' ) {
+			$sirat_custom_css .= '
+			.sirat-featured-image:hover img{
+				transform: scale(1.2);
+			}';
+		}
+
+		if ( $sirat_hover_effect === 'zoom-out' ) {
+			$sirat_custom_css .= '
+			.sirat-featured-image img{
+				transform: scale(1.2);
+			}
+			.sirat-featured-image:hover img{
+				transform: scale(1);
+			}';
+		}
+
+		if ( $sirat_hover_effect === 'grayscale' ) {
+			$sirat_custom_css .= '
+			.sirat-featured-image img{
+				filter: grayscale(100%);
+			}
+			.sirat-featured-image:hover img{
+				filter: grayscale(0);
+			}';
+		}
+
+		if ( $sirat_hover_effect === 'sepia' ) {
+			$sirat_custom_css .= '
+			.sirat-featured-image:hover img{
+				filter: sepia(100%);
+			}';
+		}
+
+		if ( $sirat_hover_effect === 'blur' ) {
+			$sirat_custom_css .= '
+			.sirat-featured-image:hover img{
+				filter: blur(3px);
+			}';
+		}
+
+		if ( $sirat_hover_effect === 'bright' ) {
+			$sirat_custom_css .= '
+			.sirat-featured-image:hover img{
+				filter: brightness(1.3);
+			}';
+		}
+
+		if ( $sirat_hover_effect === 'translate' ) {
+			$sirat_custom_css .= '
+			.sirat-featured-image:hover img{
+				transform: translateY(-10px);
+			}';
+		}
+	}
