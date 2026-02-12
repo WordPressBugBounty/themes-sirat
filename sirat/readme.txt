@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.2
-Stable tag: 1.6.5
+Stable tag: 1.6.7
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -796,6 +796,9 @@ Sirat is a multipurpose theme known primarily for its simplicity apart from bein
     -- Resolved getstarted error.
     -- Resolved css error in notice responsive
     -- Updated tgm plugin activation file.
+
+= 1.6.7 =
+  -- Fixed front-end CSS issue on homepage.    
 
 == Resources ==
 
