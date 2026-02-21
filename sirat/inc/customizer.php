@@ -2928,6 +2928,24 @@ function sirat_customize_register( $wp_customize ) {
 		'section' => 'sirat_left_right'
     )));
 
+	// Progress Bar
+	$wp_customize->add_setting( 'sirat_progress_bar', array(
+		'default'           => 0, 
+		'transport'         => 'refresh',
+		'sanitize_callback' => 'sirat_switch_sanitization',
+	));
+
+	$wp_customize->add_control(
+		new Sirat_Toggle_Switch_Custom_Control(
+			$wp_customize,
+			'sirat_progress_bar',
+			array(
+				'label'   => esc_html__( 'Show / Hide Progress Bar', 'sirat' ),
+				'section' => 'sirat_left_right',
+			)
+		)
+	);
+
     $wp_customize->add_setting('sirat_bradcrumbs_alignment',array(
         'default' => 'Left',
         'sanitize_callback' => 'sirat_sanitize_choices'

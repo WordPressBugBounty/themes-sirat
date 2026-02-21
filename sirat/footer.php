@@ -114,7 +114,9 @@
             <?php }?>
         </div>    
     </footer>
+    <?php if ( get_theme_mod( 'sirat_progress_bar', 0 ) ) : ?>
+        <div id="sirat_elemento_progress_bar"></div>
+    <?php endif; ?>
         <?php wp_footer(); ?>
-
     </body>
 </html>

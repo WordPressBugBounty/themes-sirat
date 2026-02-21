@@ -183,3 +183,21 @@ jQuery(document).ready(function () {
         jQuery(".serach_outer").slideUp(1000);
     });
 });
+
+/* Progress Bar */
+document.addEventListener("DOMContentLoaded", function () {
+    const sirat_progressBar =
+        document.getElementById("sirat_elemento_progress_bar");
+    if (!sirat_progressBar) return;
+    window.addEventListener("scroll", function () {
+        const sirat_scrollTop =
+            document.documentElement.scrollTop || document.body.scrollTop;
+        const sirat_height =
+            document.documentElement.scrollHeight -
+            document.documentElement.clientHeight;
+        const sirat_scrolled =
+            (sirat_scrollTop / sirat_height) * 100;
+        sirat_progressBar.style.width =
+            sirat_scrolled + "%";
+    });
+});

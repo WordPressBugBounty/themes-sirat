@@ -7,7 +7,7 @@ Description: Sirat is a multipurpose theme known primarily for its simplicity ap
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.2
-Version: 1.6.7
+Version: 1.6.8
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: sirat
@@ -2797,3 +2797,84 @@ a[href^=tel] {
         transform: rotate(360deg);
     }
 }
+/* Progress Bar */
+  #sirat_elemento_progress_bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 4px;
+      width: 0;
+      background-color: #febe00;
+      z-index: 99999;
+  }
+
+  /* Admin bar fix */
+  .admin-bar #sirat_elemento_progress_bar {
+      top: 32px;
+  }
+
+  @media (max-width: 782px) {
+      .admin-bar #sirat_elemento_progress_bar {
+          top: 46px;
+      }
+  }
+
+  @media (max-width: 600px) {
+      .admin-bar #sirat_elemento_progress_bar {
+          top: 0;
+      }
+  }
+  /* shop page image animation */
+  .wp-block-woocommerce-product-image {
+      overflow: hidden;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .wp-block-woocommerce-product-image img {
+      display: block;
+      width: 100% !important;
+      height: auto;
+      transition: transform 0.6s ease;
+  }
+  .wp-block-woocommerce-product-image:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15); 
+  }
+  .wp-block-woocommerce-product-image:hover img {
+      transform: scale(1.08); 
+  }
+  @media (hover: none) {
+      .wp-block-woocommerce-product-image:hover {
+          transform: none;
+          box-shadow: none;
+      }
+      .wp-block-woocommerce-product-image:hover img {
+          transform: none;
+      }
+  }
+  /* single shop page image animation */
+  .woocommerce-product-gallery__image {
+      overflow: hidden;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .woocommerce-product-gallery__image img {
+      transition: transform 0.6s ease;
+  }
+  .woocommerce-product-gallery__image:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 35px rgba(0,0,0,0.15);
+  }
+  .woocommerce-product-gallery__image:hover img {
+      transform: scale(1.08);
+  }
+  .woocommerce-product-gallery__image {
+      opacity: 0;
+      transform: translateY(30px);
+      animation: productImageReveal 0.9s ease-out forwards;
+  }
+
+  @keyframes productImageReveal {
+      to {
+          opacity: 1;
+          transform: translateY(0);
+      }
+  }
