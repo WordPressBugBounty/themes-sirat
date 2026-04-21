@@ -80,31 +80,23 @@ function sirat_setup() {
 	 * specifically font, colors, icons, and column width.
 	 */
 	add_editor_style( array( 'css/editor-style.css', sirat_font_url() ) );
-
-	// Theme Activation Notice
-	global $pagenow;
-
-	if (
-		is_admin()
-		&&
-		('themes.php' == $pagenow)
-		// &&
-		// isset( $_GET['activated'] )
-	) {
-		add_action('admin_notices', 'sirat_activation_notice');
-	}
 }
 endif;
 
 add_action( 'after_setup_theme', 'sirat_setup' );
 
 // Notice after Theme Activation
+add_action('admin_notices', 'sirat_activation_notice');
 
 function sirat_activation_notice() {
-
-	$sirat_meta = get_option( 'sirat_admin_notice' );
-
-	if (!$sirat_meta) {
+	// Hide permanently if dismissed
+    if ( get_option('sirat_admin_notice') == 1 ) {
+        return;
+    }
+    // Hide ONLY on Get Started page
+    if ( isset($_GET['page']) && $_GET['page'] === 'sirat_guide' ) {
+        return;
+    }{
 		echo '<div id="sirat-welcome-notice" class="notice notice-success is-dismissible welcome-notice">';
 		echo '<div class="notice-row">';
 			echo '<div class="notice-text">';
@@ -114,7 +106,7 @@ function sirat_activation_notice() {
 				echo '<span class="import-btn"><a href="'. esc_url( admin_url( 'admin.php?page=sirat_guide' ) ) .'" class="button button-primary">'. esc_html__( 'IMPORT DEMO', 'sirat' ) .'</a></span>';
 				echo '<span class="demo-btn"><a href="'. esc_url( 'https://preview.vwthemesdemo.com/vw-sirat/' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'VIEW DEMO', 'sirat' ) .'</a></span>';
 				echo '<span class="upgrade-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/multipurpose-wordpress-theme' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'UPGRADE TO PRO', 'sirat' ) .'</a></span>';
-				echo '<span class="bundle-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/wp-theme-bundle' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'BUNDLE OF 400+ THEMES', 'sirat' ) .'</a></span>';
+				echo '<span class="bundle-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/wp-theme-bundle' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'BUNDLE OF 485+ THEMES', 'sirat' ) .'</a></span>';
 			echo '</div>';
 			echo '<div class="notice-img1">';
 				echo '<img src="' . esc_url( get_template_directory_uri() . '/inc/getstart/images/arrow-notice.png' ) . '" width="180" alt="' . esc_attr__( 'Sirat', 'sirat' ) . '" />';
@@ -124,8 +116,25 @@ function sirat_activation_notice() {
 			echo '</div>';	
 		echo '</div>';	
 	echo '</div>';
+   }
 }
-}
+
+//Add bundle image in customizer 
+	add_action('customize_controls_print_footer_scripts', function () {
+	?>
+	<script>
+		jQuery(document).ready(function($){
+		var sirat_banner = `
+			<div class="vw-bundle-banner" style="padding:10px 12px;">
+			<a href="https://www.vwthemes.com/products/wp-theme-bundle" target="_blank">
+              <img src="<?php echo esc_url( get_template_directory_uri() . '/inc/getstart/images/bundle-img.png' ); ?>"style="width:100%; border-radius:4px;">
+            </a>
+			</div>`;
+		$('.customize-pane-parent').prepend(sirat_banner);
+		});
+	</script>
+	<?php
+	});
 
 /* Theme Widgets Setup */
 function sirat_widgets_init() {
@@ -710,14 +719,17 @@ function sirat_init_setup() {
 add_action( 'after_setup_theme', 'sirat_init_setup' );
 
 // Admin notice code START
-function sirat_dismissed_notice() {
-	update_option( 'sirat_admin_notice', true );
+add_action('wp_ajax_sirat_dismiss_notice', 'sirat_dismiss_notice');
+function sirat_dismiss_notice() {
+    update_option('sirat_admin_notice', 1);
+    wp_die();
 }
-add_action( 'wp_ajax_sirat_dismissed_notice', 'sirat_dismissed_notice' );
 
 //After Switch theme function
 add_action('after_switch_theme', 'sirat_getstart_setup_options');
 function sirat_getstart_setup_options () {
-    update_option('sirat_admin_notice', false );
+    delete_option('sirat_admin_notice');
 }
 // Admin notice code END
+
+add_filter( 'woocommerce_enable_setup_wizard', '__return_false' );

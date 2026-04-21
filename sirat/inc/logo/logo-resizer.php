@@ -5,31 +5,7 @@
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
 function sirat_logo_customize_register( $wp_customize ) {
-	// Logo Resizer additions
-	$wp_customize->add_setting( 'logo_size', array(
-		'default'              => 50,
-		'theme_supports'       => 'custom-logo',
-		'transport'            => 'refresh',
-		'sanitize_callback'    => 'sirat_sanitize_number_range'
-	) );
-
-	$wp_customize->add_control( 'logo_size', array(
-		'label'       => esc_html__( 'Logo Size','sirat' ),
-		'section'     => 'title_tagline',
-		'priority'    => 9,
-		'type'        => 'range',
-		'settings'    => 'logo_size',
-		'input_attrs' => array(
-			'step'             => 5,
-			'min'              => 0,
-			'max'              => 100,
-			'aria-valuemin'    => 0,
-			'aria-valuemax'    => 100,
-			'aria-valuenow'    => 50,
-			'aria-orientation' => 'horizontal',
-		),
-	) );
-
+	
 	$wp_customize->add_setting('sirat_logo_padding',array(
 		'default'=> '',
 		'sanitize_callback'	=> 'sanitize_text_field'

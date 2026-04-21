@@ -1,18 +1,15 @@
-jQuery("body").on("click", '#sirat-welcome-notice .notice-dismiss', function (event) {
-    event.preventDefault();
+jQuery(document).ready(function($){
 
-    console.log("close clicked");
+    $(document).on('click', '#ac-repairing-services-welcome-notice .notice-dismiss', function(){
 
-    jQuery.ajax({
-      type: 'POST',
-      url: ajaxurl,
-      data: {
-          action: 'sirat_dismissed_notice',
-      },
-      success: function () {
-          // Remove the notice on success
-          $('.notice[data-notice="example"]').remove();
-      }
+        $.ajax({
+            type: 'POST',
+            url: ajaxurl,
+            data: {
+                action: 'sirat_dismiss_notice'
+            }
+        });
+
     });
-  }
-)
+
+});

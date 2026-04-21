@@ -307,3 +307,7 @@ li#accordion-section-sirat_newsletter .accordion-section-title:after{
 #customize-controls .control-section:hover>li#accordion-section-sirat_newsletter .accordion-section-title:after{
   color: #fff;
 }
+.customize-pane-parent .vw-bundle-banner a:focus{
+  outline: unset !important;
+  box-shadow: unset !important;
+}
