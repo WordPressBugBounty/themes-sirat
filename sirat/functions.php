@@ -725,10 +725,25 @@ function sirat_dismiss_notice() {
     wp_die();
 }
 
+// Customizer popup AJAX handler
+add_action('wp_ajax_sirat_customizer_popup_shown', 'sirat_customizer_popup_shown');
+function sirat_customizer_popup_shown() {
+    check_ajax_referer('sirat_customizer_popup_nonce', 'nonce');
+    update_option('sirat_customizer_popup_shown', '1');
+    wp_die();
+}
+
 //After Switch theme function
 add_action('after_switch_theme', 'sirat_getstart_setup_options');
 function sirat_getstart_setup_options () {
     delete_option('sirat_admin_notice');
+    delete_option('sirat_customizer_popup_shown'); // Reset customizer popup
+}
+
+// Clear popup option when switching away from this theme
+add_action('switch_theme', 'sirat_cleanup_on_theme_switch');
+function sirat_cleanup_on_theme_switch() {
+    delete_option('sirat_customizer_popup_shown');
 }
 // Admin notice code END
 

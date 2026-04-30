@@ -3855,6 +3855,13 @@ final class Sirat_Customize {
 		array(
 			'ajaxurl' =>	admin_url( 'admin-ajax.php' )
 		));
+
+		// Pass popup status to JavaScript
+		wp_localize_script( 'sirat-customize-controls', 'siratCustomizer', array(
+			'popupShown' => get_option( 'sirat_customizer_popup_shown', '0' ),
+			'ajaxUrl' => admin_url( 'admin-ajax.php' ),
+			'nonce' => wp_create_nonce( 'sirat_customizer_popup_nonce' )
+		) );
 	}
 }
 
