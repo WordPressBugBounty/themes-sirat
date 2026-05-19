@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.2
-Stable tag: 1.7.2
+Stable tag: 1.7.3
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Sirat is an incredibly versatile WordPress theme that stands out for its simplicity and clean design, making it an excellent choice for a range of business applications. Whether you're creating an app landing page, a website for an architect, or promoting a startup, Sirat has the features you need. It caters to various fields, including social media management, virtual assistant services, webinar sign-ups, ebook downloads, and even one-page websites. For organizations like consultants, manufacturers, and IT firms, as well as online businesses such as retailers and wholesalers, Sirat offers a professional and visually appealing design that can effectively support a WooCommerce storefront. Its extensive capabilities also suit fitness programs, event planning, and creative projects, ensuring you have the right platform for your needs. The theme is designed with options for sidebars, header layouts, and multiple width variations to enhance your content's presentation. One of the standout features of Sirat is its lightweight design and extendability. You have the flexibility to enable or disable various elements, allowing for a tailored experience. Its robust features include WooCommerce support, retina-ready visuals, clean coding, and mobile responsiveness. Additionally, Sirat employs best SEO practices, making it an ideal choice for digital health platforms or insurance agencies looking to optimize their online presence. Customization is straightforward, making Sirat a perfect fit for personal portfolios or even businesses with a creative angle. Its modern and luxurious aesthetics, combined with animated elements, offer a stunning visual experience. Plus, it supports multiple languages, including Arabic, German, Spanish, French, Italian, Russian, Chinese, and Turkish.
 
 == Changelog ==
+
+= 1.7.3 =
+	* Resolved issue.
 
 = 0.1 =
 	-- Initial version released.
