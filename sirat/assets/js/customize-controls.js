@@ -117,10 +117,10 @@ jQuery( document ).ready(function($) {
 		'<div class="notice-text">' +
 		'<p class="welcome-text1">🎉Before Switching Sirat…</p>' +
 		'<p class="welcome-text2">Unlock its Premium Version for more power, features, and design control.</p>' +
-		'<p class="welcome-text3">Or get 485+ themes in one bundle at $99</p>' +
+		'<p class="welcome-text3">Or get 500+ themes in one bundle at $119</p>' +
 		'<div class="pro-popup-buttons">' +
 		'<a href="https://www.vwthemes.com/products/multipurpose-wordpress-theme" class="button button-primary upgrade-pro-btn" target="_blank">UPGRADE TO PRO</a>' +
-		'<a href="https://www.vwthemes.com/products/wp-theme-bundle" class="button button-primary bundle-btn" target="_blank">BUNDLE OF 485+ THEMES</a>' +
+		'<a href="https://www.vwthemes.com/products/wp-theme-bundle" class="button button-primary bundle-btn" target="_blank">BUNDLE OF 500+ THEMES</a>' +
 		'</div>' +
 		'</div>' +
 		'</div>' +

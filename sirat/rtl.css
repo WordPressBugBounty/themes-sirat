@@ -773,7 +773,7 @@ ul.list_nav {
   top: 50%;
   transform: translateY(-50%);
   left: 45%;
-  right: 10%;
+  right: 20%;
   text-align: right;
   bottom: auto;
 }
@@ -1303,7 +1303,7 @@ h1.page-title {
   font-size: 2rem;
 }
 .post-info hr {
-  width: 10%;
+  width: 20%;
   border-top: solid 2px #000000;
   margin-bottom: 0;
   opacity: 1;
@@ -2430,7 +2430,7 @@ li.wc-block-grid__product{
     position: fixed;
     z-index: 999999;
     right: 0;
-    top: -110%;
+    top: -120%;
     overflow-x: hidden; 
     overflow-y: scroll;
     background: #fff ;

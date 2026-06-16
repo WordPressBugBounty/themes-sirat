@@ -7,7 +7,7 @@ Description:Sirat is an incredibly versatile WordPress theme that stands out for
 Requires at least: 5.0
 Tested up to: 6.9
 Requires PHP: 7.2
-Version: 1.7.3
+Version: 1.7.4
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: sirat
@@ -792,7 +792,7 @@ ul.list_nav {
   top: 50%;
   transform: translateY(-50%);
   right: 45%;
-  left: 10%;
+  left: 20%;
   text-align: left;
   bottom: auto;
 }
@@ -1322,7 +1322,7 @@ h1.page-title {
   font-size: 2rem;
 }
 .post-info hr {
-  width: 10%;
+  width: 20%;
   border-top: solid 2px #000000;
   margin-bottom: 0;
   opacity: 1;
@@ -2449,7 +2449,7 @@ li.wc-block-grid__product{
     position: fixed;
     z-index: 999999;
     left: 0;
-    top: -110%;
+    top: -120%;
     overflow-x: hidden; 
     overflow-y: scroll;
     background: #fff ;

@@ -106,7 +106,7 @@ function sirat_activation_notice() {
 				echo '<span class="import-btn"><a href="'. esc_url( admin_url( 'admin.php?page=sirat_guide' ) ) .'" class="button button-primary">'. esc_html__( 'IMPORT DEMO', 'sirat' ) .'</a></span>';
 				echo '<span class="demo-btn"><a href="'. esc_url( 'https://preview.vwthemesdemo.com/vw-sirat/' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'VIEW DEMO', 'sirat' ) .'</a></span>';
 				echo '<span class="upgrade-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/multipurpose-wordpress-theme' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'UPGRADE TO PRO', 'sirat' ) .'</a></span>';
-				echo '<span class="bundle-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/wp-theme-bundle' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'BUNDLE OF 485+ THEMES', 'sirat' ) .'</a></span>';
+				echo '<span class="bundle-btn"><a href="'. esc_url( 'https://www.vwthemes.com/products/wp-theme-bundle' ) .'" class="button button-primary" target=_blank>'. esc_html__( 'BUNDLE OF 500+ THEMES', 'sirat' ) .'</a></span>';
 			echo '</div>';
 			echo '<div class="notice-img1">';
 				echo '<img src="' . esc_url( get_template_directory_uri() . '/inc/getstart/images/arrow-notice.png' ) . '" width="180" alt="' . esc_attr__( 'Sirat', 'sirat' ) . '" />';
