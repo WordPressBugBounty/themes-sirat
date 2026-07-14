@@ -2,28 +2,33 @@
 Contributors: VWthemes
 Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, block-patterns, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, translation-ready, threaded-comments, post-formats, rtl-language-support, blog, portfolio, e-commerce
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.2
-Stable tag: 1.7.4
+Stable tag: 1.7.5
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Sirat is an incredibly versatile WordPress theme that stands out for its simplicity and clean design, making it an excellent choice for a range of business applications. Whether you're creating an app landing page, a website for an architect, or promoting a startup, Sirat has the features you need. It caters to various fields, including social media management, virtual assistant services, webinar sign-ups, ebook downloads, and even one-page websites. For organizations like consultants, manufacturers, and IT firms, as well as online businesses such as retailers and wholesalers, Sirat offers a professional and visually appealing design that can effectively support a WooCommerce storefront. Its extensive capabilities also suit fitness programs, event planning, and creative projects, ensuring you have the right platform for your needs. The theme is designed with options for sidebars, header layouts, and multiple width variations to enhance your content's presentation. One of the standout features of Sirat is its lightweight design and extendability. You have the flexibility to enable or disable various elements, allowing for a tailored experience. Its robust features include WooCommerce support, retina-ready visuals, clean coding, and mobile responsiveness. Additionally, Sirat employs best SEO practices, making it an ideal choice for digital health platforms or insurance agencies looking to optimize their online presence. Customization is straightforward, making Sirat a perfect fit for personal portfolios or even businesses with a creative angle. Its modern and luxurious aesthetics, combined with animated elements, offer a stunning visual experience. Plus, it supports multiple languages, including Arabic, German, Spanish, French, Italian, Russian, Chinese, and Turkish.
+Sirat is a highly versatile WordPress theme notable for its simplicity and clean design, making it an excellent option for various business applications. Whether you're building an app landing page, designing a website for an architect, or promoting a startup, Sirat provides all the necessary features. It serves multiple fields, including social media management, virtual assistant services, webinar sign-ups, ebook downloads, and one-page websites. Organizations such as consultants, manufacturers, and IT firms, along with online businesses like retailers and wholesalers, benefit from Sirat’s professional and visually appealing design, which effectively supports a WooCommerce storefront. This theme's extensive capabilities also cater to fitness programs, event planning, and creative projects, ensuring it meets diverse needs. With customizable sidebars, header layouts, and various width options, Sirat enhances content presentation. One of its standout features includes a lightweight design and extensibility, allowing users to tailor their experience by enabling or disabling certain elements. Robust options like WooCommerce support, retina-ready visuals, clean coding, and mobile responsiveness further enhance its appeal. Moreover, Sirat follows best SEO practices, making it ideal for digital health platforms or insurance agencies aiming to optimize their online presence. Customization is user-friendly, positioning Sirat as a perfect choice for personal portfolios or businesses with a creative edge. Its modern, luxurious aesthetics paired with animated elements create a stunning visual experience, and it supports multiple languages, including Arabic, German, Spanish, French, Italian, Russian, Chinese, and Turkish. You can explore Sirat through its demo at https://preview.vwthemesdemo.com/vw-sirat/.
 
 == Changelog ==
 
+= 1.7.5 =
+  -- Updated description.
+  -- Resolved css for buttons in customizer.
+  -- Tested upto WP v7.0
+
 = 1.7.4 =
-* Enhanced Theme Stability.
+  -- Enhanced Theme Stability.
+
 = 1.7.3 =
-	* Resolved issue.
+  -- Resolved issue.
 
 = 1.7.2 =
   -- Added customizer popup on Change Theme button.
   -- Updated popup text with theme name.
   -- Updated UPGRADE TO PRO link.
-
 
 = 1.7.1 =
   -- Changed Description.

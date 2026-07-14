@@ -96,6 +96,10 @@ input.typography-font-color {
   font-size: 14px !important;
   color: #121212 !important;
   background: #febe00 !important;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 a.button.button-secondary.alignright {
   color: #fff;
@@ -106,6 +110,9 @@ a.button.button-secondary.alignright {
   height: 32px;   
   font-size: 12px !important;
   border-radius: 0;
+  display: flex;
+  align-items: center;
+  min-height: 30px;
 }
 a.button.button-secondary.alignright:hover {
 	background: #fff;
@@ -555,6 +562,4 @@ li#accordion-section-sirat_newsletter .accordion-section-title:after{
     width: 100%;
     text-align: center;
   }
-}
-
 }
