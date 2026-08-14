@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-
 Requires at least: 5.0
 Tested up to: 7.0
 Requires PHP: 7.2
-Stable tag: 1.7.5
+Stable tag: 1.7.6
 License: GPLv3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,6 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Sirat is a highly versatile WordPress theme notable for its simplicity and clean design, making it an excellent option for various business applications. Whether you're building an app landing page, designing a website for an architect, or promoting a startup, Sirat provides all the necessary features. It serves multiple fields, including social media management, virtual assistant services, webinar sign-ups, ebook downloads, and one-page websites. Organizations such as consultants, manufacturers, and IT firms, along with online businesses like retailers and wholesalers, benefit from Sirat’s professional and visually appealing design, which effectively supports a WooCommerce storefront. This theme's extensive capabilities also cater to fitness programs, event planning, and creative projects, ensuring it meets diverse needs. With customizable sidebars, header layouts, and various width options, Sirat enhances content presentation. One of its standout features includes a lightweight design and extensibility, allowing users to tailor their experience by enabling or disabling certain elements. Robust options like WooCommerce support, retina-ready visuals, clean coding, and mobile responsiveness further enhance its appeal. Moreover, Sirat follows best SEO practices, making it ideal for digital health platforms or insurance agencies aiming to optimize their online presence. Customization is user-friendly, positioning Sirat as a perfect choice for personal portfolios or businesses with a creative edge. Its modern, luxurious aesthetics paired with animated elements create a stunning visual experience, and it supports multiple languages, including Arabic, German, Spanish, French, Italian, Russian, Chinese, and Turkish. You can explore Sirat through its demo at https://preview.vwthemesdemo.com/vw-sirat/.
 
 == Changelog ==
+
+= 1.7.6 =
+* Updated Theme Framework.
 
 = 1.7.5 =
   -- Updated description.
