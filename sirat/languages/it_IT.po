@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sirat 1.3.9\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sirat\n"
+"Report-Msgid-Bugs-To: https://WordPress.org/support/theme/sirat\n"
 "POT-Creation-Date: 2024-07-29T10:01:35+05:30\n"
 "PO-Revision-Date: 2024-08-26 11:48+0530\n"
 "Last-Translator: \n"
@@ -240,12 +240,12 @@ msgid "https://preview.vwthemesdemo.com/docs/free-sirat/"
 msgstr "https://preview.vwthemesdemo.com/docs/free-sirat/"
 
 #: functions.php:446
-msgid "https://wordpress.org/support/theme/sirat/"
-msgstr "https://wordpress.org/support/theme/sirat/"
+msgid "https://WordPress.org/support/theme/sirat/"
+msgstr "https://WordPress.org/support/theme/sirat/"
 
 #: functions.php:447
-msgid "https://wordpress.org/support/theme/sirat/reviews"
-msgstr "https://wordpress.org/support/theme/sirat/reviews"
+msgid "https://WordPress.org/support/theme/sirat/reviews"
+msgstr "https://WordPress.org/support/theme/sirat/reviews"
 
 #: functions.php:448
 msgid "https://www.vwthemes.com/products/multipurpose-wordpress-theme"
@@ -841,11 +841,11 @@ msgstr "Impostazioni dei nostri servizi"
 msgid ""
 "For more options of services section <a class=\"go-pro-btn\" "
 "target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-"
-"wordpress-theme/\">GET PRO</a>"
+"WordPress-theme/\">GET PRO</a>"
 msgstr ""
 "Per più opzioni della sezione dei servizi <a class=\"go-pro-btn\" "
 "target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-"
-"wordpress-theme/\">OTTENERE PRO</a>"
+"WordPress-theme/\">OTTENERE PRO</a>"
 
 #: inc/customizer.php:900
 msgid "Add Section Title"
@@ -1015,7 +1015,7 @@ msgid ""
 msgstr ""
 "Per ulteriori opzioni della sezione footer <a class=\"go-pro-btn\" "
 "target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-"
-"wordpress-theme/\">GET PRO</a>"
+"WordPress-theme/\">GET PRO</a>"
 
 #: inc/customizer.php:1252
 msgid "Show / Hide Footer"

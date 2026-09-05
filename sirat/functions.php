@@ -665,8 +665,8 @@ require get_template_directory() . '/inc/custom-header.php';
 
 function sirat_init_setup() {
 	define('SIRAT_FREE_THEME_DOC',__('https://preview.vwthemesdemo.com/docs/free-sirat/','sirat'));
-	define('SIRAT_SUPPORT',__('https://wordpress.org/support/theme/sirat/','sirat'));
-	define('SIRAT_REVIEW',__('https://wordpress.org/support/theme/sirat/reviews','sirat'));
+	define('SIRAT_SUPPORT',__('https://WordPress.org/support/theme/sirat/','sirat'));
+	define('SIRAT_REVIEW',__('https://WordPress.org/support/theme/sirat/reviews','sirat'));
 	define('SIRAT_BUY_NOW',__('https://www.vwthemes.com/products/multipurpose-wordpress-theme','sirat'));
 	define('SIRAT_LIVE_DEMO',__('https://preview.vwthemesdemo.com/vw-sirat/','sirat'));
 	define('SIRAT_PRO_DOC',__('https://preview.vwthemesdemo.com/docs/vw-sirat-pro/','sirat'));

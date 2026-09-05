@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sirat 1.6.8\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sirat\n"
+"Report-Msgid-Bugs-To: https://WordPress.org/support/theme/sirat\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -250,11 +250,11 @@ msgid "https://preview.vwthemesdemo.com/docs/free-sirat/"
 msgstr ""
 
 #: functions.php:659
-msgid "https://wordpress.org/support/theme/sirat/"
+msgid "https://WordPress.org/support/theme/sirat/"
 msgstr ""
 
 #: functions.php:660
-msgid "https://wordpress.org/support/theme/sirat/reviews"
+msgid "https://WordPress.org/support/theme/sirat/reviews"
 msgstr ""
 
 #: functions.php:661
@@ -2467,7 +2467,7 @@ msgid "VWPRO20"
 msgstr ""
 
 #: inc/getstart/getstart.php:449
-msgid "All Our Wordpress Themes Are Modern, Minimalist, 100% Responsive, Seo-Fri\tendly,Feature-Rich, And Multipurpose That Best Suit Designers, Bloggers And Other Professionals Who Are Working In The Creative Fields."
+msgid "All Our WordPress Themes Are Modern, Minimalist, 100% Responsive, Seo-Fri\tendly,Feature-Rich, And Multipurpose That Best Suit Designers, Bloggers And Other Professionals Who Are Working In The Creative Fields."
 msgstr ""
 
 #: inc/getstart/getstart.php:465

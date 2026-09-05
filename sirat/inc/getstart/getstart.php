@@ -446,7 +446,7 @@ function sirat_mostrar_guide() {
 					<span class="version"><?php esc_html_e( 'Version', 'sirat' ); ?>: <?php echo esc_html($sirat_theme['Version']);?></span>
 					<span class="coupon-code"><?php esc_html_e('Get 20% Of On Pro Theme-Use Code: ','sirat'); ?><span class="code-highlight"><?php esc_html_e('VWPRO20','sirat'); ?></span>
 				</div>
-		    	<p><?php esc_html_e('All Our Wordpress Themes Are Modern, Minimalist, 100% Responsive, Seo-Fri	endly,Feature-Rich, And Multipurpose That Best Suit Designers, Bloggers And Other Professionals Who Are Working In The Creative Fields.','sirat'); ?></p>
+		    	<p><?php esc_html_e('All Our WordPress Themes Are Modern, Minimalist, 100% Responsive, Seo-Fri	endly,Feature-Rich, And Multipurpose That Best Suit Designers, Bloggers And Other Professionals Who Are Working In The Creative Fields.','sirat'); ?></p>
 		    	<div class="btn-section">
 			    	<div class="proo-links">
 				    	<a href="<?php echo esc_url( SIRAT_LIVE_DEMO ); ?>" target="_blank" class="demo-btn"><?php esc_html_e('Live Demo', 'sirat'); ?></a>

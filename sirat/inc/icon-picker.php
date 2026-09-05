@@ -816,7 +816,7 @@ if(!function_exists('sirat_font_awesome_icon_array')){
 "fas fa-window-restore", "far fa-window-restore",
 "fab fa-windows",
 "fas fa-won-sign",
-"fab fa-wordpress",
+"fab fa-WordPress",
 "fab fa-wordpress-simple",
 "fab fa-wpbeginner",
 "fab fa-wpexplorer",
