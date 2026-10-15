@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sirat 1.3.9\n"
-"Report-Msgid-Bugs-To: https://WordPress.org/support/theme/sirat\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sirat\n"
 "POT-Creation-Date: 2024-07-29T10:01:35+05:30\n"
 "PO-Revision-Date: 2024-08-26 10:07+0530\n"
 "Last-Translator: \n"
@@ -240,12 +240,12 @@ msgid "https://preview.vwthemesdemo.com/docs/free-sirat/"
 msgstr "https://preview.vwthemesdemo.com/docs/free-sirat/"
 
 #: functions.php:446
-msgid "https://WordPress.org/support/theme/sirat/"
-msgstr "https://WordPress.org/support/theme/sirat/"
+msgid "https://wordpress.org/support/theme/sirat/"
+msgstr "https://wordpress.org/support/theme/sirat/"
 
 #: functions.php:447
-msgid "https://WordPress.org/support/theme/sirat/reviews"
-msgstr "https://WordPress.org/support/theme/sirat/reviews"
+msgid "https://wordpress.org/support/theme/sirat/reviews"
+msgstr "https://wordpress.org/support/theme/sirat/reviews"
 
 #: functions.php:448
 msgid "https://www.vwthemes.com/products/multipurpose-wordpress-theme"
@@ -273,7 +273,7 @@ msgstr "https://developer.wordpress.org/themes/advanced-topics/child-themes/"
 
 #: functions.php:458
 msgid "Sirat WordPress Theme"
-msgstr "Sirat WordPress-tema"
+msgstr "Sirat wordpress-tema"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: functions.php:647
@@ -843,11 +843,11 @@ msgstr "Våra Tjänster Inställningar"
 msgid ""
 "For more options of services section <a class=\"go-pro-btn\" "
 "target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-"
-"WordPress-theme/\">GET PRO</a>"
+"wordpress-theme/\">GET PRO</a>"
 msgstr ""
 "För fler alternativ för tjänstesektionen <a class=\"go-pro-btn\" "
 "target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-"
-"WordPress-theme/\">SKAFFA PRO</a>"
+"wordpress-theme/\">SKAFFA PRO</a>"
 
 #: inc/customizer.php:900
 msgid "Add Section Title"
@@ -1017,7 +1017,7 @@ msgid ""
 msgstr ""
 "För fler alternativ för sidfotssektionen <a class=\"go-pro-btn\" "
 "target=\"blank\" href=\"https://www.vwthemes.com/products/multipurpose-"
-"WordPress-theme/\">SKAFFA PRO</a>"
+"wordpress-theme/\">SKAFFA PRO</a>"
 
 #: inc/customizer.php:1252
 msgid "Show / Hide Footer"
@@ -1738,7 +1738,7 @@ msgid ""
 "friendly, feature-rich, and multipurpose that best suit designers, bloggers "
 "and other professionals who are working in the creative fields."
 msgstr ""
-"Alla våra WordPress-teman är moderna, minimalistiska, 100% responsiva, SEO-"
+"Alla våra wordpress-teman är moderna, minimalistiska, 100% responsiva, SEO-"
 "vänliga, funktionella och mångsidiga, och passar bäst för designers, "
 "bloggare och andra yrkesverksamma inom kreativa områden."
 
@@ -1807,10 +1807,10 @@ msgid ""
 "accompanied with the multipurpose one-page design, blog or news page and "
 "above all a clean look."
 msgstr ""
-"Detta kostnadsfria mångsidiga WordPress-tema är mycket fördelaktigt för "
+"Detta kostnadsfria mångsidiga wordpress-tema är mycket fördelaktigt för "
 "olika företag eller konsultverksamheter. Du behöver ingen investering för "
 "att få detta tema eftersom det finns tillgängligt kostnadsfritt på den "
-"internationella marknaden. Det kostnadsfria mångsidiga WordPress-temat är "
+"internationella marknaden. Det kostnadsfria mångsidiga wordpress-temat är "
 "känt för sin användarvänlighet, utöver att vara rent och enkelt med vissa "
 "funktioner jämförbara med premiumteman. Vissa funktioner som gör det bra för "
 "affärswebbplatser eller personliga portföljer är CTA, bootstrap, retina "
@@ -1875,7 +1875,7 @@ msgid ""
 "All the features and aspects of this WordPress Theme are phenomenal. I'd "
 "recommend this theme to all."
 msgstr ""
-"Alla funktioner och aspekter av detta WordPress-tema är fenomenala. Jag "
+"Alla funktioner och aspekter av detta wordpress-tema är fenomenala. Jag "
 "rekommenderar detta tema till alla."
 
 #: inc/getstart/getstart.php:104
@@ -2065,14 +2065,14 @@ msgid ""
 "The ecommerce features with this premium category theme are unique and there "
 "is no doubt about this fact."
 msgstr ""
-"Det premium-mångsidiga WordPress-temat är verkligen fördelaktigt för ett "
+"Det premium-mångsidiga wordpress-temat är verkligen fördelaktigt för ett "
 "brett spektrum av företag eller vilken typ av startup som helst. Det bästa "
 "med det är att det inte bara är enkelt och rent utan också användarvänligt, "
 "förutom att vara lättviktigt och omfattande enligt användarens preferenser. "
 "På grund av dess utmärkta funktioner har det potential att skapa vilken typ "
 "av webbplats som helst relaterad till blogg, portfölj eller företag och "
 "dessutom kommer det med en WooCommerce-butik som har en design som är vacker "
-"i sin helhet och samtidigt professionell. Det mångsidiga WordPress-temat är "
+"i sin helhet och samtidigt professionell. Det mångsidiga wordpress-temat är "
 "inte bara snabbt utan också responsivt, samt RTL och översättningsklart och "
 "mycket lämpligt för några av de bästa SEO-praxis. E-handelns funktioner med "
 "detta premium-tema är unika och det råder ingen tvekan om detta."
@@ -2208,7 +2208,7 @@ msgstr "Fullständig dokumentation"
 
 #: inc/getstart/getstart.php:488
 msgid "Latest WordPress Compatibility"
-msgstr "Senaste WordPress-kompatibilitet"
+msgstr "Senaste wordpress-kompatibilitet"
 
 #: inc/getstart/getstart.php:493
 msgid "Woo-Commerce Compatibility"
@@ -2655,7 +2655,7 @@ msgstr "Rekommenderas"
 
 #: inc/tgm/class-tgm-plugin-activation.php:2292
 msgid "WordPress Repository"
-msgstr "WordPress-förråd"
+msgstr "wordpress-förråd"
 
 #: inc/tgm/class-tgm-plugin-activation.php:2295
 msgid "External Source"

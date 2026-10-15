@@ -228,7 +228,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		public $strings = array();
 
 		/**
-		 * Holds the version of WordPress.
+		 * Holds the version of wordpress.
 		 *
 		 * @since 2.4.0
 		 *
@@ -311,7 +311,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 		}
 
 		/**
-		 * Initialise the interactions between this class and WordPress.
+		 * Initialise the interactions between this class and wordpress.
 		 *
 		 * Hooks in three new methods for the class: admin_menu, notices and styles.
 		 *
