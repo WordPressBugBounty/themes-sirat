@@ -192,7 +192,7 @@ a.doc-links:hover {
 /*activation notice*/
 .notice.notice-success.is-dismissible.welcome-notice span a{
     margin: 10px 10px 10px 0px;
-    padding: 2px 20px !important;
+    padding: 6px 20px !important;
     font-weight: 600;
     line-height: 1.8;
 }

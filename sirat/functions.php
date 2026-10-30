@@ -748,3 +748,8 @@ function sirat_cleanup_on_theme_switch() {
 // Admin notice code END
 
 add_filter( 'woocommerce_enable_setup_wizard', '__return_false' );
+
+/**
+ * Front-end promo popup for super admins.
+ */
+require_once get_template_directory() . '/inc/frontend-popup.php';
