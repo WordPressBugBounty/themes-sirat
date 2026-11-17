@@ -447,7 +447,7 @@ td.update-link a:hover::before{
 #theme_offer .demo-text{
     background: #fff;
     box-shadow: 0px 3px 6px #0000007A;
-    padding: 40px 100px;
+    padding: 40px 40px;
 }
 
 /* Spinner styling */

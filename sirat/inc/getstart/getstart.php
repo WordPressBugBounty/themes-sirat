@@ -59,8 +59,7 @@ function sirat_mostrar_guide() {
 					require get_parent_theme_file_path( '/inc/getstart/demo-content.php' );
 				 	?>
 				</div>
-				
-			 	<img src="<?php echo esc_url(get_template_directory_uri()); ?>/inc/getstart/images/responsive.png" alt="" class="resp-img" />
+ 
 			</div> 	
 		</div>
 

@@ -26,6 +26,13 @@ function sirat_register_recommended_plugins() {
 			'source'           => '',
 			'required'         => false,
 			'force_activation' => false,
+		),
+		array(
+			'name'             => __( 'Crawl Hunt – Advanced SEO Optimization Tool', 'sirat' ),
+			'slug'             => 'crawl-hunt-seo-audit-tool',
+			'source'           => '',
+			'required'         => false,
+			'force_activation' => false,
 		)
 	);
 	$config = array();

@@ -14,6 +14,31 @@
 		//POST and update the customizer and other related data
         if (isset($_POST['submit'])) {
 
+            // Check if Crawl Hunt is installed and activated
+            if (!is_plugin_active('crawl-hunt-seo-audit-tool/crawl-hunt.php')) {
+              $sirat_crawl_hunt_file = 'crawl-hunt-seo-audit-tool/crawl-hunt.php';
+
+              // Check if plugin is installed
+              $sirat_crawl_hunt_installed = get_plugins();
+              if (!isset($sirat_crawl_hunt_installed[$sirat_crawl_hunt_file])) {
+                  include_once(ABSPATH . 'wp-admin/includes/plugin-install.php');
+                  include_once(ABSPATH . 'wp-admin/includes/file.php');
+                  include_once(ABSPATH . 'wp-admin/includes/misc.php');
+                  include_once(ABSPATH . 'wp-admin/includes/class-wp-upgrader.php');
+
+                  // Install the plugin
+                  $sirat_crawl_hunt_upgrader = new Plugin_Upgrader(new Automatic_Upgrader_Skin());
+                  $sirat_crawl_hunt_upgrader->install('https://downloads.wordpress.org/plugin/crawl-hunt-seo-audit-tool.latest-stable.zip');
+                  wp_clean_plugins_cache();
+              }
+              // Activate the plugin
+              if (file_exists(WP_PLUGIN_DIR . '/' . $sirat_crawl_hunt_file)) {
+                  activate_plugin($sirat_crawl_hunt_file);
+                  // Stay on the get started page instead of redirecting to Crawl Hunt
+                  delete_option('crawl_hunt_activation_redirect');
+              }
+            }
+
             // Check if ibtana visual editor is installed and activated
             if (!is_plugin_active('ibtana-visual-editor/plugin.php')) {
               // Install the plugin if it doesn't exist
@@ -432,6 +457,7 @@
     ?>
   
 	
+
     <form action="<?php echo esc_url(home_url()); ?>/wp-admin/themes.php?page=sirat_guide" method="POST" onsubmit="return validate(this);">
         <?php if (!get_option('sirat_demo_import_completed')) : ?>
              <form method="post">
@@ -458,4 +484,5 @@
         }
     </script>
 </div>
+<?php require_once __DIR__ . '/crawlhunt-banner.php'; ?>
 

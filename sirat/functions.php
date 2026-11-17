@@ -385,12 +385,36 @@ function sirat_font_url() {
 	 	'ZCOOL XiaoWei'
 	);
 	
-	$query_args = array(
-		'family'	=> rawurlencode(implode('|',$font_family)),
-	);
-	$font_url = add_query_arg($query_args,'//fonts.googleapis.com/css');
-	return $font_url;
-	$contents = sirat_wptt_get_webfont_url( esc_url_raw( $fonts_url ) );
+	$font_family = array_unique( $font_family );
+
+	// Google rejects a single request for every family, so only load the fonts in use.
+	$sirat_fonts_in_use = array( 'Heebo', 'Poppins', 'Roboto', 'Saira' );
+	foreach ( (array) get_theme_mods() as $sirat_mod ) {
+		if ( is_string( $sirat_mod ) ) {
+			$sirat_fonts_in_use[] = $sirat_mod;
+		}
+	}
+	if ( is_customize_preview() && isset( $GLOBALS['wp_customize'] ) ) {
+		foreach ( $GLOBALS['wp_customize']->settings() as $sirat_setting ) {
+			if ( false !== strpos( $sirat_setting->id, 'font' ) && is_string( $sirat_setting->value() ) ) {
+				$sirat_fonts_in_use[] = $sirat_setting->value();
+			}
+		}
+	}
+
+	$sirat_families = array();
+	foreach ( $font_family as $sirat_font ) {
+		$sirat_font_name = str_replace( '+', ' ', current( explode( ':', $sirat_font ) ) );
+		if ( in_array( $sirat_font_name, $sirat_fonts_in_use, true ) ) {
+			$sirat_families[] = 'family=' . str_replace( ' ', '+', $sirat_font );
+		}
+	}
+
+	$fonts_url = 'https://fonts.googleapis.com/css2?' . implode( '&', $sirat_families ) . '&display=swap';
+	if ( function_exists( 'sirat_wptt_get_webfont_url' ) ) {
+		return sirat_wptt_get_webfont_url( $fonts_url );
+	}
+	return $fonts_url;
 }
 
 /* Theme enqueue scripts */
